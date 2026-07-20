@@ -1,0 +1,150 @@
+================================================================================
+JOB FILE : job_11.txt
+MODE : with_rag
+================================================================================
+
+ORIGINAL JOB DESCRIPTION
+--------------------------------------------------------------------------------
+Analyse twelve months of sales and marketing data for a direct-to-consumer brand. Leadership needs revenue trends, product performance, repeat purchases, and campaign conversion insights.
+
+Requirements:
+- Python, Pandas, NumPy, and Matplotlib
+- Data cleaning, cohort analysis, clear charts, and insight summary
+- Reproducible notebook and CSV outputs
+
+Budget: $650
+Timeline: 8 days
+
+ANALYSIS
+================================================================================
+Evaluation mode: with_rag
+
+RETRIEVED CONTEXT
+--------------------------------------------------------------------------------
+Relevant Project 1
+
+Title:
+Financial Market Analytics Dashboard
+
+Role:
+Data Analyst
+
+Domain:
+FinTech
+
+Project Type:
+Analytics Platform
+
+Project Details:
+Title:
+Financial Market Analytics Dashboard
+
+Role:
+Data Analyst
+
+Domain:
+FinTech
+
+Project Type:
+Analytics Platform
+
+Problem Solved:
+Financial data from multiple sources is difficult to analyze efficiently without centralized reporting.
+
+Description:
+Developed dashboards for analyzing financial markets, KPIs, business trends, and investment insights using Python, SQL, Excel, and Power BI.
+
+Responsibilities:
+Collected financial data, Performed SQL analysis, Created Power BI dashboards, Generated business insights
+
+Technical Solution:
+Integrated Python, SQL, Excel, and Power BI for automated financial analysis and reporting.
+
+Architecture:
+Data Sources → SQL → Python → Power BI
+
+Key Features:
+Market Analysis, KPI Dashboards, Trend Analysis, Investment Insights
+
+Technologies:
+Python, SQL, Power BI, Excel
+
+Business Impact:
+Improved visibility into financial performance and investment trends.
+
+Results:
+['Interactive financial dashboards', 'Automated reporting']
+
+Skills:
+Python, SQL, Power BI, Excel, Data Analysis
+
+Similarity Score:
+0.3956
+
+------------------------------------------------------------
+
+Relevant Project 2
+
+Title:
+Analytics Dashboard
+
+Role:
+Frontend Developer
+
+Domain:
+Business Analytics
+
+Project Type:
+Dashboard Application
+
+Project Details:
+Title:
+Analytics Dashboard
+
+Role:
+Frontend Developer
+
+Domain:
+Business Analytics
+
+Project Type:
+Dashboard Application
+
+Problem Solved:
+Businesses require a centralized platform to monitor KPIs and make data-driven decisions from multiple metrics.
+
+Description:
+Developed an interactive analytics dashboard for monitoring business metrics, KPIs, and operational performance through visual reports.
+
+Responsibilities:
+Designed dashboard UI, Built reusable React components, Implemented charts and KPI cards, Connected backend analytics data
+
+Technical Solution:
+Built a responsive dashboard using React with dynamic visualizations and Python-based analytics processing.
+
+Architecture:
+React Frontend → Analytics API → Python Backend
+
+Key Features:
+KPI Cards, Charts, Business Metrics, Interactive Dashboard
+
+Technologies:
+React, Python
+
+Business Impact:
+Enabled easier monitoring of business performance through centralized analytics.
+
+Results:
+['Interactive visualization dashboard', 'Improved business reporting']
+
+Skills:
+React, Python, Dashboard Design, Data Visualization
+
+Similarity Score:
+0.3636
+
+------------------------------------------------------------
+
+PROPOSAL
+================================================================================
+{'introduction': 'Hello, I am Kartik Bansal, an AI Product Engineer and Data Analyst with extensive experience in turning complex business data into actionable insights. I understand you are looking to analyze twelve months of D2C sales and marketing data to uncover revenue trends, product performance, and conversion insights. My background in building automated financial analytics dashboards and business performance trackers makes me uniquely qualified to deliver the clear, reproducible analysis and data-driven recommendations your leadership team requires.', 'relevantExperience': 'I have successfully delivered complex analytics solutions similar to your requirements. For instance, I developed a Financial Market Analytics Dashboard where I performed end-to-end data processing using Python and SQL to automate reporting and uncover investment insights. Additionally, I built an interactive Analytics Dashboard for business metrics using Python and React, which focused on creating intuitive KPI cards and trend visualizations to support data-driven decision-making. These projects specifically required cleaning disparate data sources and synthesizing them into clear, actionable reports, directly mirroring the needs of your current project.', 'approach': '1. Data Discovery: Ingest and clean your twelve months of sales and marketing data using Python (Pandas/NumPy) to ensure consistency and reliability. 2. Cohort & Trend Analysis: Perform deep-dive cohort analysis and revenue trend modeling to identify key growth drivers and repeat purchase patterns. 3. Visualization: Develop clear, professional charts using Matplotlib to highlight campaign conversion performance. 4. Reporting: Compile a summary of actionable insights alongside the reproducible Jupyter notebook and clean CSV outputs for your team.', 'timeline': 'I can complete this analysis within your 8-day timeline, allowing for a thorough review of the results and any necessary iterations to ensure the insights align perfectly with your business goals.', 'pricing': '$650. This fixed price covers the end-to-end data cleaning, analytical modeling, creation of the requested visualizations, and the delivery of the final documented, reproducible codebase.'}

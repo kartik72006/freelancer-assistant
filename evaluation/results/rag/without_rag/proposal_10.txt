@@ -1,0 +1,72 @@
+================================================================================
+JOB FILE : job_10.txt
+MODE : without_rag
+================================================================================
+
+ORIGINAL JOB DESCRIPTION
+--------------------------------------------------------------------------------
+Develop a proposal-generation workflow for a boutique digital agency. Account managers will supply client briefs and need draft scope, approach, timeline, and pricing rationale for review before sending.
+
+Requirements:
+- Python with OpenAI or Gemini API
+- Prompt templates, structured proposal JSON, and revision workflow
+- Basic history storage and API documentation
+
+Budget: $1,600
+Timeline: 21 days
+
+ANALYSIS
+================================================================================
+Evaluation mode: without_rag
+
+RETRIEVED CONTEXT
+--------------------------------------------------------------------------------
+Relevant Project 1
+
+Title:
+AI Freelancer Proposal Assistant
+
+Project Description:
+Designed and developed a production-style AI-powered proposal generation platform that automates job analysis, proposal generation, pricing recommendations, AI-based proposal review, proposal history management, dashboard analytics, and version-controlled proposal editing.
+
+Technologies:
+Python, FastAPI, React, TypeScript, SQLite, Gemini API, SQLAlchemy, SentenceTransformers
+
+Keyword Match Score:
+10
+
+------------------------------------------------------------
+
+Relevant Project 2
+
+Title:
+AI-Powered Chatbot
+
+Project Description:
+Developed an AI-powered chatbot using Gemini API to provide intelligent customer support through natural language understanding and response generation.
+
+Technologies:
+Python, FastAPI, React, Gemini API
+
+Keyword Match Score:
+10
+
+------------------------------------------------------------
+
+Relevant Project 3
+
+Title:
+Analytics Dashboard
+
+Project Description:
+Developed an interactive analytics dashboard for monitoring business metrics, KPIs, and operational performance through visual reports.
+
+Technologies:
+React, Python
+
+Keyword Match Score:
+5
+
+PROPOSAL
+================================================================================
+{'introduction': "Hello [Client Name],\n\nI'm writing to express my strong interest in developing your proposal-generation workflow. As an AI Product Engineer with extensive experience in building end-to-end AI and full-stack solutions, I understand your need for an efficient system that empowers your account managers. My expertise in LLM integration, backend development, and user-centric design makes me an ideal candidate to deliver a seamless and powerful tool for your boutique digital agency.\n\nI'm confident I can build a solution that streamlines your proposal process and drives significant value.", 'relevantExperience': "My experience in building the 'AI Freelancer Proposal Assistant' is directly applicable to your project. This platform involved automating complex tasks such as job analysis, proposal generation, and pricing recommendations, much like your requirement for account managers to generate draft scopes, approaches, timelines, and pricing rationales from client briefs. I utilized Python, FastAPI, and the Gemini API, along with SQLAlchemy for data management, to create a production-style application that included version-controlled editing and dashboard analytics. Furthermore, my 'AI-Powered Chatbot' project, which leveraged Python, FastAPI, and the Gemini API for natural language understanding and response generation, demonstrates my capability in integrating LLMs to create intelligent workflows. These projects have equipped me with the skills to implement prompt templates, structured JSON output, and revision workflows effectively.", 'approach': "My approach will focus on delivering a robust and user-friendly proposal-generation workflow:\n\n1.  **Requirement Deep Dive:** A brief session to fully understand your agency's specific needs, common client brief structures, and desired proposal output formats.\n2.  **AI Model Integration & Prompt Engineering:** Utilizing Python with the Gemini API (or OpenAI, based on preference) to process client briefs. I will develop sophisticated prompt templates designed to extract key information and generate structured outputs for scope, approach, timeline, and pricing rationale.\n3.  **Structured Proposal JSON Development:** Implementing a clear JSON schema to organize the AI-generated proposal components, ensuring consistency and ease of review.\n4.  **Revision Workflow Implementation:** Building a system that allows account managers to easily review, edit, and approve the generated drafts before finalization.\n5.  **Basic History Storage:** Setting up a straightforward SQLite database to store past proposals, enabling tracking and future reference.\n6.  **API Documentation:** Providing clear and concise documentation for any APIs developed, ensuring ease of integration and understanding.\n7.  **Testing and Deployment:** Thoroughly testing the workflow to ensure accuracy and reliability before deployment.", 'timeline': 'I estimate that this project can be completed within 21 days, aligning with your provided timeline. This allows for thorough development, testing, and refinement to ensure a high-quality outcome.', 'pricing': 'I propose a fixed fee of $1,600 for this project. This estimate is based on the scope of developing an AI-powered workflow with prompt engineering, structured data output, revision capabilities, and basic history storage, leveraging my proven experience in similar AI application development.'}

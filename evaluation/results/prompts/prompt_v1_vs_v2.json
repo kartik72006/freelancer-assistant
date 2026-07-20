@@ -1,0 +1,1401 @@
+{
+    "experiment_name": "Standard Proposal Prompt vs Outcome-Oriented Prompt",
+    "strategy_a": {
+        "name": "Standard Proposal Prompt",
+        "metrics": {
+            "overall_score": 88.55,
+            "professionalism": 90.9,
+            "personalization": 87.2,
+            "clarity": 91.45,
+            "tone": 87.9,
+            "latency": 8.815054904995486
+        },
+        "samples": [
+            {
+                "job_id": "job_01",
+                "proposal": {
+                    "introduction": "Hi, I’m Kartik Bansal, an AI Product Engineer and full-stack developer. I understand you need a responsive operations dashboard for a logistics company with KPI visibility (delivery, delay, driver, warehouse) from an existing REST API, using React, Tailwind CSS, JWT auth, KPI cards, filterable tables, charts, and mobile layouts. With hands-on experience building analytics dashboards in React, TypeScript, and Tailwind CSS integrated with REST APIs, I’m well-positioned to deliver this efficiently within your 12-day timeline and budget.",
+                    "relevantExperience": "I’ve built two directly relevant analytics dashboards: an Analytics Dashboard where I designed React UI, KPI cards, and charts connected to a Python analytics API for business metrics; and an Interactive Analytics Dashboard using React, TypeScript, and Tailwind CSS with KPI visualization, workflow tracking, and reusable component architecture. Both prove my ability to deliver responsive, filterable, KPI-driven dashboards from APIs—exactly what your logistics managers need.",
+                    "approach": "1. Review your existing REST API and JWT auth flow to map endpoints for delivery, delay, driver, and warehouse data. 2. Build reusable React + Tailwind components: KPI cards, filterable tables, delivery charts, mobile layouts. 3. Integrate API with JWT-secured requests and dynamic filtering. 4. Implement responsive design and verify on mobile. 5. Write setup documentation and deliver codebase with a brief walkthrough.",
+                    "timeline": "I can complete this in 12 days: days 1–2 API/JWT setup, days 3–8 component build and integration, days 9–10 mobile/charts polish, days 11–12 docs and testing.",
+                    "pricing": "My fixed price is $900. This matches your budget and reflects a focused, component-based build using proven dashboard experience without scope creep."
+                },
+                "review": {
+                    "overallScore": 90,
+                    "verdict": "Strong Proposal",
+                    "metrics": {
+                        "professionalism": 92,
+                        "personalization": 88,
+                        "clarity": 91,
+                        "tone": 89
+                    },
+                    "strengths": [
+                        "Clear introduction with relevant skills and understanding of requirements",
+                        "Specific relevant experience with two past dashboard projects",
+                        "Structured approach and realistic 12-day timeline",
+                        "Fixed pricing aligned with stated budget"
+                    ],
+                    "improvements": [
+                        "Personalization could include client or company name if known",
+                        "Add brief mention of testing strategy or post-delivery support",
+                        "Tone is slightly formal but could be more engaging"
+                    ]
+                },
+                "generation_time": 10.343852900026832,
+                "metadata": {
+                    "prompt_version": "v1"
+                }
+            },
+            {
+                "job_id": "job_02",
+                "proposal": {
+                    "introduction": "Hi, I’m Kartik Bansal, an AI Product Engineer and full-stack developer with strong React and Figma-to-code experience. I understand you need a pixel-accurate React website for a B2B cybersecurity consultancy: five accessible, responsive marketing pages, a case-study template, and a fast mobile experience. With my background in building responsive React interfaces from design handoffs and reusable component architecture, I’m confident I can deliver a clean, accessible, and SEO-friendly site within your 8-day timeline.",
+                    "relevantExperience": "In a past Interactive Analytics Dashboard project, I converted design requirements into a responsive React, TypeScript, and Tailwind CSS frontend with reusable components and clear API integration. That work strengthened my ability to build modular, responsive UI from Figma-style handoffs—directly relevant to your need for reusable page sections, accessible navigation, and a fast mobile experience across marketing pages and a case-study template.",
+                    "approach": "1. Review Figma files and map sections into reusable React components. 2. Build accessible, responsive layouts with semantic HTML and SEO tags. 3. Implement contact form with validation and accessible inputs. 4. Assemble five marketing pages and case-study template using shared sections. 5. Optimize mobile performance and run accessibility checks. 6. Deliver codebase with clear documentation and final review.",
+                    "timeline": "I can complete the full build and revisions in 8 days, aligning with your stated timeline and allowing time for feedback.",
+                    "pricing": "My fixed price is $600, matching your budget. This covers Figma conversion, five responsive pages, case-study template, accessibility, and SEO-friendly markup based on the defined scope."
+                },
+                "review": {
+                    "overallScore": 90,
+                    "verdict": "Strong Proposal",
+                    "metrics": {
+                        "professionalism": 92,
+                        "personalization": 88,
+                        "clarity": 93,
+                        "tone": 89
+                    },
+                    "strengths": [
+                        "Clear structure with intro, experience, approach, timeline, pricing",
+                        "Directly addresses client requirements and constraints",
+                        "Confident and respectful tone throughout"
+                    ],
+                    "improvements": [
+                        "Include specific client or project name for stronger personalization",
+                        "Add brief mention of testing tools or accessibility standards used",
+                        "Consider linking portfolio or past project evidence"
+                    ]
+                },
+                "generation_time": 7.464524999959394,
+                "metadata": {
+                    "prompt_version": "v1"
+                }
+            },
+            {
+                "job_id": "job_03",
+                "proposal": {
+                    "introduction": "Hi! I’m Kartik Bansal, an AI Product Engineer and full-stack developer. I read your need for a high-converting Next.js landing page for a personal-finance app with product storytelling, beta sign-up capture, animations, mobile performance, and SEO-ready metadata. With my experience building responsive React + TypeScript + Tailwind interfaces and AI product frontends, I can deliver a polished, Lighthouse-conscious page within your 9-day timeline and $700 budget.",
+                    "relevantExperience": "I built an Interactive Analytics Dashboard using React, TypeScript, and Tailwind CSS with responsive layouts and reusable components, directly relevant to your mobile-first and performance needs. I also developed the AI Freelancer Proposal Assistant frontend in React + TypeScript, focusing on clean UX and modular architecture. While those used React/Vite, my frontend skills transfer seamlessly to Next.js, and I’ve integrated waitlist-style forms and semantic structures in past full-stack work.",
+                    "approach": "1. Set up Next.js + Tailwind CSS with Framer Motion and semantic SEO metadata. 2. Design product storytelling sections with responsive layout and animations. 3. Build beta waitlist form with validation and backend/API capture. 4. Optimize images, code, and mobile performance for Lighthouse. 5. Test across devices and deliver source with documentation.",
+                    "timeline": "I can complete the landing page in 9 days: days 1-2 setup/design, 3-5 build, 6-7 animations/SEO, 8 testing, 9 polish and handoff.",
+                    "pricing": "My fixed price is $700. This matches your budget and covers end-to-end design, development, SEO, and performance optimization for a conversion-focused MVP landing page."
+                },
+                "review": {
+                    "overallScore": 88,
+                    "verdict": "Strong Proposal",
+                    "metrics": {
+                        "professionalism": 90,
+                        "personalization": 92,
+                        "clarity": 90,
+                        "tone": 85
+                    },
+                    "strengths": [
+                        "Clearly references client's specific requirements",
+                        "Structured approach with timeline and pricing",
+                        "Relevant experience mapped to project needs"
+                    ],
+                    "improvements": [
+                        "Slightly informal opening tone ('Hi!')",
+                        "Could show direct Next.js examples instead of React/Vite",
+                        "Mention post-delivery support or revisions"
+                    ]
+                },
+                "generation_time": 8.911899900005665,
+                "metadata": {
+                    "prompt_version": "v1"
+                }
+            },
+            {
+                "job_id": "job_04",
+                "proposal": {
+                    "introduction": "Hi, I’m Kartik Bansal, an AI Product Engineer and full-stack developer specializing in FastAPI and Python. I reviewed your need for secure, multi-tenant REST APIs for an appointment-booking product with JWT auth, role-based access, and booking-conflict handling. With hands-on experience building booking platforms and production-grade FastAPI backends, I can deliver documented, tested APIs within your 18-day timeline and $1,300 budget.",
+                    "relevantExperience": "I built a Smart Turf Booking Platform as a full-stack developer where I designed REST APIs and a React-FastAPI-SQL architecture for scheduling, booking management, and admin controls—directly relevant to your slots, staff, and booking endpoints. I also developed the AI Freelancer Proposal Assistant using FastAPI with a layered service/repository pattern, SQLAlchemy, SQLite, and OpenAPI-style structure, proving my ability to create modular, validated, and well-documented Python APIs with clean architecture.",
+                    "approach": "1. Set up FastAPI project with PostgreSQL and Alembic migrations for multi-tenant schema. 2. Implement JWT authentication and role-based permissions for customers and staff. 3. Build REST endpoints for customers, staff availability, slots, and bookings with Pydantic validation. 4. Add booking-conflict handling via transactional checks. 5. Write unit tests and auto-generate OpenAPI docs. 6. Share regular updates and final codebase with documentation.",
+                    "timeline": "I can complete the full API build, tests, and docs in 18 days, with core endpoints and auth ready by day 10 and testing/docs finalized by day 18.",
+                    "pricing": "My fixed price is $1,300. This matches your budget and reflects focused delivery of secure, documented, multi-tenant FastAPI APIs with tests and migrations."
+                },
+                "review": {
+                    "overallScore": 91,
+                    "verdict": "Strong Proposal",
+                    "metrics": {
+                        "professionalism": 93,
+                        "personalization": 92,
+                        "clarity": 90,
+                        "tone": 89
+                    },
+                    "strengths": [
+                        "Clear alignment with client requirements and constraints",
+                        "Specific relevant experience cited with concrete projects",
+                        "Structured approach and realistic timeline"
+                    ],
+                    "improvements": [
+                        "Include brief post-delivery support or handover note",
+                        "Slightly tighten introduction to reduce repetition"
+                    ]
+                },
+                "generation_time": 9.79115050000837,
+                "metadata": {
+                    "prompt_version": "v1"
+                }
+            },
+            {
+                "job_id": "job_05",
+                "proposal": {
+                    "introduction": "Hi, I’m Kartik Bansal, an AI Product Engineer and full-stack developer. I understand you need a Node.js, Express, and MongoDB backend for your subscription e-commerce brand to manage products, orders, discount codes, inventory, and verified payment webhooks with clean docs and deployment notes. While my stack is often Python/FastAPI, I have built production-style REST APIs, order workflows, and backend systems (e.g., a turf booking platform with React, FastAPI, SQL and REST APIs) and can deliver the same reliability in Node.js.",
+                    "relevantExperience": "In the Smart Turf Booking Platform, I developed a full-stack system with REST APIs, booking workflow, and database management using React, FastAPI, and SQL—directly relevant to your order and inventory workflow needs. I also built an Analytics Dashboard with a Python backend and React frontend, showing my ability to structure backend services and API-driven data flows. My work follows modular architecture, thorough testing, and clear documentation, which matches your requirement for API docs and deployment notes.",
+                    "approach": "1. Set up Node.js + Express server with MongoDB models for products, orders, discounts, inventory. 2. Build REST APIs for CRUD and order workflow with status tracking. 3. Implement discount code validation and inventory update logic on order events. 4. Add payment-provider webhook endpoint with signature verification and error handling. 5. Write API documentation and deployment notes (env, Docker, hosting). 6. Test flows and deliver codebase with README.",
+                    "timeline": "I can deliver the backend in 15 days, including 2 days for testing and docs, fitting your 16-day timeline.",
+                    "pricing": "My fixed price is $1,100, aligned with your budget, reflecting a focused build of a clean, documented, and deployable backend within the timeline."
+                },
+                "review": {
+                    "overallScore": 84,
+                    "verdict": "Solid Proposal with Minor Gaps",
+                    "metrics": {
+                        "professionalism": 88,
+                        "personalization": 82,
+                        "clarity": 90,
+                        "tone": 86
+                    },
+                    "strengths": [
+                        "Clear structured approach with numbered steps",
+                        "Relevant experience described with concrete examples",
+                        "Professional and confident tone throughout"
+                    ],
+                    "improvements": [
+                        "Personalization could reference client's brand name or specific needs more directly",
+                        "Primary stack is Python/FastAPI which may concern client needing Node.js specifically",
+                        "No mention of post-delivery support or communication plan"
+                    ]
+                },
+                "generation_time": 9.898806099954527,
+                "metadata": {
+                    "prompt_version": "v1"
+                }
+            },
+            {
+                "job_id": "job_06",
+                "proposal": {
+                    "introduction": "Hi, I’m Kartik Bansal, an AI Product Engineer and full-stack developer. I understand you need a secure authentication and account-management module for an internal HR portal using Django, Django REST Framework, PostgreSQL, and JWT, with password resets, profiles, role-limited access, permission tests, and clear API docs. While my stack centers on FastAPI/React, I have strong backend API and dashboard experience—including a React/Python analytics dashboard with role-relevant data access—that maps well to structured API and account modules. I’m confident I can deliver this cleanly within your budget and timeline.",
+                    "relevantExperience": "In a previous Analytics Dashboard project, I built a React frontend consuming a Python analytics API with structured backend data access and KPI-based views. That work involved designing reusable components, connecting authenticated backend data, and delivering clear visual reporting. It strengthened my ability to design backend APIs, model user-facing data access, and document interfaces—directly useful for your HR portal’s profile, permission, and API documentation needs.",
+                    "approach": "1. Set up Django + DRF with PostgreSQL and JWT authentication. 2. Build employee sign-in, profile, and password-reset APIs. 3. Implement role-based permissions for team data access. 4. Write permission and API tests. 5. Produce concise API documentation. 6. Deliver code with regular progress updates and final handover.",
+                    "timeline": "I can complete this in 12 days, aligning with your stated timeline and the module’s clear scope.",
+                    "pricing": "My fixed price is $850, matching your budget. It reflects the well-defined requirements, standard Django/DRF auth scope, and included tests and documentation."
+                },
+                "review": {
+                    "overallScore": 78,
+                    "verdict": "Competent but Slightly Off-Target Proposal",
+                    "metrics": {
+                        "professionalism": 85,
+                        "personalization": 70,
+                        "clarity": 82,
+                        "tone": 80
+                    },
+                    "strengths": [
+                        "Clear structure with intro, experience, approach, timeline, pricing",
+                        "Honest about stack mismatch and translates experience well",
+                        "Concrete plan and fixed budget alignment"
+                    ],
+                    "improvements": [
+                        "Personalize more to HR portal specifics rather than generic dashboard",
+                        "Address Django/DRF learning curve given FastAPI background",
+                        "Soften tone around confidence given stack mismatch"
+                    ]
+                },
+                "generation_time": 5.394357200013474,
+                "metadata": {
+                    "prompt_version": "v1"
+                }
+            },
+            {
+                "job_id": "job_07",
+                "proposal": {
+                    "introduction": "Hello, I’m Kartik Bansal, an AI Product Engineer specializing in LLM-powered applications. I understand you need an AI assistant that generates factual recruitment outreach emails as structured JSON from role and candidate data, using Python, Gemini API, and FastAPI with schema-constrained outputs. With production experience building Gemini-integrated FastAPI services and prompt-engineered AI workflows, I’m well-positioned to deliver this efficiently within your 18-day timeline and budget.",
+                    "relevantExperience": "I built an AI-Powered Chatbot for customer support using Gemini API with a React → FastAPI → Gemini API architecture, where I designed prompts, developed backend APIs, and managed conversational AI responses. I also developed the AI Freelancer Proposal Assistant, a full-stack FastAPI + React/TypeScript app using Gemini API and layered architecture with SQLite and prompt engineering to generate structured, consistent content. Both projects demonstrate direct experience in Gemini API integration, FastAPI endpoint development, and prompt design for reliable, schema-friendly AI outputs.",
+                    "approach": "1. Define a Pydantic JSON schema for outreach email structure and enforce it via Gemini API response constraints. 2. Build a FastAPI endpoint accepting role description and candidate profile, triggering a prompt-engineered Gemini call. 3. Implement error handling for API/validation failures with clear messages. 4. Write example prompts and setup documentation (README) for easy integration. 5. Test with sample inputs to ensure factual, consistent JSON output compatible with your workflow tool.",
+                    "timeline": "I can deliver the complete solution in 14–16 days, including development, testing, and documentation, comfortably within your 18-day window.",
+                    "pricing": "My fixed price is $1,400, matching your budget. This covers end-to-end development, schema design, FastAPI integration, prompt engineering, error handling, and setup docs based on directly relevant prior Gemini + FastAPI work."
+                },
+                "review": {
+                    "overallScore": 90,
+                    "verdict": "Strong Proposal",
+                    "metrics": {
+                        "professionalism": 92,
+                        "personalization": 88,
+                        "clarity": 93,
+                        "tone": 89
+                    },
+                    "strengths": [
+                        "Clear and structured introduction with relevant expertise",
+                        "Directly relevant experience with Gemini API and FastAPI",
+                        "Well-defined approach and realistic timeline within budget"
+                    ],
+                    "improvements": [
+                        "Could reference specific client requirement details for more personalization",
+                        "Add brief mention of post-delivery support or revisions"
+                    ]
+                },
+                "generation_time": 9.67445339995902,
+                "metadata": {
+                    "prompt_version": "v1"
+                }
+            },
+            {
+                "job_id": "job_08",
+                "proposal": {
+                    "introduction": "Hi, I’m Kartik Bansal, an AI Product Engineer specializing in full-stack AI development. I understand you need a retrieval-augmented customer-support chatbot for your SaaS company that answers billing and product questions from help-centre docs, cites sources, and routes uncertain queries to agents. With hands-on experience building LLM chatbots and RAG pipelines using Python, FastAPI, React, and Gemini API, I’m well-positioned to deliver this within your 28-day timeline and $2,200 budget.",
+                    "relevantExperience": "I built an AI-powered customer-support chatbot using Gemini API with a React → FastAPI → Gemini API architecture, handling natural language understanding and conversation management to reduce manual support effort. More directly, I developed an AI Freelancer Proposal Assistant with an end-to-end RAG pipeline: document ingestion, semantic retrieval via embeddings, and grounded generation using a modular FastAPI backend (service/repository patterns) and React/TypeScript UI. That project proved my ability to implement retrieval-augmented generation, cite contextual snippets, and design agent-style routing logic—exactly what your chatbot requires.",
+                    "approach": "1. Ingest help-centre docs, chunk and embed them, store in a vector database. 2. Build a FastAPI conversation API using LangChain for retrieval and grounded generation with source citations. 3. Implement uncertainty detection to route low-confidence questions to a human agent. 4. Develop a simple React chat UI for end-user interaction. 5. Create evaluation examples to validate answer quality and citation accuracy. 6. Document the system and deliver with regular progress updates.",
+                    "timeline": "I can deliver the complete chatbot in 28 days, covering ingestion, RAG API, chat UI, agent routing, and evaluation examples within your stated timeline.",
+                    "pricing": "My fixed price is $2,200, matching your budget. This covers full RAG development, UI, API, evaluation, and documentation, reflecting the scope and my prior production-style AI build experience."
+                },
+                "review": {
+                    "overallScore": 90,
+                    "verdict": "Strong Proposal",
+                    "metrics": {
+                        "professionalism": 92,
+                        "personalization": 91,
+                        "clarity": 93,
+                        "tone": 89
+                    },
+                    "strengths": [
+                        "Clear alignment with client requirements and constraints",
+                        "Relevant experience directly mapped to project needs",
+                        "Structured approach and timeline provided"
+                    ],
+                    "improvements": [
+                        "Add brief mention of testing or post-delivery support",
+                        "Include specific vector database choice for more concreteness"
+                    ]
+                },
+                "generation_time": 10.040942499996163,
+                "metadata": {
+                    "prompt_version": "v1"
+                }
+            },
+            {
+                "job_id": "job_09",
+                "proposal": {
+                    "introduction": "Hello, I’m Kartik Bansal, an AI Product Engineer specializing in full-stack AI development. I understand your staffing agency needs an AI resume-analysis tool where recruiters upload PDF resumes and job descriptions to get structured skills, gaps, highlights, and screening questions. With production experience building LLM-powered tools using Python, FastAPI, and Gemini API, I can deliver a secure, reliable solution matching your requirements and 20-day timeline.",
+                    "relevantExperience": "I built an AI Freelancer Proposal Assistant, a full-stack AI SaaS that ingests job descriptions and generates structured proposals with Gap analysis and AI review using FastAPI, React, and Gemini API. That project used layered architecture, SQLite repositories, and RAG for contextual analysis—directly transferable to parsing resumes and comparing them to JDs. I also developed an AI-Powered Chatbot with Gemini API and FastAPI, proving my ability to integrate LLMs for structured NLP outputs and secure backend APIs.",
+                    "approach": "1. Parse PDF resumes using Python PDF libraries with secure file handling and validation. 2. Design FastAPI backend with Pydantic models for structured JSON output. 3. Use Gemini API prompt engineering to extract skills, gaps, highlights, and screening questions from resume + JD. 4. Implement error handling and useful error messages for bad uploads. 5. Build a small test set with sample resumes and JDs to verify outputs. 6. Deliver modular code with documentation and basic review interface if needed.",
+                    "timeline": "I can deliver the complete tool in 18–20 days, including parsing, LLM integration, testing with your sample set, and final handover.",
+                    "pricing": "My fixed price is $1,500, aligned with your budget. It covers full development, secure PDF handling, LLM integration, test set, and documentation for a production-ready MVP."
+                },
+                "review": {
+                    "overallScore": 90,
+                    "verdict": "Strong Proposal",
+                    "metrics": {
+                        "professionalism": 92,
+                        "personalization": 90,
+                        "clarity": 91,
+                        "tone": 89
+                    },
+                    "strengths": [
+                        "Clear introduction with relevant expertise",
+                        "Directly addresses client's staffing agency use case",
+                        "Structured approach and timeline with fixed pricing",
+                        "Good relevant experience examples"
+                    ],
+                    "improvements": [
+                        "Add mention of post-delivery support or revisions",
+                        "Specify how data privacy/security is ensured beyond 'secure handling'",
+                        "Could briefly note scalability or future enhancements"
+                    ]
+                },
+                "generation_time": 10.817812499997672,
+                "metadata": {
+                    "prompt_version": "v1"
+                }
+            },
+            {
+                "job_id": "job_10",
+                "proposal": {
+                    "introduction": "Hi, I’m Kartik Bansal, an AI Product Engineer specializing in full-stack AI development. I understand your boutique agency needs a proposal-generation workflow where account managers submit client briefs and receive draft scope, approach, timeline, and pricing rationale for review. With production experience building AI proposal tools using Python, FastAPI, React, and Gemini API, I’m well-suited to deliver a clean, revision-ready system within your 21-day timeline and budget.",
+                    "relevantExperience": "I built an AI Freelancer Proposal Assistant, a full-stack AI SaaS that automated job analysis, proposal generation, pricing recommendations, and AI-based proposal review using FastAPI, React, TypeScript, and Gemini API. It included a multi-agent workflow, structured proposal management, revision editing, and history storage—directly matching your needs. I also developed an AI-Powered Chatbot with Gemini API and FastAPI, proving reliable LLM integration and prompt design for business workflows.",
+                    "approach": "1. Design prompt templates for scope, approach, timeline, and pricing rationale using Gemini API. 2. Build a FastAPI backend that accepts briefs and returns structured proposal JSON. 3. Implement a revision workflow for account manager review and edits. 4. Add basic history storage with SQLite using repository pattern. 5. Write clear API documentation and deliver a simple React or minimal UI for briefing and review.",
+                    "timeline": "I can deliver the full workflow in 21 days: architecture and prompts (days 1–5), backend and JSON output (days 6–12), revision and history (days 13–17), docs and testing (days 18–21).",
+                    "pricing": "My fixed price is $1,600, aligned with your budget. It covers end-to-end development, Gemini API integration, revision workflow, history storage, and API docs, based on direct experience shipping similar AI proposal systems."
+                },
+                "review": {
+                    "overallScore": 90,
+                    "verdict": "Strong Proposal",
+                    "metrics": {
+                        "professionalism": 92,
+                        "personalization": 91,
+                        "clarity": 93,
+                        "tone": 89
+                    },
+                    "strengths": [
+                        "Clear alignment with client needs and timeline",
+                        "Specific relevant experience with similar AI proposal tools",
+                        "Well-structured approach and transparent pricing"
+                    ],
+                    "improvements": [
+                        "Include brief note on post-delivery support or handover",
+                        "Could personalize more with agency name or specific brief details"
+                    ]
+                },
+                "generation_time": 9.931641099974513,
+                "metadata": {
+                    "prompt_version": "v1"
+                }
+            },
+            {
+                "job_id": "job_11",
+                "proposal": {
+                    "introduction": "Hi, I’m Kartik Bansal, an AI Product Engineer with strong data analysis experience. I understand you need a 12-month sales and marketing analysis for your D2C brand covering revenue trends, product performance, repeat purchases, and campaign conversions, delivered as a reproducible notebook with CSV outputs. With my Python, SQL, and data visualization background, I can deliver clear, actionable insights within your 8-day timeline and $650 budget.",
+                    "relevantExperience": "I previously built a Financial Market Analytics Dashboard where I collected multi-source data, performed SQL analysis, and created Power BI dashboards with Python to surface KPIs and trends—directly relevant to your revenue and product performance needs. I also developed an Analytics Dashboard using React and Python that monitored business metrics and KPIs via visual reports, showing my ability to turn raw data into clear insights. Both projects involved centralized reporting and reproducible analysis workflows.",
+                    "approach": "1. Clean and validate the 12-month sales/marketing data using Python, Pandas, and NumPy. 2. Perform cohort and repeat-purchase analysis plus campaign conversion tracking. 3. Generate revenue and product performance trends with Matplotlib charts. 4. Summarize insights in a written section within the notebook. 5. Export reproducible notebook and CSV outputs for leadership.",
+                    "timeline": "I can complete the full analysis and deliver the notebook plus CSVs in 8 days, with a mid-project checkpoint on day 4.",
+                    "pricing": "My fixed price is $650. This matches your budget and reflects focused, efficient delivery of a reproducible analysis with clear visualizations and insight summaries."
+                },
+                "review": {
+                    "overallScore": 90,
+                    "verdict": "Strong Proposal",
+                    "metrics": {
+                        "professionalism": 92,
+                        "personalization": 88,
+                        "clarity": 93,
+                        "tone": 89
+                    },
+                    "strengths": [
+                        "Clear alignment with client requirements and constraints",
+                        "Relevant past experience described concretely",
+                        "Well-structured approach and timeline"
+                    ],
+                    "improvements": [
+                        "Personalize more by referencing specific brand or data context",
+                        "Avoid generic phrasing like 'clear, actionable insights'",
+                        "Briefly note limitations or assumptions about data format"
+                    ]
+                },
+                "generation_time": 9.411401899997145,
+                "metadata": {
+                    "prompt_version": "v1"
+                }
+            },
+            {
+                "job_id": "job_12",
+                "proposal": {
+                    "introduction": "Hi, I’m Kartik Bansal, an AI Product Engineer with strong data analytics experience. I understand you need executive Power BI dashboards for a regional retailer that turn Excel exports and SQL data into refresh-ready views of revenue, margin, inventory, and store performance, with filters and a stakeholder guide. My background in financial and business analytics dashboards makes me a strong fit to deliver this efficiently within your 12-day timeline.",
+                    "relevantExperience": "I built a Financial Market Analytics Dashboard using Python, SQL, and Power BI, integrating multiple data sources into automated reporting with KPI dashboards and trend analysis. I also developed an Analytics Dashboard with React and Python where I connected backend analytics data to visual reports for business metrics. These projects prove I can model SQL and Excel data, design executive views, and document transformation steps clearly for stakeholders.",
+                    "approach": "1. Collect and review SQL and Excel data sources from the retailer. 2. Build a SQL-based data model and Power Query transformations for refresh-ready views. 3. Design Power BI dashboards for revenue, margin, inventory, and regional performance with date, category, and store filters. 4. Write a stakeholder user guide covering transformation steps and usage. 5. Validate dashboards with sample refreshes and deliver final files.",
+                    "timeline": "I can complete this in 12 days: days 1–3 data modelling, days 4–8 dashboard build, days 9–10 guide and docs, days 11–12 testing and handover.",
+                    "pricing": "My fixed price is $850. This matches your budget and reflects focused Power BI, SQL, and Excel work with documentation, based on my prior analytics dashboard delivery."
+                },
+                "review": {
+                    "overallScore": 88,
+                    "verdict": "Strong Proposal",
+                    "metrics": {
+                        "professionalism": 90,
+                        "personalization": 92,
+                        "clarity": 90,
+                        "tone": 86
+                    },
+                    "strengths": [
+                        "Clear alignment with client requirements and 12-day timeline",
+                        "Specific relevant experience with Power BI, SQL, and Excel",
+                        "Structured approach and transparent fixed pricing"
+                    ],
+                    "improvements": [
+                        "Include client or retailer name for deeper personalization",
+                        "Soften tone slightly to be more conversational",
+                        "Mention post-delivery support or revision policy"
+                    ]
+                },
+                "generation_time": 9.507667600002605,
+                "metadata": {
+                    "prompt_version": "v1"
+                }
+            },
+            {
+                "job_id": "job_13",
+                "proposal": {
+                    "introduction": "Hi, I’m Kartik Bansal, an AI Product Engineer and full-stack developer with strong SQL expertise. I understand your subscription company’s customer-success team needs reliable SQL reports for active customers, churn, support volume, and renewal risk to plan weekly outreach. With hands-on experience building SQL-driven analytics for business reporting, I can deliver optimized, documented, export-ready queries using joins, CTEs, aggregations, and window functions within your 7-day timeline.",
+                    "relevantExperience": "In my Financial Market Analytics Dashboard project, I used Python, SQL, and Power BI to centralize financial data from multiple sources, performing SQL analysis to generate KPI dashboards and automated reporting—directly relevant to building clear, export-ready views. Also, as a frontend developer on an Analytics Dashboard, I connected React to a Python analytics API and worked with SQL-backed metrics for business KPIs. These experiences show I can structure cohort and monthly churn reporting and reliable customer-success views using advanced SQL.",
+                    "approach": "1. Review your schema and define required report outputs (active, churn, support volume, renewal risk). 2. Write modular SQL using CTEs, joins, window functions for cohort and monthly churn. 3. Build optimized aggregation queries for support and renewal-risk views. 4. Document each query and format for export. 5. Validate outputs with sample data and deliver SQL files with notes.",
+                    "timeline": "I can complete all query development, documentation, and validation in 7 days as requested, with a mid-week checkpoint for feedback.",
+                    "pricing": "My fixed price is $550, matching your budget. This covers four report views, optimized and documented SQL, and export readiness based on the scoped 7-day effort."
+                },
+                "review": {
+                    "overallScore": 90,
+                    "verdict": "Strong Proposal",
+                    "metrics": {
+                        "professionalism": 92,
+                        "personalization": 88,
+                        "clarity": 93,
+                        "tone": 90
+                    },
+                    "strengths": [
+                        "Clear structure with defined sections",
+                        "Relevant experience tied to client needs",
+                        "Concrete 7-day approach and timeline",
+                        "Professional and confident tone"
+                    ],
+                    "improvements": [
+                        "Personalization could reference specific client context or company name",
+                        "Add brief examples of past SQL reports or metrics delivered",
+                        "Mention communication plan beyond mid-week checkpoint"
+                    ]
+                },
+                "generation_time": 9.837690600019414,
+                "metadata": {
+                    "prompt_version": "v1"
+                }
+            },
+            {
+                "job_id": "job_14",
+                "proposal": {
+                    "introduction": "Hi, I’m Kartik Bansal, an AI Product Engineer and full-stack developer with strong Python and data automation experience. I understand you need a repeatable, validated Python script using OpenPyXL to replace manual copying across Excel workbooks, with formula-safe updates, summary tabs, and clear instructions for a non-technical finance user. My background in building automated financial reporting solutions makes me a strong fit for this task.",
+                    "relevantExperience": "I previously developed a Financial Market Analytics Dashboard where I collected financial data, performed SQL analysis, and automated reporting using Python and Excel. That project improved visibility into financial performance through automated, repeatable reporting workflows. This experience directly prepares me to build a validated OpenPyXL script that safely updates summaries and generates ready-to-send reports without breaking formulas.",
+                    "approach": "1. Review your current Excel workbooks to map inputs and required summaries. 2. Build a Python + OpenPyXL script with input validation and formula-safe update logic. 3. Generate summary tabs and a final ready-to-send report. 4. Write step-by-step instructions for non-technical users. 5. Test with sample data and deliver the script with documentation.",
+                    "timeline": "I can deliver the complete script, tested outputs, and user instructions within 6 days as requested.",
+                    "pricing": "My fixed price is $450, matching your budget. This covers scripting, validation, documentation, and testing for a reliable, repeatable reporting solution."
+                },
+                "review": {
+                    "overallScore": 90,
+                    "verdict": "Strong Proposal",
+                    "metrics": {
+                        "professionalism": 92,
+                        "personalization": 88,
+                        "clarity": 93,
+                        "tone": 89
+                    },
+                    "strengths": [
+                        "Clear structure with distinct sections",
+                        "Direct alignment to client requirements (OpenPyXL, formula-safe, non-technical user)",
+                        "Relevant past experience cited",
+                        "Professional and confident tone"
+                    ],
+                    "improvements": [
+                        "Personalization could reference specific client context or workbook details",
+                        "No mention of post-delivery support or revisions",
+                        "Pricing justification could be slightly more detailed"
+                    ]
+                },
+                "generation_time": 7.344147800002247,
+                "metadata": {
+                    "prompt_version": "v1"
+                }
+            },
+            {
+                "job_id": "job_15",
+                "proposal": {
+                    "introduction": "Hi, I’m Kartik Bansal, an AI Product Engineer and full-stack developer. I understand you need an interpretable ML model to predict customer churn from CSV data using Python, Pandas, and scikit-learn, with clear risk scoring and handover docs for your ops team. With strong Python and data analysis experience, including SQL-based analytics and dashboarding, I can deliver a clean, explainable churn model within your 15-day timeline and budget.",
+                    "relevantExperience": "In a Financial Market Analytics Dashboard project, I used Python and SQL to collect, clean, and analyze multi-source financial data, then built Power BI dashboards with clear business insights. That work sharpened my data cleaning, exploratory analysis, and translating raw CSV-style data into actionable outputs—directly relevant to your churn prediction and risk scoring needs, where interpretability for non-technical ops staff is key.",
+                    "approach": "1. Load and clean CSVs (customers, subscriptions, payments, tickets) with Pandas. 2. Perform EDA to uncover churn patterns. 3. Engineer features (tenure, failed payments, ticket volume). 4. Train and evaluate scikit-learn models for interpretability (e.g., logistic regression, decision tree). 5. Output churn-risk scores per customer. 6. Deliver Jupyter notebook and handover documentation.",
+                    "timeline": "I can complete the full project in 12–15 days, including review and documentation handover.",
+                    "pricing": "My fixed price is $1,100, matching your budget. It covers data work, model building, scoring output, notebook, and clear docs for your operations team."
+                },
+                "review": {
+                    "overallScore": 88,
+                    "verdict": "Strong Proposal with Minor Gaps",
+                    "metrics": {
+                        "professionalism": 90,
+                        "personalization": 85,
+                        "clarity": 92,
+                        "tone": 89
+                    },
+                    "strengths": [
+                        "Clear structured approach with concrete steps",
+                        "Relevant experience mapped to client needs",
+                        "Professional and confident tone throughout"
+                    ],
+                    "improvements": [
+                        "Personalize more by referencing specific client context or dataset details",
+                        "Mention post-delivery support or model maintenance",
+                        "Include brief note on interpretability methods (e.g., SHAP, feature importance)"
+                    ]
+                },
+                "generation_time": 8.607659599976614,
+                "metadata": {
+                    "prompt_version": "v1"
+                }
+            },
+            {
+                "job_id": "job_16",
+                "proposal": {
+                    "introduction": "Hi, I’m Kartik Bansal, an AI Product Engineer and full-stack developer. I understand you need a scheduled Python pipeline using Requests and BeautifulSoup to collect public product data (names, prices, ratings, availability), normalize it, and output analyst-ready CSV or SQLite with rate limiting, configurable rules, deduplication, logging, and clear run instructions. With strong Python, SQL, and SQLite experience building data-focused systems, I’m well-suited to deliver this reliably within your 10-day timeline and $700 budget.",
+                    "relevantExperience": "In my Financial Market Analytics Dashboard work, I used Python and SQL to collect, normalize, and analyze multi-source financial data, then automated reporting—directly relevant to building a clean, analyst-ready data pipeline. I also developed an Analytics Dashboard where a Python backend processed and served structured data to a frontend, showing my ability to design dependable extraction and data-handling logic. These projects demonstrate practical experience with Python-based data collection, SQLite-ready structuring, and automated output.",
+                    "approach": "1. Define configurable extraction rules (selectors, fields) in a settings file for product name, price, rating, availability. 2. Build Python collectors using Requests + BeautifulSoup with rate limiting and retry/error handling. 3. Normalize and deduplicate records before saving to CSV or SQLite. 4. Implement structured logging and a scheduler (e.g., cron or Python scheduler). 5. Write clear README run instructions and test the pipeline end-to-end.",
+                    "timeline": "I can complete this in 10 days: days 1–3 setup and scraping core, days 4–6 normalization, SQLite/CSV, and deduplication, days 7–8 logging and scheduling, days 9–10 testing and documentation.",
+                    "pricing": "My fixed price is $700. This matches your budget and reflects a production-ready, well-documented pipeline with rate limiting, error handling, and analyst-ready output."
+                },
+                "review": {
+                    "overallScore": 90,
+                    "verdict": "Strong Proposal",
+                    "metrics": {
+                        "professionalism": 92,
+                        "personalization": 88,
+                        "clarity": 93,
+                        "tone": 89
+                    },
+                    "strengths": [
+                        "Clear structure with introduction, experience, approach, timeline, pricing",
+                        "Directly addresses all stated requirements (rate limiting, deduplication, logging, etc.)",
+                        "Reasonable timeline and budget alignment",
+                        "Professional and confident tone"
+                    ],
+                    "improvements": [
+                        "Personalization could include specific reference to client's context or named project",
+                        "Relevant experience descriptions are generic and lack concrete metrics or links",
+                        "No mention of communication plan or post-delivery support"
+                    ]
+                },
+                "generation_time": 10.203225200006273,
+                "metadata": {
+                    "prompt_version": "v1"
+                }
+            },
+            {
+                "job_id": "job_17",
+                "proposal": {
+                    "introduction": "Hi, I’m Kartik Bansal, an AI Product Engineer and full-stack developer. I understand you need a cross-platform mobile app for turf booking with REST API integration, JWT auth, calendar slot selection, and push-ready confirmations for Android and iOS. With my experience building full-stack booking systems and responsive apps, I’m confident I can deliver a clean, reliable solution within your 21-day timeline and $1,500 budget.",
+                    "relevantExperience": "I built a Smart Turf Booking Platform as a full-stack developer, solving manual scheduling conflicts for sports facilities. I designed the booking workflow, developed REST APIs with FastAPI, and built a responsive React frontend with SQL booking management. That project delivered a complete booking workflow and API integration, directly mirroring your need for slot browsing, bookings, and confirmations via an existing REST API.",
+                    "approach": "1. Integrate your provided REST API with JWT authentication for secure login. 2. Build calendar-based slot selection using React Native for cross-platform coverage. 3. Implement booking creation and confirmation flow with push-notification readiness. 4. Develop upcoming games view and responsive Android/iOS layouts. 5. Test flows and document the app for handover.",
+                    "timeline": "I can complete the app in 21 days, covering API integration, UI build, notification setup, testing, and delivery within your stated schedule.",
+                    "pricing": "My fixed price is $1,500. This matches your budget and reflects the scoped mobile app build using existing APIs, cross-platform development, and focused delivery."
+                },
+                "review": {
+                    "overallScore": 88,
+                    "verdict": "Strong Proposal with Minor Gaps",
+                    "metrics": {
+                        "professionalism": 90,
+                        "personalization": 85,
+                        "clarity": 92,
+                        "tone": 87
+                    },
+                    "strengths": [
+                        "Clear and structured introduction with relevant credentials",
+                        "Direct alignment of past project to client's needs",
+                        "Step-by-step approach is easy to follow",
+                        "Matches budget and timeline explicitly"
+                    ],
+                    "improvements": [
+                        "Personalization could reference specific client API or business context",
+                        "No mention of testing tools or post-delivery support",
+                        "Tone is confident but slightly generic in places"
+                    ]
+                },
+                "generation_time": 4.674737499968614,
+                "metadata": {
+                    "prompt_version": "v1"
+                }
+            },
+            {
+                "job_id": "job_18",
+                "proposal": {
+                    "introduction": "Hi, I’m Kartik Bansal, an AI Product Engineer and full-stack developer. I understand you need a repeatable production deployment for your FastAPI and React SaaS, moving from local runs to containerized services with CI/CD, PostgreSQL, secrets, health checks, and docs. Having built multiple production-style FastAPI + React products, I can set up a reliable, automated pipeline aligned with your 14-day timeline and $1,000 budget.",
+                    "relevantExperience": "In the AI Freelancer Proposal Assistant, I designed a modular FastAPI backend with React/TypeScript frontend and SQLite using repository patterns, gaining deep experience in production-style FastAPI + React architecture. The Smart Turf Booking Platform used React, FastAPI, and SQL with REST APIs and a clean backend-frontend split, confirming my ability to containerize and deploy such stacks. Both show I can translate local apps into structured, deployable systems with environment config and monitoring in mind.",
+                    "approach": "1. Containerize FastAPI and React using Docker with Docker Compose orchestration. 2. Configure PostgreSQL and environment-based secrets via .env and CI secrets. 3. Set up GitHub Actions to build, test, and deploy on pushes to main. 4. Add logging, health check endpoints, and basic monitoring guidance. 5. Write clear deployment documentation for repeatable setup.",
+                    "timeline": "I can deliver the full pipeline and docs within 12–14 days, including buffer for review and handover.",
+                    "pricing": "My fixed price is $1,000. This covers Docker setup, CI/CD, PostgreSQL integration, monitoring guidance, and documentation, matching your budget and project scope."
+                },
+                "review": {
+                    "overallScore": 88,
+                    "verdict": "Strong Proposal with Minor Gaps",
+                    "metrics": {
+                        "professionalism": 90,
+                        "personalization": 85,
+                        "clarity": 92,
+                        "tone": 89
+                    },
+                    "strengths": [
+                        "Clear structure with introduction, experience, approach, timeline, pricing",
+                        "Direct alignment with client budget and timeline",
+                        "Concise and actionable deployment approach"
+                    ],
+                    "improvements": [
+                        "Personalization could reference specific client project details or pain points",
+                        "Include brief mention of post-deployment support or handover assistance",
+                        "Tone slightly formal; could be more conversational to build rapport"
+                    ]
+                },
+                "generation_time": 8.541691199992783,
+                "metadata": {
+                    "prompt_version": "v1"
+                }
+            },
+            {
+                "job_id": "job_19",
+                "proposal": {
+                    "introduction": "Hi, I’m Kartik Bansal, an AI Product Engineer with strong full-stack and dashboard design experience. I understand you need a customer analytics dashboard UI/UX that lets non-technical e-commerce managers grasp sales, repeat purchases, segments, and campaigns without raw reports. With my background in analytics dashboards and Figma-based design, I can deliver clear, accessible, and developer-ready screens within your budget and 10-day timeline.",
+                    "relevantExperience": "I’ve built multiple analytics dashboards for non-technical users. In an Interactive Analytics Dashboard project, I designed responsive views with proposal history, KPI visualization, and workflow tracking using React, TypeScript, and Tailwind CSS, focusing on intuitive UX. In a similar Analytics Dashboard, I created KPI cards, charts, and business metrics with reusable React components and clear architecture for a React dev team. I also use Figma in my skillset, ensuring practical handoff notes for your engineers.",
+                    "approach": "1. Define user-flow and information architecture for managers. 2. Wireframe core screens: sales, repeat-purchase, segments, campaigns. 3. Design high-fidelity Figma screens with responsive table/chart states. 4. Apply accessible color, typography, and component guidance. 5. Prepare handoff notes and specs for React developers.",
+                    "timeline": "I can complete the full UI/UX design and handoff in 10 days, with mid-project preview on day 5.",
+                    "pricing": "My fixed price is $750. This covers user-flow, wireframes, Figma screens, responsive states, accessibility guidance, and handoff notes, aligned to your budget and scope."
+                },
+                "review": {
+                    "overallScore": 88,
+                    "verdict": "Strong Proposal",
+                    "metrics": {
+                        "professionalism": 90,
+                        "personalization": 85,
+                        "clarity": 92,
+                        "tone": 87
+                    },
+                    "strengths": [
+                        "Clear structure with intro, experience, approach, timeline, pricing",
+                        "Demonstrates relevant dashboard and Figma experience",
+                        "Specific 10-day timeline with mid-project preview",
+                        "Fixed pricing aligned to stated budget and scope"
+                    ],
+                    "improvements": [
+                        "Personalize more by referencing client's specific e-commerce context or named metrics",
+                        "Include brief portfolio links or proof of past dashboard work",
+                        "Soften slight sales tone with more client-focused language"
+                    ]
+                },
+                "generation_time": 5.5033496000105515,
+                "metadata": {
+                    "prompt_version": "v1"
+                }
+            },
+            {
+                "job_id": "job_20",
+                "proposal": {
+                    "introduction": "Hello, I’m Kartik Bansal, an AI Product Engineer and full-stack developer. I understand you need an MVP SaaS operations dashboard with React/TypeScript frontend, FastAPI backend, JWT auth, Stripe subscriptions, and KPI/request tracking. With production experience in FastAPI, React, and dashboard analytics, I’m well-suited to deliver a clean, deployment-ready MVP within your timeline and budget.",
+                    "relevantExperience": "I built an Interactive Analytics Dashboard using React, TypeScript, and Tailwind CSS with KPI visualization and responsive UI, directly matching your frontend needs. I also developed a full-stack AI Freelancer Proposal Assistant with FastAPI, React, TypeScript, SQLite, JWT-style auth, and dashboard analytics using a modular service/repository architecture—proving I can deliver the backend, auth, and analytics workflow you require. My Analytics Dashboard work shows I can connect backend data to clear KPI cards for staff-facing tools.",
+                    "approach": "1. Set up FastAPI backend with SQLite, SQLAlchemy, Pydantic, and JWT role-aware auth. 2. Build React+TypeScript+Tailwind responsive UI with login, customer records, KPI cards, and request workflow. 3. Integrate Stripe subscription checkout using REST APIs. 4. Implement KPI analytics and request-management screens per role. 5. Write clean docs and prepare deployment-ready config (Vite+GitHub). 6. Test end-to-end and share progress updates.",
+                    "timeline": "I can deliver the MVP in 30 days, with weekly progress and final deployment-ready build by day 30.",
+                    "pricing": "My fixed price is $2,000, matching your budget. It covers full-stack build, Stripe integration, docs, and deployment setup based on scoped MVP requirements."
+                },
+                "review": {
+                    "overallScore": 90,
+                    "verdict": "Strong MVP Proposal",
+                    "metrics": {
+                        "professionalism": 92,
+                        "personalization": 88,
+                        "clarity": 93,
+                        "tone": 89
+                    },
+                    "strengths": [
+                        "Clear alignment with required tech stack",
+                        "Concrete relevant experience cited",
+                        "Structured approach and timeline"
+                    ],
+                    "improvements": [
+                        "Personalize more to client's specific business context",
+                        "Specify testing/deployment details more precisely",
+                        "Mention post-delivery support or revisions"
+                    ]
+                },
+                "generation_time": 10.400086000037845,
+                "metadata": {
+                    "prompt_version": "v1"
+                }
+            }
+        ]
+    },
+    "strategy_b": {
+        "name": "Outcome-Oriented Prompt",
+        "metrics": {
+            "overall_score": 88.5,
+            "professionalism": 90.7,
+            "personalization": 87.75,
+            "clarity": 91.35,
+            "tone": 87.8,
+            "latency": 9.247449504988618
+        },
+        "samples": [
+            {
+                "job_id": "job_01",
+                "proposal": {
+                    "introduction": "Hi, I’m Kartik Bansal, an AI Product Engineer and full-stack developer. I understand you need a responsive logistics operations dashboard with KPI cards, filterable tables, delivery charts, mobile layouts, and JWT auth over an existing REST API within 12 days. With hands-on experience building React + Tailwind dashboards backed by REST APIs, I’m well-positioned to deliver this efficiently and cleanly.",
+                    "relevantExperience": "I’ve solved similar problems before. For a business analytics need, I built an interactive dashboard using React and Python where managers monitored KPIs via visual reports, enabling centralized performance tracking. In another project, I designed a responsive analytics dashboard with React, TypeScript, and Tailwind CSS featuring KPI visualization, workflow tracking, and reusable components, improving user experience through a modern interface. These efforts directly map to your need for KPI cards, charts, and mobile-ready layouts. My Smart Turf Booking Platform used React with FastAPI and SQL, proving my ability to integrate REST APIs and structure reusable frontend architecture. This background reduces your risk: I already know how to consume REST data, implement JWT-style auth flows, and ship maintainable dashboards on tight timelines.",
+                    "approach": "1. Review your existing REST API and JWT auth to map endpoints and data shapes. 2. Build reusable React + Tailwind components: KPI cards, filterable tables, delivery charts. 3. Integrate API with secure JWT auth and mobile-responsive layouts. 4. Add filtering and visualization for delivery, delay, driver, and warehouse metrics. 5. Write setup documentation and perform testing before handoff.",
+                    "timeline": "I can deliver the full dashboard with documentation in 12 days, aligning with your stated timeline and complexity.",
+                    "pricing": "My fixed price is $900. This matches your budget and reflects focused delivery of a production-ready, documented dashboard using my prior React, Tailwind, and REST API experience."
+                },
+                "review": {
+                    "overallScore": 88,
+                    "verdict": "Strong Proposal",
+                    "metrics": {
+                        "professionalism": 90,
+                        "personalization": 85,
+                        "clarity": 92,
+                        "tone": 89
+                    },
+                    "strengths": [
+                        "Clear structure with intro, experience, approach, timeline, pricing",
+                        "Directly addresses client requirements and timeline",
+                        "Confident and professional tone throughout"
+                    ],
+                    "improvements": [
+                        "Personalization could include specific reference to client's API or business context",
+                        "Approach section could be slightly more detailed on testing strategy",
+                        "No mention of post-delivery support or revisions"
+                    ]
+                },
+                "generation_time": 10.17462920001708,
+                "metadata": {
+                    "prompt_version": "v2"
+                }
+            },
+            {
+                "job_id": "job_02",
+                "proposal": {
+                    "introduction": "Hi, I’m Kartik Bansal, an AI Product Engineer and full-stack developer with strong React and Figma-to-UI experience. I understand you need a pixel-accurate React site for a B2B cybersecurity consultancy: five accessible, responsive marketing pages, a case-study template, and a fast mobile experience. With my background in building responsive, reusable React interfaces from design handoffs, I’m confident I can deliver a clean, accessible, and SEO-friendly result within your 8-day timeline.",
+                    "relevantExperience": "In a previous engagement as Frontend Developer for an Interactive Analytics Dashboard, the client needed an intuitive interface to monitor proposals, KPIs, and workflow progress. I designed responsive dashboards using React, TypeScript, and Tailwind CSS with reusable component architecture and clear UI views. The outcome was a responsive dashboard with reusable components that improved user experience. This directly reduces risk for your project because I’ve already delivered maintainable, responsive React frontends from design specs, ensuring your marketing pages and case-study template will be consistent, accessible, and built on reusable sections.",
+                    "approach": "1. Review Figma handoff and map all pages and components. 2. Build reusable section components (hero, features, case study, contact) in React with Tailwind CSS. 3. Implement accessible navigation and validated contact form. 4. Ensure responsive layouts and fast mobile performance via code splitting and optimization. 5. Add SEO-friendly HTML tags and semantics. 6. Test across devices and accessibility checks before delivery.",
+                    "timeline": "I can complete the full build, including five pages, case-study template, and testing, in 8 days as requested.",
+                    "pricing": "My fixed price is $600, matching your budget. This covers Figma conversion, responsive accessible UI, reusable sections, and SEO setup, based on the clear scope and my efficient React workflow."
+                },
+                "review": {
+                    "overallScore": 88,
+                    "verdict": "Strong Proposal",
+                    "metrics": {
+                        "professionalism": 90,
+                        "personalization": 85,
+                        "clarity": 92,
+                        "tone": 87
+                    },
+                    "strengths": [
+                        "Clear structure with intro, experience, approach, timeline, pricing",
+                        "Directly addresses client requirements and timeline",
+                        "Confident and polite tone throughout"
+                    ],
+                    "improvements": [
+                        "Personalization could include specific reference to client's brand or named pages",
+                        "Relevant experience is somewhat generic and not cybersecurity-specific",
+                        "Could briefly note communication plan or revision policy"
+                    ]
+                },
+                "generation_time": 8.698418899963144,
+                "metadata": {
+                    "prompt_version": "v2"
+                }
+            },
+            {
+                "job_id": "job_03",
+                "proposal": {
+                    "introduction": "Hi, I’m Kartik Bansal, an AI Product Engineer and full-stack developer. I understand you need a high-converting Next.js landing page for a personal-finance app with product storytelling, beta sign-up capture, animations, mobile performance, and SEO-ready metadata within 9 days and a $700 budget. With my background in React, TypeScript, Tailwind CSS, and responsive frontend development, plus experience building user-focused product interfaces, I’m well-positioned to deliver a polished, conversion-driven page that meets your requirements.",
+                    "relevantExperience": "In a previous analytics dashboard project, users needed an intuitive interface to monitor proposals and KPIs. I designed a responsive dashboard using React, TypeScript, and Tailwind CSS with reusable components and clear visualizations, improving user experience through a modern interface. That work directly prepares me to build your responsive, mobile-conscious Next.js landing page with strong visual storytelling. Additionally, while developing an AI-powered chatbot, I built a React frontend over a FastAPI backend with clean architecture and client-first communication, ensuring fast, reliable UI delivery. These experiences reduce your risk because I consistently ship maintainable, responsive frontends with clear UX focus and regular updates—exactly what a startup landing page needs.",
+                    "approach": "1. Set up Next.js with Tailwind CSS and Framer Motion, structuring semantic SEO metadata and routes. 2. Design product storytelling sections with mobile-first layouts and lightweight animations. 3. Build a waitlist form integrated with a backend or third-party capture service. 4. Optimize Lighthouse performance via code-splitting, image compression, and minimal JS. 5. Test responsiveness and SEO, then deliver with documentation and a walkthrough.",
+                    "timeline": "I can deliver the complete landing page in 9 days, including design, development, optimization, and revisions within your timeline.",
+                    "pricing": "My fixed price is $700. This matches your budget and reflects focused delivery of a production-quality, conversion-ready Next.js landing page with animations, waitlist, and SEO."
+                },
+                "review": {
+                    "overallScore": 88,
+                    "verdict": "Strong Proposal",
+                    "metrics": {
+                        "professionalism": 90,
+                        "personalization": 85,
+                        "clarity": 90,
+                        "tone": 87
+                    },
+                    "strengths": [
+                        "Clear understanding of client requirements",
+                        "Relevant experience mapped to project needs",
+                        "Structured approach and timeline"
+                    ],
+                    "improvements": [
+                        "Personalize more with specific app details or brand",
+                        "Shorten paragraphs for easier scanning",
+                        "Specify which third-party capture service will be used"
+                    ]
+                },
+                "generation_time": 10.476192899979651,
+                "metadata": {
+                    "prompt_version": "v2"
+                }
+            },
+            {
+                "job_id": "job_04",
+                "proposal": {
+                    "introduction": "Hello, I’m Kartik Bansal, an AI Product Engineer and Full-Stack Developer specializing in FastAPI backends and clean API design. I reviewed your need for secure, multi-tenant REST APIs for an appointment-booking product with JWT auth, role-based access, and conflict handling. With hands-on experience building booking platforms and production-grade FastAPI services, I’m confident I can deliver documented, tested endpoints within your 18-day timeline and $1,300 budget.",
+                    "relevantExperience": "I previously built a Smart Turf Booking Platform where manual scheduling caused conflicts and poor resource use. I developed a React + FastAPI + SQL system with booking workflows, REST APIs, and an admin layer, which cut scheduling conflicts and simplified facility management. That work directly maps to your need for slots, staff availability, and booking-conflict handling. I also engineered a FastAPI backend for an AI SaaS using layered architecture, SQLite, and repository patterns with validation and clear structure. This shows I can deliver modular, documented APIs with reliable permissions and testing—reducing your delivery risk for a multi-tenant system.",
+                    "approach": "1. Design multi-tenant data model and Alembic migrations for PostgreSQL. 2. Implement FastAPI app with JWT auth and role-based access for customers/staff. 3. Build endpoints for availability, slots, and bookings with conflict validation. 4. Add Pydantic validation and OpenAPI docs. 5. Write unit tests for permissions and conflicts. 6. Share progress and final codebase with documentation.",
+                    "timeline": "18 days: ~4 days modeling/migrations, ~8 days API + auth, ~4 days tests/docs, ~2 days buffer.",
+                    "pricing": "$1,300 fixed. Matches your budget and covers secure API build, tests, docs, and migrations for a focused MVP scope."
+                },
+                "review": {
+                    "overallScore": 90,
+                    "verdict": "Strong Proposal",
+                    "metrics": {
+                        "professionalism": 92,
+                        "personalization": 91,
+                        "clarity": 90,
+                        "tone": 89
+                    },
+                    "strengths": [
+                        "Clear introduction with relevant specialization",
+                        "Specific past experience mapped to client needs",
+                        "Structured approach and realistic timeline",
+                        "Confident and respectful tone"
+                    ],
+                    "improvements": [
+                        "Could include sample API doc or repo link for proof",
+                        "Mention communication frequency more explicitly",
+                        "Briefly note assumptions on MVP scope boundaries"
+                    ]
+                },
+                "generation_time": 10.590548499953002,
+                "metadata": {
+                    "prompt_version": "v2"
+                }
+            },
+            {
+                "job_id": "job_05",
+                "proposal": {
+                    "introduction": "Hi, I’m Kartik Bansal, an AI Product Engineer and full-stack developer. I reviewed your need for a Node.js/Express/MongoDB backend to manage products, orders, discounts, inventory, and verified payment webhooks for your subscription e-commerce storefront. While my stack is primarily Python/FastAPI, I have built production-style REST API backends with clean order workflows, booking systems, and documented APIs, and I’m fully comfortable delivering the same quality in Node.js and MongoDB within your 16-day timeline and budget.",
+                    "relevantExperience": "I previously built a Smart Turf Booking Platform where manual scheduling caused conflicts; I developed a React + FastAPI REST API system with a booking database, complete workflow, and admin management, which directly maps to your need for a clean order workflow and product/order management. That project proved I can design conflict-free transactional workflows and API-driven operations, reducing integration risk for your storefront. I also created an Analytics Dashboard with a Python backend exposing analytics via API, showing I deliver documented, consumable REST APIs. These experiences mean I understand e-commerce-like operational flows and can implement verified webhooks and inventory updates without reinventing process logic, lowering your delivery risk.",
+                    "approach": "1. Set up Node.js + Express project with MongoDB models for products, orders, discounts, inventory. 2. Build REST APIs for catalog, order creation, discount application, and inventory updates. 3. Implement payment-provider webhook endpoint with signature validation and idempotent error handling. 4. Document all APIs (e.g., OpenAPI) and write deployment notes for Node/Mongo. 5. Test order workflow end-to-end and deliver codebase with README.",
+                    "timeline": "16 days: ~4 days modeling/API scaffolding, ~6 days core + webhooks, ~3 days docs/testing, ~3 days buffer/deploy notes.",
+                    "pricing": "$1,100 fixed. Matches your budget and reflects a focused build of a documented, production-ready backend with verified webhooks and clean order flow."
+                },
+                "review": {
+                    "overallScore": 84,
+                    "verdict": "Solid Proposal with Minor Gaps",
+                    "metrics": {
+                        "professionalism": 88,
+                        "personalization": 85,
+                        "clarity": 90,
+                        "tone": 82
+                    },
+                    "strengths": [
+                        "Clear structure with intro, experience, approach, timeline, pricing",
+                        "Relevant past projects mapped to client needs",
+                        "Explicit timeline and fixed pricing aligned to budget"
+                    ],
+                    "improvements": [
+                        "Primary stack is Python/FastAPI, not Node.js; address risk more directly",
+                        "Tone slightly defensive about stack mismatch",
+                        "Could personalize more with specific client storefront details"
+                    ]
+                },
+                "generation_time": 11.354496499989182,
+                "metadata": {
+                    "prompt_version": "v2"
+                }
+            },
+            {
+                "job_id": "job_06",
+                "proposal": {
+                    "introduction": "Hello, I’m Kartik Bansal, an AI Product Engineer and full-stack developer. I understand you need a secure authentication and account-management module for an internal HR portal using Django, Django REST Framework, PostgreSQL, and JWT, with password resets, profiles, role-limited access, permission tests, and clear API docs. While my core stack is Python and React, my backend and API experience—including a Python-based analytics API for an internal dashboard—makes me well-suited to deliver this module cleanly within your 12-day timeline and $850 budget.",
+                    "relevantExperience": "In a previous business analytics dashboard project, I solved the problem of fragmented KPI monitoring by building a React frontend backed by a Python analytics API, with structured backend data flows and reusable components. That work required designing backend APIs and connecting them securely to frontend consumers, which directly informs how I’ll structure your Django REST Framework endpoints, JWT auth, and role-based permissions. The measurable outcome was centralized, easier business performance monitoring. This reduces your risk because I already understand backend API design, data access control, and documentation discipline needed for an internal HR system.",
+                    "approach": "1. Set up Django + Django REST Framework with PostgreSQL and model Employee, Profile, and Role. 2. Implement JWT authentication with secure sign-in and role-limited access to team data. 3. Build password-reset and profile management APIs with validation. 4. Write permission tests covering roles and endpoints. 5. Generate concise API documentation and deliver with regular progress updates.",
+                    "timeline": "I can deliver the complete module in 12 days, including development, testing, and documentation, aligned with your stated timeline.",
+                    "pricing": "My fixed price is $850. This matches your budget and reflects a focused, production-ready auth module with tests and documentation."
+                },
+                "review": {
+                    "overallScore": 84,
+                    "verdict": "Strong Proposal with Minor Gaps",
+                    "metrics": {
+                        "professionalism": 88,
+                        "personalization": 82,
+                        "clarity": 90,
+                        "tone": 86
+                    },
+                    "strengths": [
+                        "Clear structured approach with numbered steps",
+                        "Direct alignment to budget and timeline",
+                        "Relevant backend and API experience cited"
+                    ],
+                    "improvements": [
+                        "Personalize more to specific HR portal context",
+                        "Avoid overstating fit given core stack is React-heavy",
+                        "Include brief note on post-delivery support"
+                    ]
+                },
+                "generation_time": 7.546156199998222,
+                "metadata": {
+                    "prompt_version": "v2"
+                }
+            },
+            {
+                "job_id": "job_07",
+                "proposal": {
+                    "introduction": "Hello, I’m Kartik Bansal, an AI Product Engineer specializing in LLM-powered applications. I understand you need an AI assistant that turns role descriptions and candidate profiles into factual, consistent outreach emails as structured JSON for your workflow tool, using Python, Gemini API, and prompt engineering with a FastAPI endpoint and schema-constrained outputs. With production experience building FastAPI services integrated with Gemini and delivering clean developer documentation, I’m well-positioned to deliver this efficiently within your 18-day timeline and budget.",
+                    "relevantExperience": "In a previous customer support project, I built an AI chatbot using Gemini API with a React and FastAPI architecture, designing prompts and backend APIs to generate reliable, context-aware responses. This shows I can constrain LLM output to specific formats and integrate Gemini into a backend service, reducing your risk of inconsistent email drafts. More recently, I developed an AI Freelancer Proposal Assistant, a full-stack FastAPI and React system using Gemini and prompt engineering to generate structured, consistent proposals from job data. That work involved schema-level control of AI output and clear setup docs, directly mirroring your need for JSON-schema-constrained outreach emails and documentation, ensuring lower integration risk for your existing tool.",
+                    "approach": "1. Define the JSON schema for outreach emails and enforce it via Gemini API response constraints and Pydantic validation. 2. Build a FastAPI endpoint accepting role description and candidate profile, triggering a prompt-engineered Gemini call. 3. Implement error handling for API and parsing failures with clear messages. 4. Write example prompts and setup documentation for easy adoption. 5. Test with sample inputs to ensure factual, consistent JSON output before delivery.",
+                    "timeline": "I can deliver the complete solution in 14–16 days, leaving buffer within your 18-day window for review and adjustments.",
+                    "pricing": "My fixed price is $1,350, near your $1,400 budget. It reflects focused scope: FastAPI endpoint, Gemini integration, schema enforcement, docs, and testing based on directly relevant past AI builds."
+                },
+                "review": {
+                    "overallScore": 90,
+                    "verdict": "Strong Proposal",
+                    "metrics": {
+                        "professionalism": 92,
+                        "personalization": 91,
+                        "clarity": 90,
+                        "tone": 89
+                    },
+                    "strengths": [
+                        "Clear alignment with project requirements and tech stack",
+                        "Relevant past experience with Gemini and FastAPI",
+                        "Defined approach and realistic timeline within budget"
+                    ],
+                    "improvements": [
+                        "Include brief post-delivery support note",
+                        "Condense experience section for faster scanning"
+                    ]
+                },
+                "generation_time": 10.785843099991325,
+                "metadata": {
+                    "prompt_version": "v2"
+                }
+            },
+            {
+                "job_id": "job_08",
+                "proposal": {
+                    "introduction": "Hi, I’m Kartik Bansal, an AI Product Engineer specializing in full-stack AI development. I read your need for a retrieval-augmented customer-support chatbot that answers billing and product questions from help-centre docs, cites sources, and routes uncertain queries to agents. With hands-on experience building LLM chatbots and a production-style RAG platform, I can deliver a clean, grounded, and measurable solution within your 28-day timeline and budget.",
+                    "relevantExperience": "I previously built an AI-powered customer-support chatbot using Gemini API with a React and FastAPI architecture, reducing manual support effort through natural-language conversations. That project taught me how to design prompts, integrate LLMs, and manage dialogue flows for support use cases like yours. More directly, I developed an AI Freelancer Proposal Assistant, a full-stack RAG application where I implemented document retrieval with embeddings, a SQLite repository layer, and a multi-agent workflow for grounded generation. It shipped as a complete SaaS MVP with semantic retrieval and evaluation examples. This exact RAG pipeline experience de-risks your project because I already know how to ingest, chunk, retrieve, and ground answers with citations, and how to surface uncertain cases for human review.",
+                    "approach": "1. Ingest help-centre docs, chunk them, and store embeddings in a vector database. 2. Build a FastAPI conversation API using LangChain for retrieval and grounded generation with source snippets. 3. Add routing logic to send low-confidence answers to a human agent. 4. Develop a simple React chat UI for end-user interaction. 5. Create evaluation examples to validate answer quality and citation accuracy. 6. Document the system and deliver with a test pass.",
+                    "timeline": "I can complete the full build in 28 days, covering ingestion, API, UI, evaluation, and testing within your stated schedule.",
+                    "pricing": "My fixed price is $2,200, matching your budget. It reflects the scoped RAG chatbot, citation feature, agent routing, and evaluation examples based on directly relevant past work."
+                },
+                "review": {
+                    "overallScore": 90,
+                    "verdict": "Strong Proposal",
+                    "metrics": {
+                        "professionalism": 92,
+                        "personalization": 91,
+                        "clarity": 93,
+                        "tone": 89
+                    },
+                    "strengths": [
+                        "Clear alignment with client requirements and timeline",
+                        "Specific relevant experience with RAG and chatbots",
+                        "Well-structured approach and fixed pricing matching budget"
+                    ],
+                    "improvements": [
+                        "Include brief post-delivery support or handover note",
+                        "Add measurable success metrics beyond evaluation examples"
+                    ]
+                },
+                "generation_time": 11.329711500031408,
+                "metadata": {
+                    "prompt_version": "v2"
+                }
+            },
+            {
+                "job_id": "job_09",
+                "proposal": {
+                    "introduction": "Hi, I’m Kartik Bansal, an AI Product Engineer focused on building production-quality LLM and full-stack tools. Your staffing agency needs an AI resume-analysis tool where recruiters upload a PDF resume and job description to get structured skills, gaps, highlights, and screening questions. With my background in Python, FastAPI, LLM integration, and secure file handling, I can deliver a reliable, well-architected solution within your 20-day timeline and $1,500 budget.",
+                    "relevantExperience": "I previously built an AI Freelancer Proposal Assistant, a full-stack AI SaaS that automated analysis of job descriptions and generated structured, personalized proposals using Gemini API and a modular FastAPI backend with SQLite. It used layered architecture, prompt engineering, and RAG to produce consistent, high-quality outputs, reducing manual effort and improving workflow efficiency. This directly maps to your need for parsing resumes, comparing them to job descriptions, and returning structured JSON with gaps and questions. I also developed an AI-powered customer support chatbot using Gemini API and FastAPI, which strengthened my ability to design secure LLM-backed APIs with clear error handling. Together, these projects show I can deliver accurate LLM analysis with clean architecture and low risk for your agency.",
+                    "approach": "1. Set up a FastAPI backend with secure PDF upload and validation. 2. Implement PDF parsing to extract resume text reliably. 3. Design a prompt workflow using Gemini API to analyze resume vs job description for skills, gaps, highlights, and screening questions. 4. Return structured JSON with useful error messages for bad files or parsing failures. 5. Build a small test set with sample resumes and job descriptions to verify output quality. 6. Document the API and deliver the codebase with clear setup instructions.",
+                    "timeline": "I can complete this in 18–20 days, including development, testing with your sample resumes, and final handover.",
+                    "pricing": "My fixed price is $1,500, matching your budget. It covers backend development, LLM integration, secure file handling, test set creation, and documentation for a production-ready MVP."
+                },
+                "review": {
+                    "overallScore": 90,
+                    "verdict": "Strong Proposal",
+                    "metrics": {
+                        "professionalism": 92,
+                        "personalization": 91,
+                        "clarity": 93,
+                        "tone": 89
+                    },
+                    "strengths": [
+                        "Clear alignment with client requirements and constraints",
+                        "Concrete relevant experience with similar AI projects",
+                        "Well-structured approach and realistic timeline",
+                        "Professional and confident tone throughout"
+                    ],
+                    "improvements": [
+                        "Could briefly mention post-delivery support or revisions",
+                        "Add minor client-specific details beyond stated needs",
+                        "Shorten intro slightly for faster scanning"
+                    ]
+                },
+                "generation_time": 5.180392000009306,
+                "metadata": {
+                    "prompt_version": "v2"
+                }
+            },
+            {
+                "job_id": "job_10",
+                "proposal": {
+                    "introduction": "Hi, I’m Kartik Bansal, an AI Product Engineer focused on building production-grade AI tools. I understand your boutique agency needs a proposal-generation workflow where account managers submit briefs and get structured draft scope, approach, timeline, and pricing rationale for review. With hands-on experience shipping LLM-powered proposal systems using Python, FastAPI, and Gemini API, I can deliver this efficiently within your 21-day window and $1,600 budget.",
+                    "relevantExperience": "I recently built an AI Freelancer Proposal Assistant to solve the exact pain of repetitive, inconsistent proposal writing. I designed a full-stack system where briefs are analyzed and turned into personalized proposals with pricing recommendations and a revision workflow, using FastAPI, React, TypeScript, and Gemini API with prompt templates and a structured generation pipeline. It cut manual proposal effort while improving consistency. That work directly de-risks your project because I’ve already implemented brief-to-proposal logic, review cycles, and history storage similar to your needs. Earlier, I developed an AI chatbot on Gemini API with FastAPI and React, proving reliable LLM integration for client-facing drafts.",
+                    "approach": "1. Define prompt templates for scope, approach, timeline, and pricing rationale using Gemini API. 2. Build FastAPI backend generating structured proposal JSON from account-manager briefs. 3. Implement revision workflow with draft status and manager review. 4. Add SQLite-based history storage of briefs and proposals. 5. Write REST API documentation and deliver a simple UI or API client for submission.",
+                    "timeline": "21 days: Days 1–5 design and prompts, 6–14 backend and JSON workflow, 15–18 revision and history, 19–21 docs and testing.",
+                    "pricing": "$1,600 fixed. Matches your budget and reflects a focused build using proven FastAPI, Gemini, and SQLite components from past work."
+                },
+                "review": {
+                    "overallScore": 90,
+                    "verdict": "Strong Proposal",
+                    "metrics": {
+                        "professionalism": 92,
+                        "personalization": 93,
+                        "clarity": 91,
+                        "tone": 89
+                    },
+                    "strengths": [
+                        "Directly addresses client's boutique agency workflow needs",
+                        "Cites relevant past project with similar brief-to-proposal logic",
+                        "Clear timeline and fixed pricing aligned to constraints",
+                        "Concise and structured sections"
+                    ],
+                    "improvements": [
+                        "Could specify how account managers interact with UI/API client",
+                        "Mention basic post-delivery support or handover",
+                        "Slightly more detail on pricing rationale breakdown"
+                    ]
+                },
+                "generation_time": 11.84024099999806,
+                "metadata": {
+                    "prompt_version": "v2"
+                }
+            },
+            {
+                "job_id": "job_11",
+                "proposal": {
+                    "introduction": "Hi, I’m Kartik Bansal, an AI Product Engineer with strong data analysis experience. I understand you need a reproducible analysis of 12 months of DTC sales and marketing data covering revenue trends, product performance, repeat purchases, and campaign conversions using Python, Pandas, NumPy, and Matplotlib. With my background in building analytics dashboards and working with Python and SQL for business insights, I can deliver clean, clear, and actionable results within your 8-day timeline and budget.",
+                    "relevantExperience": "In a previous FinTech engagement, I centralized fragmented financial data from multiple sources using Python and SQL to build Power BI dashboards that improved visibility into performance and investment trends. This shows I can handle messy multi-source data and produce clear insight summaries. On another project, I developed an interactive analytics dashboard with React and a Python backend to monitor KPIs and business metrics, enabling easier data-driven decisions. That experience with Python-based analytics processing and visualization directly supports your need for cohort analysis, clear charts, and reproducible outputs for leadership.",
+                    "approach": "1. Receive and inspect the 12-month sales/marketing data for structure and quality. 2. Clean data using Python, Pandas, and NumPy (handle duplicates, missing values, types). 3. Perform revenue trend, product performance, repeat purchase, and campaign conversion analysis, including cohort analysis. 4. Generate clear Matplotlib charts and a written insight summary. 5. Deliver a reproducible notebook and CSV outputs with documentation.",
+                    "timeline": "I can complete the full analysis and deliver the notebook plus CSVs within 8 days, with a midpoint progress check.",
+                    "pricing": "My fixed price is $650. This matches your budget and reflects the focused, reproducible analysis and clear deliverables required."
+                },
+                "review": {
+                    "overallScore": 88,
+                    "verdict": "Strong Proposal",
+                    "metrics": {
+                        "professionalism": 90,
+                        "personalization": 85,
+                        "clarity": 92,
+                        "tone": 89
+                    },
+                    "strengths": [
+                        "Clear structure with introduction, experience, approach, timeline, pricing",
+                        "Directly addresses client requirements and tools (Python, Pandas, NumPy, Matplotlib)",
+                        "Confident and professional tone with realistic timeline and budget alignment"
+                    ],
+                    "improvements": [
+                        "Personalization could be stronger by referencing specific client context or data nuances",
+                        "Include brief examples of past DTC or e-commerce analytics work if available",
+                        "Mention how reproducibility will be ensured beyond a notebook (e.g., environment specs)"
+                    ]
+                },
+                "generation_time": 5.213123699999414,
+                "metadata": {
+                    "prompt_version": "v2"
+                }
+            },
+            {
+                "job_id": "job_12",
+                "proposal": {
+                    "introduction": "Hello, I’m Kartik Bansal, an AI Product Engineer with strong data and dashboard experience. I understand you need executive Power BI dashboards for a regional retailer that turn Excel exports and SQL data into refresh-ready views of revenue, margin, inventory, and store performance, with filters and a stakeholder guide. My background in financial and business analytics dashboards using Power BI, SQL, and Excel makes me a strong fit to deliver this within your 12-day timeline.",
+                    "relevantExperience": "I previously developed a Financial Market Analytics Dashboard for FinTech where fragmented financial data was hard to analyze. I integrated SQL, Python, and Power BI to automate reporting and built KPI dashboards with market and trend analysis, improving visibility into performance. This directly prepares me to model your SQL and Excel data into refresh-ready Power BI views. I also built business analytics dashboards using React and Python APIs, focusing on KPI cards and interactive visualization, which strengthens my understanding of stakeholder-facing reporting. My experience writing transformation steps and guides ensures your team can use and maintain the dashboards confidently.",
+                    "approach": "1. Collect and review SQL database schema and Excel exports from the retailer. 2. Design a Power BI data model with proper relationships and refresh-ready connections. 3. Build views for revenue, margin, inventory, and regional store performance with date, category, and store filters. 4. Document transformation steps and create a stakeholder user guide. 5. Validate dashboards with sample data and deliver final files with documentation.",
+                    "timeline": "I can complete the full project in 12 days, including data modelling, dashboard build, testing, and guide preparation.",
+                    "pricing": "My fixed price is $850, matching your budget. This covers data modelling, dashboard development, filters, refresh setup, and stakeholder documentation based on the defined scope and timeline."
+                },
+                "review": {
+                    "overallScore": 88,
+                    "verdict": "Strong Proposal with Minor Gaps",
+                    "metrics": {
+                        "professionalism": 90,
+                        "personalization": 92,
+                        "clarity": 89,
+                        "tone": 85
+                    },
+                    "strengths": [
+                        "Clear alignment with client's retail and Power BI needs",
+                        "Specific relevant experience with Financial Market Analytics Dashboard",
+                        "Structured approach and timeline matching 12-day requirement",
+                        "Fixed pricing matches stated budget"
+                    ],
+                    "improvements": [
+                        "Tone could be slightly more conversational to build rapport",
+                        "No mention of post-delivery support or revision policy",
+                        "Could personalize more by referencing specific retailer challenges"
+                    ]
+                },
+                "generation_time": 9.357857399969362,
+                "metadata": {
+                    "prompt_version": "v2"
+                }
+            },
+            {
+                "job_id": "job_13",
+                "proposal": {
+                    "introduction": "Hi, I’m Kartik Bansal, an AI Product Engineer and full-stack developer with strong SQL and analytics experience. I understand your subscription company’s customer-success team needs reliable SQL reports for active customers, churn, support volume, and renewal risk to plan weekly outreach. With hands-on work building SQL-driven analytics for business and financial teams, I can deliver optimized, documented, export-ready queries using joins, CTEs, aggregations, and window functions within your 7-day timeline.",
+                    "relevantExperience": "In a FinTech engagement, I solved the problem of fragmented financial data by building SQL-based analysis pipelines that fed Power BI dashboards for market and KPI reporting, giving teams centralized visibility into performance and automated reporting. This directly prepares me to structure your subscription data with SQL joins and CTEs for clear customer-success views. In a business analytics project, I developed React dashboards backed by Python and SQL to monitor KPIs and operational metrics, which strengthened my ability to design cohort and monthly churn queries that are export-ready and easy to interpret. Both experiences reduce your risk by ensuring I deliver tested, documented SQL that non-technical stakeholders can trust for weekly planning.",
+                    "approach": "1. Review your schema and define key entities (customers, subscriptions, support tickets, renewals). 2. Build CTE-based queries for active-customer and support-volume views using joins and aggregations. 3. Develop cohort and monthly churn reports with window functions. 4. Create renewal-risk scoring view from usage and support signals. 5. Optimize queries, document logic, and export to CSV-ready formats. 6. Share drafts for feedback and finalize.",
+                    "timeline": "I can complete all report views, optimization, and documentation in 7 days, with a mid-week checkpoint for your input.",
+                    "pricing": "My fixed price is $550, matching your budget. This covers requirement analysis, SQL development, optimization, documentation, and revisions for reliable weekly outreach reporting."
+                },
+                "review": {
+                    "overallScore": 90,
+                    "verdict": "Strong Proposal",
+                    "metrics": {
+                        "professionalism": 92,
+                        "personalization": 88,
+                        "clarity": 91,
+                        "tone": 89
+                    },
+                    "strengths": [
+                        "Clear structure with introduction, experience, approach, timeline, pricing",
+                        "Relevant experience mapped to client needs",
+                        "Specific technical methods mentioned (CTEs, window functions)",
+                        "Reasonable timeline and budget alignment"
+                    ],
+                    "improvements": [
+                        "Personalization could include client company name or specific context",
+                        "Introduction could be tighter",
+                        "Add explicit mention of communication tools or post-delivery support"
+                    ]
+                },
+                "generation_time": 11.064482299960218,
+                "metadata": {
+                    "prompt_version": "v2"
+                }
+            },
+            {
+                "job_id": "job_14",
+                "proposal": {
+                    "introduction": "Hi, I’m Kartik Bansal, an AI Product Engineer and full-stack developer with strong Python and data automation experience. I understand you need a repeatable, validated Python script using OpenPyXL to replace manual copying across Excel workbooks, with formula-safe updates, summary tabs, and clear instructions for a non-technical finance user. My background in financial data automation and Python-based reporting makes me a strong fit to deliver this reliably within your timeline.",
+                    "relevantExperience": "In a previous FinTech engagement, I solved the problem of fragmented financial data requiring inefficient manual analysis by building automated reporting with Python, SQL, and Power BI, delivering interactive dashboards and automated reporting that improved visibility into financial performance. That work involved collecting data, validating it, and generating clean summaries for business users—directly relevant to your need for a validated script with summary tabs and non-technical instructions. My experience reduces your risk because I have already delivered repeatable financial reporting pipelines and know how to make outputs usable for non-technical stakeholders.",
+                    "approach": "1. Review your current Excel workbooks and define required summaries and validation rules.\n2. Build a Python script using OpenPyXL that reads inputs, validates data, and performs formula-safe updates.\n3. Generate summary tabs with clear, formatted reporting views.\n4. Write step-by-step instructions for the finance user to run the script weekly.\n5. Test with sample data and deliver the script plus documentation.",
+                    "timeline": "I can deliver the script, summary tabs, and user instructions within 6 days, including one revision cycle.",
+                    "pricing": "My fixed price is $450, matching your budget. This covers scripting, validation, summary design, documentation, and testing for a production-ready automation."
+                },
+                "review": {
+                    "overallScore": 90,
+                    "verdict": "Strong Proposal",
+                    "metrics": {
+                        "professionalism": 92,
+                        "personalization": 88,
+                        "clarity": 93,
+                        "tone": 89
+                    },
+                    "strengths": [
+                        "Clear structure with defined sections",
+                        "Direct relevance to finance automation need",
+                        "Fixed pricing aligned with budget and timeline stated"
+                    ],
+                    "improvements": [
+                        "Personalize more with specific client context or workbook details",
+                        "Include brief mention of post-delivery support",
+                        "Tighten introduction to avoid slight repetition"
+                    ]
+                },
+                "generation_time": 5.696550699998625,
+                "metadata": {
+                    "prompt_version": "v2"
+                }
+            },
+            {
+                "job_id": "job_15",
+                "proposal": {
+                    "introduction": "Hi, I’m Kartik Bansal, an AI Product Engineer and full-stack developer with strong Python and data analysis experience. I understand you need an interpretable churn-risk model for your subscription business using Python, Pandas, and scikit-learn, with clear scoring output and handover docs for your ops team. My background in building data-driven analytics solutions makes me a strong fit to deliver a clean, understandable first version within your timeline and budget.",
+                    "relevantExperience": "In a FinTech analytics engagement, I solved the problem of fragmented financial data by building centralized dashboards using Python and SQL to analyze KPIs and trends, then visualized insights in Power BI. This delivered interactive dashboards and automated reporting that improved visibility into performance. That work required careful data cleaning, analysis, and translating raw CSV-style sources into clear business outputs—directly relevant to your churn project. My experience turning messy historical data into actionable, interpretable outputs reduces your risk of an unusable model and ensures your operations team gets a practical retention tool.",
+                    "approach": "1. Load and clean the provided CSV data (customers, subscriptions, payments, support tickets) using Pandas. 2. Perform exploratory analysis to uncover churn patterns and correlations. 3. Engineer relevant features across data sources for model input. 4. Train and evaluate interpretable scikit-learn models (e.g., logistic regression, decision trees) with clear metrics. 5. Generate churn-risk scores and document the logic in a Jupyter notebook. 6. Deliver handover documentation explaining usage for retention campaigns.",
+                    "timeline": "I can deliver the full churn model, notebook, and documentation in 14 days, comfortably within your 15-day window, including a mid-point check-in.",
+                    "pricing": "My fixed price is $1,100, matching your budget. This covers data cleaning, modeling, scoring output, notebook, and handover docs, ensuring a production-ready first version for your ops team."
+                },
+                "review": {
+                    "overallScore": 88,
+                    "verdict": "Strong Proposal with Minor Gaps",
+                    "metrics": {
+                        "professionalism": 90,
+                        "personalization": 85,
+                        "clarity": 92,
+                        "tone": 89
+                    },
+                    "strengths": [
+                        "Clear structured approach with concrete steps",
+                        "Relevant FinTech analytics experience cited",
+                        "Professional and confident tone throughout",
+                        "Matches client timeline and budget explicitly"
+                    ],
+                    "improvements": [
+                        "Personalization could reference specific client business context or data fields",
+                        "No mention of post-delivery support or model retraining",
+                        "Introduction could be tighter to avoid repetition of skills"
+                    ]
+                },
+                "generation_time": 10.146081499988213,
+                "metadata": {
+                    "prompt_version": "v2"
+                }
+            },
+            {
+                "job_id": "job_16",
+                "proposal": {
+                    "introduction": "Hi, I’m Kartik Bansal, an AI Product Engineer and full-stack developer. I understand you need a scheduled Python pipeline to collect public product data (names, prices, ratings, availability), normalize it, and output analyst-ready CSV/SQLite with rate limiting, configurable rules, deduplication, and logging. With strong Python, SQL, and SQLite experience building data pipelines and dashboards, I’m well-suited to deliver this reliably within your 10-day timeline and $700 budget.",
+                    "relevantExperience": "In a FinTech analytics engagement, I centralized fragmented financial data from multiple sources using Python and SQL to automate analysis and reporting, delivering interactive dashboards and automated reports that improved visibility into performance. This shows I can handle multi-source data collection, normalization, and structured storage—directly reducing risk for your pipeline’s extraction and SQLite output needs. In a business analytics dashboard project, I built a React frontend over a Python analytics backend, working with cleaned, deduplicated metrics for KPI monitoring. That experience with backend data preparation ensures I understand how analyst-ready, deduplicated data must be shaped, lowering the chance of messy outputs for your market-research team.",
+                    "approach": "1. Design configurable extraction rules (YAML/JSON) for target sites and fields. 2. Build Python scraper using Requests + BeautifulSoup with rate limiting and retry/error handling. 3. Normalize and deduplicate records by product name/source. 4. Store output to CSV and SQLite with logging of runs and failures. 5. Add scheduler (cron/APScheduler) and clear run instructions in README.",
+                    "timeline": "I can complete the full pipeline in 10 days: 3 days for scraping/core, 3 days for normalization/storage/logging, 2 days for scheduling/docs, 2 days for testing and handover.",
+                    "pricing": "My fixed price is $700. This matches your budget and reflects a production-ready, documented pipeline with error handling, deduplication, and scheduled runs tailored to your requirements."
+                },
+                "review": {
+                    "overallScore": 88,
+                    "verdict": "Strong Proposal with Minor Gaps",
+                    "metrics": {
+                        "professionalism": 90,
+                        "personalization": 85,
+                        "clarity": 92,
+                        "tone": 87
+                    },
+                    "strengths": [
+                        "Clear structured approach with concrete tech stack",
+                        "Direct alignment to budget and timeline",
+                        "Relevant experience mapped to client needs"
+                    ],
+                    "improvements": [
+                        "Personalize more by referencing specific client context or product types",
+                        "Include brief mention of post-delivery support or maintenance",
+                        "Avoid overused phrases like 'well-suited' to strengthen professionalism"
+                    ]
+                },
+                "generation_time": 10.001095500017982,
+                "metadata": {
+                    "prompt_version": "v2"
+                }
+            },
+            {
+                "job_id": "job_17",
+                "proposal": {
+                    "introduction": "Hi, I’m Kartik Bansal, an AI Product Engineer and full-stack developer. I understand you need a cross-platform mobile app for turf booking with REST API and JWT auth, calendar slot selection, and push-ready confirmations for Android and iOS in 21 days. With my experience building full-stack booking systems and integrating REST APIs, I’m well positioned to deliver a clean, reliable app within your budget and timeline.",
+                    "relevantExperience": "I previously built a Smart Turf Booking Platform as a full-stack developer where sports facilities faced manual booking and scheduling conflicts. I designed the booking workflow and developed REST APIs with a React frontend and FastAPI backend backed by SQL, delivering complete booking history, admin management, and a working REST API integration. That project directly mirrors your need to consume an existing REST API for venues and bookings, and it proved how structured booking logic reduces conflicts. My experience with API-driven booking flows lowers your risk of integration issues and ensures a smooth calendar-based slot and confirmation experience.",
+                    "approach": "1. Set up React Native project with shared Android/iOS layouts. 2. Integrate existing REST API with JWT authentication and secure token storage. 3. Build calendar-based slot browsing and booking screen using venue API data. 4. Implement booking confirmation flow structured for push notifications. 5. Test on both platforms and deliver with clear documentation and progress updates.",
+                    "timeline": "I can deliver the app in 21 days, covering setup, API integration, UI build, testing, and final handover within your stated timeline.",
+                    "pricing": "My fixed price is $1,500, matching your budget. This covers end-to-end cross-platform development, API integration, and testing based on the defined scope and my prior booking-platform experience."
+                },
+                "review": {
+                    "overallScore": 88,
+                    "verdict": "Strong Proposal",
+                    "metrics": {
+                        "professionalism": 90,
+                        "personalization": 92,
+                        "clarity": 89,
+                        "tone": 85
+                    },
+                    "strengths": [
+                        "Directly references client requirements (21 days, $1500, REST/JWT)",
+                        "Shows relevant past project matching the turf booking use case",
+                        "Clear step-by-step approach and timeline alignment"
+                    ],
+                    "improvements": [
+                        "Tone slightly salesy in places; could be more neutral",
+                        "Could clarify testing depth and post-delivery support",
+                        "Minor repetition of 'booking' terms; tighten wording"
+                    ]
+                },
+                "generation_time": 8.356311599956825,
+                "metadata": {
+                    "prompt_version": "v2"
+                }
+            },
+            {
+                "job_id": "job_18",
+                "proposal": {
+                    "introduction": "Hi, I’m Kartik Bansal, an AI Product Engineer and full-stack developer. I understand you need a repeatable production deployment for your FastAPI and React SaaS, with Docker, GitHub Actions CI/CD, PostgreSQL, secrets, health checks, and docs. Having built and shipped multiple FastAPI + React products locally and to production-style setups, I can deliver a reliable, automated pipeline within your 14-day timeline and $1,000 budget.",
+                    "relevantExperience": "In my Smart Turf Booking Platform work, I solved manual scheduling conflicts by building a React + FastAPI app with REST APIs and SQL data management, giving me direct experience structuring container-ready FastAPI and React services. My AI Freelancer Proposal Assistant was a full-stack FastAPI + React + TypeScript SaaS using layered architecture, SQLite, and modular backend design; this shows I know how to separate config, services, and repositories for clean Docker and env-based deployment. Both projects prove I can package your stack into reliable, maintainable deployments and reduce your risk of broken production releases.",
+                    "approach": "1. Containerize FastAPI API and React frontend using Docker and Docker Compose with env-based config. 2. Configure PostgreSQL with secure environment secrets and connection via backend. 3. Set up GitHub Actions to build, test, and deploy automatically on pushes to main. 4. Add logging, API health checks, and basic monitoring guidance. 5. Write clear deployment documentation for repeatable setup.",
+                    "timeline": "I can complete this in 12–14 days, including testing and documentation handover.",
+                    "pricing": "My fixed price is $1,000. This matches your budget and covers containerization, CI/CD, PostgreSQL setup, monitoring guidance, and documentation based on the defined scope."
+                },
+                "review": {
+                    "overallScore": 90,
+                    "verdict": "Strong Proposal",
+                    "metrics": {
+                        "professionalism": 92,
+                        "personalization": 88,
+                        "clarity": 93,
+                        "tone": 89
+                    },
+                    "strengths": [
+                        "Clear introduction with relevant skills and constraints addressed",
+                        "Concrete past project experience mapped to client needs",
+                        "Structured approach with actionable steps",
+                        "Matches budget and timeline explicitly"
+                    ],
+                    "improvements": [
+                        "Could reference specific client business or product name for more personalization",
+                        "Add brief note on post-deployment support or handover assistance",
+                        "Slightly shorten experience section for faster scanning"
+                    ]
+                },
+                "generation_time": 7.33437919995049,
+                "metadata": {
+                    "prompt_version": "v2"
+                }
+            },
+            {
+                "job_id": "job_19",
+                "proposal": {
+                    "introduction": "Hi, I’m Kartik Bansal, an AI Product Engineer and full-stack developer with strong UI/UX and dashboard experience. I understand you need a customer analytics dashboard for a growing e-commerce brand that lets non-technical managers grasp sales, repeat purchases, segments, and campaigns without raw reports. With my background in designing intuitive analytics dashboards and handing off to React teams, I can deliver clear, accessible Figma designs and documentation within your 10-day timeline and $750 budget.",
+                    "relevantExperience": "I’ve solved similar problems by building interactive analytics dashboards for business users who needed clear visibility into KPIs and workflows. In one project, I designed responsive dashboards with proposal history, KPI visualization, and workflow tracking using React, TypeScript, and Tailwind CSS, improving user experience through a modern interface. In another, I developed a React and Python analytics dashboard with KPI cards and charts that centralized business metrics for easier data-driven decisions. These experiences show I understand non-technical user needs, information architecture, and design handoff to React developers—reducing your risk of misaligned UI or poor dev transition. My Figma and frontend skills directly support your requirements.",
+                    "approach": "1. Define user-flow and information architecture mapped to manager goals (sales, repeat purchase, segments, campaigns). 2. Create low-fidelity wireframes for dashboard, tables, and chart states. 3. Design high-fidelity responsive Figma screens with accessible color, typography, and components. 4. Document interactive states and write handoff notes for your React team. 5. Share for review and refine based on feedback.",
+                    "timeline": "I can complete the full design and handoff in 10 days, with wireframes by day 3, high-fidelity screens by day 7, and finalized notes by day 10.",
+                    "pricing": "My fixed price is $750. This matches your budget and covers user-flow design, Figma screens, responsive states, accessibility guidance, and React handoff documentation tailored to your e-commerce use case."
+                },
+                "review": {
+                    "overallScore": 90,
+                    "verdict": "Strong Proposal",
+                    "metrics": {
+                        "professionalism": 92,
+                        "personalization": 88,
+                        "clarity": 93,
+                        "tone": 89
+                    },
+                    "strengths": [
+                        "Clear structure with intro, experience, approach, timeline, pricing",
+                        "Directly addresses client needs and constraints (10-day, $750)",
+                        "Concrete past project examples showing relevant skills",
+                        "Well-defined step-by-step approach and timeline"
+                    ],
+                    "improvements": [
+                        "Include client or brand name for stronger personalization",
+                        "Specify exact deliverables count (e.g., number of Figma screens)",
+                        "Briefly note revision policy or post-handoff support"
+                    ]
+                },
+                "generation_time": 10.978212699992582,
+                "metadata": {
+                    "prompt_version": "v2"
+                }
+            },
+            {
+                "job_id": "job_20",
+                "proposal": {
+                    "introduction": "Hi, I’m Kartik Bansal, an AI Product Engineer and full-stack developer. I understand you need an MVP SaaS operations dashboard with a React/TypeScript frontend, FastAPI backend, JWT auth, Stripe subscriptions, and KPI/request tracking—deployment-ready in 30 days. With production experience in FastAPI, React, and dashboard products, I’m well-positioned to deliver a clean, scalable MVP within your budget and timeline.",
+                    "relevantExperience": "I’ve built analytics dashboards where businesses needed centralized KPI monitoring; I developed responsive React and TypeScript interfaces with Tailwind CSS and Python-backed APIs, improving reporting and user experience. This directly maps to your KPI cards and request workflow UI. In a separate full-stack AI SaaS, I designed a FastAPI backend using layered architecture with SQLite and SQLAlchemy, React/TypeScript frontend, JWT-style auth flows, and dashboard analytics—proving I can deliver the exact stack you require with clean documentation and modular code, reducing your delivery risk.",
+                    "approach": "1. Set up FastAPI backend with SQLite, JWT auth, and role-aware routes. 2. Build React + TypeScript responsive dashboard with KPI cards and request management. 3. Integrate Stripe subscription checkout. 4. Implement customer records and service request workflow. 5. Write documentation and prepare deployment-ready config. 6. Test end-to-end and share progress updates.",
+                    "timeline": "30 days is realistic: ~10 days backend, ~12 days frontend + Stripe, ~8 days testing, docs, and deployment prep.",
+                    "pricing": "$2,000 fixed. This matches your budget and covers end-to-end MVP build, Stripe integration, and deployment-ready setup using my existing FastAPI/React stack for efficiency."
+                },
+                "review": {
+                    "overallScore": 88,
+                    "verdict": "Strong Proposal",
+                    "metrics": {
+                        "professionalism": 90,
+                        "personalization": 85,
+                        "clarity": 92,
+                        "tone": 89
+                    },
+                    "strengths": [
+                        "Clear and structured approach with timeline",
+                        "Relevant experience mapped to project needs",
+                        "Professional and confident tone"
+                    ],
+                    "improvements": [
+                        "Add client-specific details to improve personalization",
+                        "Specify testing and deployment platforms",
+                        "Mention post-delivery support or revisions"
+                    ]
+                },
+                "generation_time": 8.824265700008254,
+                "metadata": {
+                    "prompt_version": "v2"
+                }
+            }
+        ]
+    },
+    "winner": "Strategy A",
+    "improvement_percentage": 0.05649717514123973,
+    "recommendation": "Improvement is marginal. Continue experimenting before deployment."
+}

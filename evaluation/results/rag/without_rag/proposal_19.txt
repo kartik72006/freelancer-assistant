@@ -1,0 +1,78 @@
+================================================================================
+JOB FILE : job_19.txt
+MODE : without_rag
+================================================================================
+
+ORIGINAL JOB DESCRIPTION
+--------------------------------------------------------------------------------
+Design the UI/UX for a customer analytics dashboard for a growing e-commerce brand.
+
+The dashboard should help non-technical managers understand sales, repeat-purchase
+behavior, customer segments, and campaign performance without reading raw reports.
+
+Requirements:
+- User-flow and information-architecture design
+- Wireframes and high-fidelity Figma screens
+- Responsive dashboard, table, and chart states
+- Accessible colour, typography, and component guidance
+- Design handoff notes for a React development team
+
+Budget: $750
+
+Timeline: 10 days
+
+ANALYSIS
+================================================================================
+Evaluation mode: without_rag
+
+RETRIEVED CONTEXT
+--------------------------------------------------------------------------------
+Relevant Project 1
+
+Title:
+AI Freelancer Proposal Assistant
+
+Project Description:
+Designed and developed a production-style AI-powered proposal generation platform that automates job analysis, proposal generation, pricing recommendations, AI-based proposal review, proposal history management, dashboard analytics, and version-controlled proposal editing.
+
+Technologies:
+Python, FastAPI, React, TypeScript, SQLite, Gemini API, SQLAlchemy, SentenceTransformers
+
+Keyword Match Score:
+5
+
+------------------------------------------------------------
+
+Relevant Project 2
+
+Title:
+Analytics Dashboard
+
+Project Description:
+Developed an interactive analytics dashboard for monitoring business metrics, KPIs, and operational performance through visual reports.
+
+Technologies:
+React, Python
+
+Keyword Match Score:
+5
+
+------------------------------------------------------------
+
+Relevant Project 3
+
+Title:
+Smart Turf Booking Platform
+
+Project Description:
+Developed a full-stack sports facility booking platform supporting scheduling workflows, booking management, backend APIs, and responsive user interfaces.
+
+Technologies:
+React, FastAPI, SQL
+
+Keyword Match Score:
+5
+
+PROPOSAL
+================================================================================
+{'introduction': "Hello there,\n\nI'm excited to submit my proposal for designing the UI/UX for your customer analytics dashboard. As an AI Product Engineer with extensive experience in building user-friendly, data-driven applications, I understand your need to empower non-technical managers with clear insights into sales, customer behavior, and campaign performance.\n\nMy background in creating intuitive dashboards and focusing on excellent user experiences makes me a strong candidate to deliver a visually appealing and highly functional dashboard for your growing e-commerce brand.", 'relevantExperience': "My experience aligns perfectly with your project requirements. In the 'Analytics Dashboard' project, I developed an interactive platform for monitoring business metrics and KPIs through visual reports. This involved transforming complex data into easily understandable visual representations, similar to your need for a dashboard that non-technical managers can use effectively.\n\nFurthermore, my work on the 'AI Freelancer Proposal Assistant' involved designing user flows and creating a production-style application with a focus on data management and presentation. While this project had an AI component, the core principle of making complex information accessible and actionable through a well-designed interface is directly transferable to your customer analytics dashboard. I am adept at using tools like Figma to create high-fidelity screens and ensuring responsive design states, which are key requirements for your project.", 'approach': "My approach to designing your customer analytics dashboard will be iterative and client-focused:\n1.  **Discovery & Requirements Refinement:** I'll start by thoroughly understanding your key business questions, target audience, and desired insights. This will involve clarifying the most critical metrics and how managers will interact with the data.\n2.  **Information Architecture & User Flows:** I will map out the structure of the dashboard, defining user journeys and how different data points will be accessed and presented for optimal clarity.\n3.  **Wireframing:** Low-fidelity wireframes will be created to establish the layout, navigation, and core components of the dashboard, allowing for early feedback.\n4.  **High-Fidelity Design (Figma):** I will then develop detailed, high-fidelity mockups in Figma, incorporating your brand's aesthetic. This will include designing responsive states for various screen sizes, tables, and charts.\n5.  **Component Guidance & Accessibility:** I will define a clear design system, including accessible color palettes, typography, and reusable UI components, ensuring consistency and ease of development.\n6.  **Design Handoff:** Comprehensive design handoff notes and assets will be provided to your React development team, ensuring a smooth implementation process.", 'timeline': 'I can deliver the complete UI/UX design, including user flows, wireframes, high-fidelity Figma screens, and design handoff notes, within your requested 10-day timeline. This will be achieved through efficient iteration and clear communication.', 'pricing': 'I propose a fixed price of $750 for this UI/UX design project. This estimate is based on the scope of work, which includes user-flow mapping, wireframing, high-fidelity design in Figma with responsive states, accessibility considerations, and detailed handoff documentation for your development team. I am confident that this investment will result in a powerful and intuitive analytics dashboard for your e-commerce brand.'}

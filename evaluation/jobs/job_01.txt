@@ -1,0 +1,9 @@
+Build a responsive operations dashboard for a logistics company. Managers need daily delivery, delay, driver, and warehouse KPI visibility from an existing REST API.
+
+Requirements:
+- React, Tailwind CSS, REST API integration, and JWT authentication
+- KPI cards, filterable tables, delivery charts, and mobile layouts
+- Reusable components with setup documentation
+
+Budget: $900
+Timeline: 12 days

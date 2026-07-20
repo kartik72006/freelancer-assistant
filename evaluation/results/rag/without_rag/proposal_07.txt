@@ -1,0 +1,72 @@
+================================================================================
+JOB FILE : job_07.txt
+MODE : without_rag
+================================================================================
+
+ORIGINAL JOB DESCRIPTION
+--------------------------------------------------------------------------------
+Develop an AI assistant for recruitment outreach. From a role description and candidate profile, it should draft factual, consistent outreach emails as structured JSON for an existing workflow tool.
+
+Requirements:
+- Python, Gemini API, and prompt engineering
+- JSON-schema-constrained outputs and FastAPI endpoint
+- Example prompts, error handling, and setup documentation
+
+Budget: $1,400
+Timeline: 18 days
+
+ANALYSIS
+================================================================================
+Evaluation mode: without_rag
+
+RETRIEVED CONTEXT
+--------------------------------------------------------------------------------
+Relevant Project 1
+
+Title:
+AI Freelancer Proposal Assistant
+
+Project Description:
+Designed and developed a production-style AI-powered proposal generation platform that automates job analysis, proposal generation, pricing recommendations, AI-based proposal review, proposal history management, dashboard analytics, and version-controlled proposal editing.
+
+Technologies:
+Python, FastAPI, React, TypeScript, SQLite, Gemini API, SQLAlchemy, SentenceTransformers
+
+Keyword Match Score:
+15
+
+------------------------------------------------------------
+
+Relevant Project 2
+
+Title:
+AI-Powered Chatbot
+
+Project Description:
+Developed an AI-powered chatbot using Gemini API to provide intelligent customer support through natural language understanding and response generation.
+
+Technologies:
+Python, FastAPI, React, Gemini API
+
+Keyword Match Score:
+15
+
+------------------------------------------------------------
+
+Relevant Project 3
+
+Title:
+Analytics Dashboard
+
+Project Description:
+Developed an interactive analytics dashboard for monitoring business metrics, KPIs, and operational performance through visual reports.
+
+Technologies:
+React, Python
+
+Keyword Match Score:
+5
+
+PROPOSAL
+================================================================================
+{'introduction': 'Hi there. I understand you are looking to build an AI recruitment outreach assistant that generates factual, consistent emails as structured JSON to integrate into your existing workflow. With my background as an AI Product Engineer specializing in LLM-driven applications, I am well-positioned to build a robust, production-ready solution that meets your schema and integration requirements. I focus on delivering clean, maintainable architecture and reliable outputs, ensuring your outreach process is both efficient and scalable.', 'relevantExperience': "I have extensive experience building exactly these types of production-grade AI tools. For my 'AI Freelancer Proposal Assistant,' I engineered a system that handles complex job analysis and structured data generation, similar to your outreach tool. This involved utilizing FastAPI, Gemini API, and SQLite to manage complex data workflows. Additionally, my work on an AI-powered customer support chatbot provided me with deep expertise in prompt engineering and natural language response generation, ensuring that the AI remains consistent and factual. I am highly comfortable implementing JSON-schema-constrained outputs to ensure seamless integration with existing software pipelines.", 'approach': '1. Requirement Discovery: Define the specific JSON schema requirements and identify the core data points needed from candidate profiles. 2. Prompt Engineering: Develop and test optimized system prompts with the Gemini API to ensure the emails are factual and contextually accurate. 3. Backend Development: Build a FastAPI endpoint that enforces the defined JSON schema and incorporates robust error handling for API reliability. 4. Integration & Documentation: Ensure the output integrates cleanly with your existing tool and provide thorough documentation for setup and ongoing maintenance.', 'timeline': 'I propose a 14-day timeline to complete the development, rigorous testing of edge cases, and documentation handover, well within your 18-day window.', 'pricing': 'My fixed-price estimate is $1,400. This covers end-to-end development, implementation of the requested schema-constrained FastAPI architecture, and comprehensive documentation to ensure a seamless handoff.'}

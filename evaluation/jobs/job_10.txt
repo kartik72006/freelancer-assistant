@@ -1,0 +1,9 @@
+Develop a proposal-generation workflow for a boutique digital agency. Account managers will supply client briefs and need draft scope, approach, timeline, and pricing rationale for review before sending.
+
+Requirements:
+- Python with OpenAI or Gemini API
+- Prompt templates, structured proposal JSON, and revision workflow
+- Basic history storage and API documentation
+
+Budget: $1,600
+Timeline: 21 days

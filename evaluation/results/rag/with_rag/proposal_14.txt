@@ -1,0 +1,88 @@
+================================================================================
+JOB FILE : job_14.txt
+MODE : with_rag
+================================================================================
+
+ORIGINAL JOB DESCRIPTION
+--------------------------------------------------------------------------------
+Automate weekly finance reporting that currently requires copying data across Excel workbooks. The client wants a repeatable validated script that updates summaries and creates a ready-to-send report.
+
+Requirements:
+- Python and OpenPyXL
+- Input validation, formula-safe updates, and summary tabs
+- Instructions for a non-technical finance user
+
+Budget: $450
+Timeline: 6 days
+
+ANALYSIS
+================================================================================
+Evaluation mode: with_rag
+
+RETRIEVED CONTEXT
+--------------------------------------------------------------------------------
+Relevant Project 1
+
+Title:
+Financial Market Analytics Dashboard
+
+Role:
+Data Analyst
+
+Domain:
+FinTech
+
+Project Type:
+Analytics Platform
+
+Project Details:
+Title:
+Financial Market Analytics Dashboard
+
+Role:
+Data Analyst
+
+Domain:
+FinTech
+
+Project Type:
+Analytics Platform
+
+Problem Solved:
+Financial data from multiple sources is difficult to analyze efficiently without centralized reporting.
+
+Description:
+Developed dashboards for analyzing financial markets, KPIs, business trends, and investment insights using Python, SQL, Excel, and Power BI.
+
+Responsibilities:
+Collected financial data, Performed SQL analysis, Created Power BI dashboards, Generated business insights
+
+Technical Solution:
+Integrated Python, SQL, Excel, and Power BI for automated financial analysis and reporting.
+
+Architecture:
+Data Sources → SQL → Python → Power BI
+
+Key Features:
+Market Analysis, KPI Dashboards, Trend Analysis, Investment Insights
+
+Technologies:
+Python, SQL, Power BI, Excel
+
+Business Impact:
+Improved visibility into financial performance and investment trends.
+
+Results:
+['Interactive financial dashboards', 'Automated reporting']
+
+Skills:
+Python, SQL, Power BI, Excel, Data Analysis
+
+Similarity Score:
+0.4665
+
+------------------------------------------------------------
+
+PROPOSAL
+================================================================================
+{'introduction': 'Hi there! I understand you are looking to streamline your weekly financial reporting process by replacing manual Excel copy-pasting with an automated Python solution. I specialize in building robust data-driven tools and automation scripts, and I would love to help you eliminate these repetitive tasks, reduce the risk of human error, and provide your finance team with a clean, ready-to-send summary report.', 'relevantExperience': 'I have extensive experience in automating financial workflows and reporting. In my previous work on a Financial Market Analytics Dashboard, I developed automated pipelines that integrated SQL and Python to centralize fragmented financial data. This project required strict data integrity and the creation of automated reporting outputs similar to what you need. I am highly comfortable with Python and the OpenPyXL library, and I have a proven track record of converting complex manual data processes into efficient, automated workflows.', 'approach': "1. Analysis: Review your current Excel structure and reporting requirements to identify specific inputs and output formats. 2. Development: Write a custom Python script using OpenPyXL to ingest your data files, perform necessary calculations, and populate your summary templates. 3. Validation: Implement automated data validation steps to ensure formula integrity and identify potential errors before generating the report. 4. Documentation: Provide a simple, step-by-step 'read-me' guide tailored for non-technical users to execute the script in seconds.", 'timeline': 'I can complete this project within 5 days, including testing and refining the script to ensure it meets your exact reporting needs.', 'pricing': '$450. This fixed price covers the full development of the automation script, rigorous testing to ensure it is formula-safe, and the creation of user-friendly instructions for your team.'}

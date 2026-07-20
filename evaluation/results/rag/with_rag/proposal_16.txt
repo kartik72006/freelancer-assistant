@@ -1,0 +1,150 @@
+================================================================================
+JOB FILE : job_16.txt
+MODE : with_rag
+================================================================================
+
+ORIGINAL JOB DESCRIPTION
+--------------------------------------------------------------------------------
+Create a scheduled product-data collection pipeline for a market-research firm. It should collect approved public product names, prices, ratings, and availability, normalize them, and save analyst-ready data.
+
+Requirements:
+- Python, Requests, and BeautifulSoup
+- Rate limiting, configurable extraction rules, and error handling
+- CSV or SQLite output, deduplication, logging, and run instructions
+
+Budget: $700
+Timeline: 10 days
+
+ANALYSIS
+================================================================================
+Evaluation mode: with_rag
+
+RETRIEVED CONTEXT
+--------------------------------------------------------------------------------
+Relevant Project 1
+
+Title:
+Financial Market Analytics Dashboard
+
+Role:
+Data Analyst
+
+Domain:
+FinTech
+
+Project Type:
+Analytics Platform
+
+Project Details:
+Title:
+Financial Market Analytics Dashboard
+
+Role:
+Data Analyst
+
+Domain:
+FinTech
+
+Project Type:
+Analytics Platform
+
+Problem Solved:
+Financial data from multiple sources is difficult to analyze efficiently without centralized reporting.
+
+Description:
+Developed dashboards for analyzing financial markets, KPIs, business trends, and investment insights using Python, SQL, Excel, and Power BI.
+
+Responsibilities:
+Collected financial data, Performed SQL analysis, Created Power BI dashboards, Generated business insights
+
+Technical Solution:
+Integrated Python, SQL, Excel, and Power BI for automated financial analysis and reporting.
+
+Architecture:
+Data Sources → SQL → Python → Power BI
+
+Key Features:
+Market Analysis, KPI Dashboards, Trend Analysis, Investment Insights
+
+Technologies:
+Python, SQL, Power BI, Excel
+
+Business Impact:
+Improved visibility into financial performance and investment trends.
+
+Results:
+['Interactive financial dashboards', 'Automated reporting']
+
+Skills:
+Python, SQL, Power BI, Excel, Data Analysis
+
+Similarity Score:
+0.4557
+
+------------------------------------------------------------
+
+Relevant Project 2
+
+Title:
+Analytics Dashboard
+
+Role:
+Frontend Developer
+
+Domain:
+Business Analytics
+
+Project Type:
+Dashboard Application
+
+Project Details:
+Title:
+Analytics Dashboard
+
+Role:
+Frontend Developer
+
+Domain:
+Business Analytics
+
+Project Type:
+Dashboard Application
+
+Problem Solved:
+Businesses require a centralized platform to monitor KPIs and make data-driven decisions from multiple metrics.
+
+Description:
+Developed an interactive analytics dashboard for monitoring business metrics, KPIs, and operational performance through visual reports.
+
+Responsibilities:
+Designed dashboard UI, Built reusable React components, Implemented charts and KPI cards, Connected backend analytics data
+
+Technical Solution:
+Built a responsive dashboard using React with dynamic visualizations and Python-based analytics processing.
+
+Architecture:
+React Frontend → Analytics API → Python Backend
+
+Key Features:
+KPI Cards, Charts, Business Metrics, Interactive Dashboard
+
+Technologies:
+React, Python
+
+Business Impact:
+Enabled easier monitoring of business performance through centralized analytics.
+
+Results:
+['Interactive visualization dashboard', 'Improved business reporting']
+
+Skills:
+React, Python, Dashboard Design, Data Visualization
+
+Similarity Score:
+0.3934
+
+------------------------------------------------------------
+
+PROPOSAL
+================================================================================
+{'introduction': 'Hi there! I understand you are looking to build a robust, automated product-data collection pipeline for your market-research firm. Having specialized in building end-to-end AI and full-stack software, I have extensive experience in Python-based automation and data processing. I can deliver a clean, maintainable, and scalable solution that ensures your team receives clean, analyst-ready data while respecting rate limits and ensuring data integrity.', 'relevantExperience': 'My background in building data-driven tools makes me an ideal fit for this pipeline. I previously developed a Financial Market Analytics Dashboard where I performed SQL analysis and automated reporting, which required rigorous data collection and processing workflows. Additionally, my work on an interactive Analytics Dashboard involved building systems that connect backend data processing—similar to your extraction logic—to user-friendly interfaces. These projects required the same attention to data normalization and reliability that your pipeline project demands.', 'approach': '1. Requirement Analysis: Define the target product sources and extraction rules for product names, pricing, and ratings. 2. Pipeline Development: Build the Python-based extraction engine using Requests and BeautifulSoup with robust rate-limiting and error-handling logic to ensure consistent uptime. 3. Normalization & Storage: Implement data cleaning protocols and schema design (SQLAlchemy/SQLite) to handle deduplication and storage. 4. Logging & Documentation: Integrate comprehensive logging for status monitoring and provide clear documentation for your team to manage and trigger future runs.', 'timeline': 'I can deliver a complete, tested pipeline within 10 days, allowing ample time for iterative testing of the extraction rules and final deployment.', 'pricing': 'I propose a fixed price of $700. This estimate covers the full development of the pipeline, data schema design, and a clear run-instruction guide, ensuring you have a production-ready solution within your budget.'}

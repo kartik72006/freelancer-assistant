@@ -1,0 +1,15 @@
+Design the UI/UX for a customer analytics dashboard for a growing e-commerce brand.
+
+The dashboard should help non-technical managers understand sales, repeat-purchase
+behavior, customer segments, and campaign performance without reading raw reports.
+
+Requirements:
+- User-flow and information-architecture design
+- Wireframes and high-fidelity Figma screens
+- Responsive dashboard, table, and chart states
+- Accessible colour, typography, and component guidance
+- Design handoff notes for a React development team
+
+Budget: $750
+
+Timeline: 10 days

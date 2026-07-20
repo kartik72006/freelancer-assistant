@@ -1,0 +1,95 @@
+================================================================================
+JOB FILE : job_17.txt
+MODE : with_rag
+================================================================================
+
+ORIGINAL JOB DESCRIPTION
+--------------------------------------------------------------------------------
+Build a cross-platform mobile app for a local turf-booking business.
+
+The app should let players browse available turf slots, create bookings, receive
+booking confirmations, and view their upcoming games. An existing REST API will
+be available for authentication, venues, and bookings.
+
+Requirements:
+- React Native or Flutter
+- REST API integration and JWT authentication
+- Calendar-based slot selection
+- Push-notification-ready booking confirmation flow
+- Android and iOS responsive layouts
+
+Budget: $1,500
+
+Timeline: 21 days
+
+ANALYSIS
+================================================================================
+Evaluation mode: with_rag
+
+RETRIEVED CONTEXT
+--------------------------------------------------------------------------------
+Relevant Project 1
+
+Title:
+Smart Turf Booking Platform
+
+Role:
+Full-Stack Developer
+
+Domain:
+Sports Tech
+
+Project Type:
+Booking Platform
+
+Project Details:
+Title:
+Smart Turf Booking Platform
+
+Role:
+Full-Stack Developer
+
+Domain:
+Sports Tech
+
+Project Type:
+Booking Platform
+
+Problem Solved:
+Sports facilities often rely on manual booking processes, leading to scheduling conflicts and inefficient resource management.
+
+Description:
+Developed a full-stack sports facility booking platform supporting scheduling workflows, booking management, backend APIs, and responsive user interfaces.
+
+Responsibilities:
+Designed booking workflow, Developed REST APIs, Built responsive frontend, Managed booking database
+
+Technical Solution:
+Built a React frontend with FastAPI backend for booking management, scheduling, and API-driven operations.
+
+Architecture:
+React → FastAPI → Database
+
+Key Features:
+Online Booking, Scheduling, Booking History, Admin Management
+
+Technologies:
+React, FastAPI, SQL
+
+Business Impact:
+Simplified sports facility booking and reduced scheduling conflicts.
+
+Results:
+['Complete booking workflow', 'REST API integration']
+
+Skills:
+React, FastAPI, REST APIs, SQL, Full-Stack Development
+
+Similarity Score:
+0.6200
+
+------------------------------------------------------------
+
+PROPOSAL
+================================================================================
+{'introduction': 'Hi there! I understand you are looking to build a cross-platform mobile app for a local turf-booking business to streamline slot browsing and bookings for your users. As an AI Product Engineer and Full-Stack Developer, I specialize in building efficient, user-centric booking platforms. My background in developing robust booking workflows and integrating REST APIs makes me an ideal fit for this project, as I can hit the ground running with your existing infrastructure and ensure a seamless mobile experience for your players.', 'relevantExperience': 'I recently developed a comprehensive Smart Turf Booking Platform, which gives me direct domain expertise for your project. In that project, I built the full end-to-end booking workflow—including scheduling logic and management—using React and a FastAPI-based backend. By successfully managing complex booking history, admin-side scheduling, and REST API integrations, I gained deep insight into the specific pain points of turf booking systems. I am fully prepared to leverage this experience to build your mobile app with the same focus on reliability and clean, maintainable architecture.', 'approach': '1. Discovery & Integration: I will start by reviewing your existing REST API documentation and JWT authentication flow to ensure a secure and stable connection between the app and your backend. 2. UI/UX Development: Using React Native, I will build a cross-platform interface focused on a user-friendly calendar-based slot selection experience. 3. Feature Implementation: I will integrate the booking confirmation flows and configure push notifications to ensure players receive real-time updates. 4. Testing & Deployment: I will conduct rigorous cross-platform testing on both Android and iOS to ensure responsive layouts and smooth performance before handing over the final build.', 'timeline': "I can deliver this project within the 21-day timeline you've requested. My plan includes an initial 4-day period for API integration and authentication setup, 12 days for frontend UI/UX and feature development, and 5 days for end-to-end testing and deployment.", 'pricing': 'I propose a fixed price of $1,500. This reflects the scope of developing a fully functional, cross-platform mobile application that integrates seamlessly with your existing backend, ensuring you get a high-quality product within your budget.'}

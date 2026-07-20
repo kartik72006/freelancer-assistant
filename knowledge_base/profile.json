@@ -1,0 +1,98 @@
+{
+  "name": "Kartik Bansal",
+
+  "title": "AI Product Engineer | Full-Stack AI Developer",
+
+  "experience": "Built multiple end-to-end AI and full-stack software products.",
+
+  "bio": "AI Product Engineer specializing in building intelligent software products powered by Large Language Models, modern backend engineering, and scalable frontend applications. Experienced in developing production-quality AI solutions using Python, FastAPI, React, TypeScript, SQL databases, and modern LLM APIs. Focused on delivering clean architecture, maintainable code, excellent user experiences, and measurable business value.",
+
+  "email": "kartik@email.com",
+
+  "linkedin": "https://linkedin.com/in/kartikbansal",
+
+  "skills": [
+
+    "Python",
+
+    "FastAPI",
+
+    "React",
+
+    "TypeScript",
+
+    "JavaScript",
+
+    "SQL",
+
+    "SQLite",
+
+    "REST APIs",
+
+    "SQLAlchemy",
+
+    "Pydantic",
+
+    "Tailwind CSS",
+
+    "Vite",
+
+    "Git",
+
+    "GitHub",
+
+    "Prompt Engineering",
+
+    "Gemini API",
+
+    "OpenAI API",
+
+    "OpenRouter",
+
+    "AI Application Development",
+
+    "Product Thinking",
+
+    "Product Analytics",
+
+    "Data Visualization",
+
+    "Power BI",
+
+    "Figma"
+  ],
+
+  "working_style": [
+
+    "Client-first communication",
+
+    "Clean and maintainable code",
+
+    "Modular architecture",
+
+    "Scalable backend design",
+
+    "Responsive frontend development",
+
+    "Regular progress updates",
+
+    "Thorough testing",
+
+    "Clear documentation"
+  ],
+
+  "services": [
+
+    "AI Application Development",
+
+    "Full-Stack Web Development",
+
+    "Backend API Development",
+
+    "SaaS MVP Development",
+
+    "Dashboard Development",
+
+    "Business Automation"
+  ]
+}

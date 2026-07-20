@@ -1,0 +1,32 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Databases
+*.db
+*.sqlite3
+
+# ChromaDB
+data/chroma_db/
+
+# Node
+node_modules/
+dist/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+#Agents
+.agents/

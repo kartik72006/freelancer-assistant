@@ -1,0 +1,56 @@
+================================================================================
+JOB FILE : job_06.txt
+MODE : without_rag
+================================================================================
+
+ORIGINAL JOB DESCRIPTION
+--------------------------------------------------------------------------------
+Create an authentication and account-management module for an internal HR portal. Employees need secure sign-in, password resets, profiles, and role-limited access to team data.
+
+Requirements:
+- Django, Django REST Framework, PostgreSQL, and JWT
+- Password-reset and profile APIs
+- Permission tests and concise API documentation
+
+Budget: $850
+Timeline: 12 days
+
+ANALYSIS
+================================================================================
+Evaluation mode: without_rag
+
+RETRIEVED CONTEXT
+--------------------------------------------------------------------------------
+Relevant Project 1
+
+Title:
+Smart Turf Booking Platform
+
+Project Description:
+Developed a full-stack sports facility booking platform supporting scheduling workflows, booking management, backend APIs, and responsive user interfaces.
+
+Technologies:
+React, FastAPI, SQL
+
+Keyword Match Score:
+5
+
+------------------------------------------------------------
+
+Relevant Project 2
+
+Title:
+Financial Market Analytics Dashboard
+
+Project Description:
+Developed dashboards for analyzing financial markets, KPIs, business trends, and investment insights using Python, SQL, Excel, and Power BI.
+
+Technologies:
+Python, SQL, Power BI, Excel
+
+Keyword Match Score:
+5
+
+PROPOSAL
+================================================================================
+{'introduction': 'Hi there. I understand you are looking to build a secure, scalable authentication and account-management module for your internal HR portal, complete with role-based access control and robust password management. As an AI Product Engineer experienced in full-stack architecture and secure API development, I am well-equipped to deliver a production-ready solution that integrates seamlessly with your existing Django infrastructure. I prioritize clean code and maintainable, modular design, ensuring your HR portal remains secure and easy to manage as your team grows.', 'relevantExperience': 'My background in building full-stack platforms makes me a strong fit for this requirements-heavy task. For my Smart Turf Booking Platform, I developed complex backend APIs and scheduling workflows, which required a deep understanding of secure data management and user session handling—directly applicable to your need for role-limited access to team data. Additionally, my work on the Financial Market Analytics Dashboard sharpened my ability to manage complex data structures and ensure that sensitive information is served securely via robust backend architecture. I am highly comfortable working with Python-based frameworks and structuring clean, well-documented APIs.', 'approach': '1. Setup & Auth Configuration: Configure Django and Django REST Framework with JWT authentication to ensure secure, stateless user sessions. 2. API Development: Build modular endpoints for user registration, secure password resets, and profile management, ensuring all logic follows DRY principles. 3. Permission Layer: Implement granular permission classes to enforce role-limited access control for your HR team data. 4. Documentation & Testing: Perform thorough unit testing on all auth flows and provide concise, readable API documentation using Swagger or Redoc for your internal team.', 'timeline': 'I can comfortably complete this project within the requested 12-day timeline. This includes 2 days for initial architecture and setup, 7 days for core API development and security implementation, and 3 days for rigorous testing and documentation.', 'pricing': "I propose a fixed price of $850 for this project. This reflects the specific scope of the authentication module and ensures I can dedicate the necessary time to guarantee high-quality, secure, and well-documented code that meets your HR portal's requirements."}

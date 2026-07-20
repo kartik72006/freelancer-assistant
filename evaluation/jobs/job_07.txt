@@ -1,0 +1,9 @@
+Develop an AI assistant for recruitment outreach. From a role description and candidate profile, it should draft factual, consistent outreach emails as structured JSON for an existing workflow tool.
+
+Requirements:
+- Python, Gemini API, and prompt engineering
+- JSON-schema-constrained outputs and FastAPI endpoint
+- Example prompts, error handling, and setup documentation
+
+Budget: $1,400
+Timeline: 18 days

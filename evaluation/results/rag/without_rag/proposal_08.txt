@@ -1,0 +1,72 @@
+================================================================================
+JOB FILE : job_08.txt
+MODE : without_rag
+================================================================================
+
+ORIGINAL JOB DESCRIPTION
+--------------------------------------------------------------------------------
+Build a retrieval-augmented customer-support chatbot for a SaaS company. It must answer billing and product questions from help-centre documents, cite source snippets, and route uncertain questions to an agent.
+
+Requirements:
+- Python, LangChain, embeddings, and vector database
+- Document ingestion, chunking, retrieval, and grounded generation
+- Conversation API, simple chat UI, and evaluation examples
+
+Budget: $2,200
+Timeline: 28 days
+
+ANALYSIS
+================================================================================
+Evaluation mode: without_rag
+
+RETRIEVED CONTEXT
+--------------------------------------------------------------------------------
+Relevant Project 1
+
+Title:
+AI Freelancer Proposal Assistant
+
+Project Description:
+Designed and developed a production-style AI-powered proposal generation platform that automates job analysis, proposal generation, pricing recommendations, AI-based proposal review, proposal history management, dashboard analytics, and version-controlled proposal editing.
+
+Technologies:
+Python, FastAPI, React, TypeScript, SQLite, Gemini API, SQLAlchemy, SentenceTransformers
+
+Keyword Match Score:
+5
+
+------------------------------------------------------------
+
+Relevant Project 2
+
+Title:
+Analytics Dashboard
+
+Project Description:
+Developed an interactive analytics dashboard for monitoring business metrics, KPIs, and operational performance through visual reports.
+
+Technologies:
+React, Python
+
+Keyword Match Score:
+5
+
+------------------------------------------------------------
+
+Relevant Project 3
+
+Title:
+Financial Market Analytics Dashboard
+
+Project Description:
+Developed dashboards for analyzing financial markets, KPIs, business trends, and investment insights using Python, SQL, Excel, and Power BI.
+
+Technologies:
+Python, SQL, Power BI, Excel
+
+Keyword Match Score:
+5
+
+PROPOSAL
+================================================================================
+{'introduction': 'Hi there! I am an AI Product Engineer with deep experience in building intelligent, LLM-powered applications. I understand you are looking to develop a robust RAG-based customer support chatbot that not only answers billing and product questions accurately from your documentation but also ensures reliability by citing sources and routing complex queries to human agents. My background in building end-to-end AI products using Python and modern LLM APIs positions me perfectly to deliver a high-quality, production-ready solution that integrates seamlessly into your SaaS ecosystem.', 'relevantExperience': 'My expertise is directly applicable to your requirements. I recently developed an AI-powered platform using Python, FastAPI, and advanced embedding models like SentenceTransformers, which mirrors the architecture needed for your RAG pipeline. Just as I engineered that platform for high-accuracy document retrieval and generation, I will apply those same principles to your help-center knowledge base. Additionally, my experience in building complex analytics dashboards, such as my Financial Market Analytics Dashboard, ensures that I can design a clean, intuitive chat interface that empowers your users while maintaining data visibility for your team.', 'approach': "1. Data Ingestion & Indexing: Develop an automated pipeline to clean, chunk, and embed your help-center documents into a high-performance vector database. 2. RAG Pipeline Development: Implement LangChain-based retrieval logic with source-attribution mechanisms to ensure the chatbot only provides answers grounded in your specific documentation. 3. Intelligent Routing: Program a 'confidence threshold' mechanism that triggers a hand-off to human agents when the LLM detects ambiguity or high-complexity queries. 4. Interface & API: Build a responsive, React-based chat UI connected to a FastAPI backend, ensuring real-time performance and seamless conversation management. 5. Evaluation & Polish: Rigorously test the system against a set of FAQs to refine accuracy and citation precision.", 'timeline': 'I propose a 28-day timeline: Week 1 for document ingestion and vector database setup; Week 2 for core RAG logic and source-attribution implementation; Week 3 for UI development and agent-routing integration; and Week 4 for evaluation, testing, and final deployment.', 'pricing': '$2,200. This fixed-price estimate covers the end-to-end development, architecture design, and testing cycles required to ensure your chatbot is both reliable and maintainable, aligning perfectly with your budget and technical needs.'}

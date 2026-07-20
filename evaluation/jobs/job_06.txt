@@ -1,0 +1,9 @@
+Create an authentication and account-management module for an internal HR portal. Employees need secure sign-in, password resets, profiles, and role-limited access to team data.
+
+Requirements:
+- Django, Django REST Framework, PostgreSQL, and JWT
+- Password-reset and profile APIs
+- Permission tests and concise API documentation
+
+Budget: $850
+Timeline: 12 days

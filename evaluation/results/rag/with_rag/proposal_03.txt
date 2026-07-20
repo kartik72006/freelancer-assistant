@@ -1,0 +1,212 @@
+================================================================================
+JOB FILE : job_03.txt
+MODE : with_rag
+================================================================================
+
+ORIGINAL JOB DESCRIPTION
+--------------------------------------------------------------------------------
+Create a high-converting Next.js landing page for a personal-finance app. The startup needs product storytelling, beta sign-up capture, animations, strong mobile performance, and search-ready metadata.
+
+Requirements:
+- Next.js, Tailwind CSS, and Framer Motion
+- Waitlist form integration and semantic SEO structure
+- Responsive, Lighthouse-conscious implementation
+
+Budget: $700
+Timeline: 9 days
+
+ANALYSIS
+================================================================================
+Evaluation mode: with_rag
+
+RETRIEVED CONTEXT
+--------------------------------------------------------------------------------
+Relevant Project 1
+
+Title:
+AI Freelancer Proposal Assistant
+
+Role:
+AI Product Engineer & Full-Stack Developer
+
+Domain:
+Freelancing / AI SaaS
+
+Project Type:
+Full-Stack AI Application
+
+Project Details:
+Title:
+AI Freelancer Proposal Assistant
+
+Role:
+AI Product Engineer & Full-Stack Developer
+
+Domain:
+Freelancing / AI SaaS
+
+Project Type:
+Full-Stack AI Application
+
+Problem Solved:
+Freelancers spend significant time writing repetitive proposals while struggling to personalize applications and maintain consistency across different client requirements.
+
+Description:
+Designed and developed a production-style AI-powered proposal generation platform that automates job analysis, proposal generation, pricing recommendations, AI-based proposal review, proposal history management, dashboard analytics, and version-controlled proposal editing.
+
+Responsibilities:
+Designed the complete system architecture, Built a FastAPI backend using layered architecture, Developed a React and TypeScript frontend, Integrated Gemini API for proposal generation, Implemented multi-agent AI workflow, Designed retrieval-augmented generation (RAG) pipeline, Created evaluation framework for proposal benchmarking, Implemented SQLite database with repository pattern, Developed dashboard analytics and proposal management
+
+Technical Solution:
+Implemented a modular FastAPI backend using service and repository patterns, integrated Gemini API with prompt engineering, developed a React frontend, and added semantic retrieval using embeddings for contextual proposal generation.
+
+Architecture:
+React → FastAPI → Application Services → Agent Orchestrator → AI Agents → Retrieval Service → Repository Layer → SQLite
+
+Key Features:
+AI Job Analysis, Proposal Generation, Pricing Recommendation, AI Proposal Review, Proposal Editing, Proposal History, Dashboard Analytics, Semantic Retrieval (RAG)
+
+Technologies:
+Python, FastAPI, React, TypeScript, SQLite, Gemini API, SQLAlchemy, SentenceTransformers
+
+Business Impact:
+Reduced manual proposal writing effort by automating proposal creation while improving consistency, personalization, and overall workflow efficiency.
+
+Results:
+['Built a complete AI SaaS MVP', 'Implemented end-to-end RAG pipeline', 'Developed evaluation framework for proposal quality', 'Created modular production-style backend architecture']
+
+Skills:
+Python, FastAPI, React, TypeScript, LLMs, Prompt Engineering, RAG, System Design, API Development, SQLAlchemy
+
+Similarity Score:
+0.4591
+
+------------------------------------------------------------
+
+Relevant Project 2
+
+Title:
+Interactive Analytics Dashboard
+
+Role:
+Frontend Developer
+
+Domain:
+Business Analytics
+
+Project Type:
+Frontend Dashboard
+
+Project Details:
+Title:
+Interactive Analytics Dashboard
+
+Role:
+Frontend Developer
+
+Domain:
+Business Analytics
+
+Project Type:
+Frontend Dashboard
+
+Problem Solved:
+Users need an intuitive interface for monitoring proposals, KPIs, and workflow progress.
+
+Description:
+Designed responsive dashboards featuring proposal history, KPI visualization, workflow tracking, and interactive analytics.
+
+Responsibilities:
+Designed UI, Built reusable components, Implemented responsive layouts, Integrated dashboard views
+
+Technical Solution:
+Developed a modern analytics dashboard using React, TypeScript, and Tailwind CSS.
+
+Architecture:
+React Components → API Layer → Backend
+
+Key Features:
+Proposal History, KPI Visualization, Workflow Tracking, Responsive UI
+
+Technologies:
+React, TypeScript, Tailwind CSS
+
+Business Impact:
+Improved user experience through a modern analytics interface.
+
+Results:
+['Responsive dashboard', 'Reusable component architecture']
+
+Skills:
+React, TypeScript, Tailwind CSS, Frontend Development
+
+Similarity Score:
+0.4239
+
+------------------------------------------------------------
+
+Relevant Project 3
+
+Title:
+AI-Powered Chatbot
+
+Role:
+AI Developer
+
+Domain:
+Customer Support
+
+Project Type:
+AI Application
+
+Project Details:
+Title:
+AI-Powered Chatbot
+
+Role:
+AI Developer
+
+Domain:
+Customer Support
+
+Project Type:
+AI Application
+
+Problem Solved:
+Organizations require automated customer support capable of answering user queries efficiently.
+
+Description:
+Developed an AI-powered chatbot using Gemini API to provide intelligent customer support through natural language understanding and response generation.
+
+Responsibilities:
+Integrated Gemini API, Designed prompts, Developed backend APIs, Built chatbot interface
+
+Technical Solution:
+Integrated LLM APIs with backend services to provide conversational AI capabilities.
+
+Architecture:
+React → FastAPI → Gemini API
+
+Key Features:
+Natural Language Understanding, AI Responses, Conversation Management
+
+Technologies:
+Python, FastAPI, React, Gemini API
+
+Business Impact:
+Reduced manual customer support effort through AI-driven conversations.
+
+Results:
+['Functional AI chatbot', 'LLM integration']
+
+Skills:
+Python, FastAPI, React, LLMs, Prompt Engineering
+
+Similarity Score:
+0.3553
+
+------------------------------------------------------------
+
+PROPOSAL
+================================================================================
+{'introduction': 'Hi there, I’m Kartik Bansal, an AI Product Engineer and Full-Stack Developer. I understand you need a high-converting, performance-focused Next.js landing page for your personal-finance app that balances compelling storytelling with technical excellence. Given my background in building production-quality web applications and interactive interfaces, I am well-positioned to deliver a solution that is not only visually engaging but also optimized for SEO and fast load times to ensure you capture every potential beta sign-up.', 'relevantExperience': 'I have extensive experience building user-centric interfaces and dashboards, most notably through my work on an Interactive Analytics Dashboard where I utilized React, TypeScript, and Tailwind CSS to create responsive layouts and reusable components. This directly translates to the mobile-responsive requirements of your landing page. Additionally, my work on an AI-powered proposal platform involved designing modular, performant frontend architectures that prioritize user flow—an essential skill for maximizing sign-up conversion rates on your landing page.', 'approach': '1. Discovery & Strategy: Align on the brand narrative and core value propositions to ensure the storytelling is impactful. 2. Development: Build the landing page using Next.js for superior performance, integrating Tailwind CSS for styling and Framer Motion for high-end, smooth animations. 3. SEO & Optimization: Implement semantic HTML structure, proper metadata, and image optimization to ensure the site is search-ready and hits high Lighthouse scores. 4. Integration: Connect the waitlist form to your CRM or database with validation and feedback states. 5. Quality Assurance: Rigorous cross-browser and mobile-responsiveness testing prior to deployment.', 'timeline': 'I can deliver a high-quality, fully optimized landing page within your 9-day requirement, allowing time for feedback and final adjustments.', 'pricing': 'My fixed price for this project is $700. This reflects the scope of delivering a professional, high-performance landing page that includes advanced animations, SEO optimization, and robust integration, ensuring your startup makes a strong first impression.'}

@@ -1,0 +1,150 @@
+================================================================================
+JOB FILE : job_07.txt
+MODE : with_rag
+================================================================================
+
+ORIGINAL JOB DESCRIPTION
+--------------------------------------------------------------------------------
+Develop an AI assistant for recruitment outreach. From a role description and candidate profile, it should draft factual, consistent outreach emails as structured JSON for an existing workflow tool.
+
+Requirements:
+- Python, Gemini API, and prompt engineering
+- JSON-schema-constrained outputs and FastAPI endpoint
+- Example prompts, error handling, and setup documentation
+
+Budget: $1,400
+Timeline: 18 days
+
+ANALYSIS
+================================================================================
+Evaluation mode: with_rag
+
+RETRIEVED CONTEXT
+--------------------------------------------------------------------------------
+Relevant Project 1
+
+Title:
+AI-Powered Chatbot
+
+Role:
+AI Developer
+
+Domain:
+Customer Support
+
+Project Type:
+AI Application
+
+Project Details:
+Title:
+AI-Powered Chatbot
+
+Role:
+AI Developer
+
+Domain:
+Customer Support
+
+Project Type:
+AI Application
+
+Problem Solved:
+Organizations require automated customer support capable of answering user queries efficiently.
+
+Description:
+Developed an AI-powered chatbot using Gemini API to provide intelligent customer support through natural language understanding and response generation.
+
+Responsibilities:
+Integrated Gemini API, Designed prompts, Developed backend APIs, Built chatbot interface
+
+Technical Solution:
+Integrated LLM APIs with backend services to provide conversational AI capabilities.
+
+Architecture:
+React → FastAPI → Gemini API
+
+Key Features:
+Natural Language Understanding, AI Responses, Conversation Management
+
+Technologies:
+Python, FastAPI, React, Gemini API
+
+Business Impact:
+Reduced manual customer support effort through AI-driven conversations.
+
+Results:
+['Functional AI chatbot', 'LLM integration']
+
+Skills:
+Python, FastAPI, React, LLMs, Prompt Engineering
+
+Similarity Score:
+0.5634
+
+------------------------------------------------------------
+
+Relevant Project 2
+
+Title:
+AI Freelancer Proposal Assistant
+
+Role:
+AI Product Engineer & Full-Stack Developer
+
+Domain:
+Freelancing / AI SaaS
+
+Project Type:
+Full-Stack AI Application
+
+Project Details:
+Title:
+AI Freelancer Proposal Assistant
+
+Role:
+AI Product Engineer & Full-Stack Developer
+
+Domain:
+Freelancing / AI SaaS
+
+Project Type:
+Full-Stack AI Application
+
+Problem Solved:
+Freelancers spend significant time writing repetitive proposals while struggling to personalize applications and maintain consistency across different client requirements.
+
+Description:
+Designed and developed a production-style AI-powered proposal generation platform that automates job analysis, proposal generation, pricing recommendations, AI-based proposal review, proposal history management, dashboard analytics, and version-controlled proposal editing.
+
+Responsibilities:
+Designed the complete system architecture, Built a FastAPI backend using layered architecture, Developed a React and TypeScript frontend, Integrated Gemini API for proposal generation, Implemented multi-agent AI workflow, Designed retrieval-augmented generation (RAG) pipeline, Created evaluation framework for proposal benchmarking, Implemented SQLite database with repository pattern, Developed dashboard analytics and proposal management
+
+Technical Solution:
+Implemented a modular FastAPI backend using service and repository patterns, integrated Gemini API with prompt engineering, developed a React frontend, and added semantic retrieval using embeddings for contextual proposal generation.
+
+Architecture:
+React → FastAPI → Application Services → Agent Orchestrator → AI Agents → Retrieval Service → Repository Layer → SQLite
+
+Key Features:
+AI Job Analysis, Proposal Generation, Pricing Recommendation, AI Proposal Review, Proposal Editing, Proposal History, Dashboard Analytics, Semantic Retrieval (RAG)
+
+Technologies:
+Python, FastAPI, React, TypeScript, SQLite, Gemini API, SQLAlchemy, SentenceTransformers
+
+Business Impact:
+Reduced manual proposal writing effort by automating proposal creation while improving consistency, personalization, and overall workflow efficiency.
+
+Results:
+['Built a complete AI SaaS MVP', 'Implemented end-to-end RAG pipeline', 'Developed evaluation framework for proposal quality', 'Created modular production-style backend architecture']
+
+Skills:
+Python, FastAPI, React, TypeScript, LLMs, Prompt Engineering, RAG, System Design, API Development, SQLAlchemy
+
+Similarity Score:
+0.5553
+
+------------------------------------------------------------
+
+PROPOSAL
+================================================================================
+{'introduction': "Hi there! I understand you're looking to build an AI-driven recruitment outreach assistant that generates structured, factual, and consistent JSON outputs to integrate into your existing workflow. As an AI Product Engineer specializing in LLM-integrated backend systems, I am well-positioned to build this for you. I focus on creating clean, production-ready code that solves specific business problems—like automating complex communications—while ensuring the output is reliable and developer-friendly.", 'relevantExperience': "I have extensive experience building the exact type of LLM-orchestrated workflows you need. For my 'AI Freelancer Proposal Assistant,' I developed a FastAPI backend with a complex multi-agent system that enforces high consistency in generation, similar to what your recruitment tool requires. I am highly comfortable using Gemini API for nuanced text generation and have refined techniques for prompt engineering that ensure structured outputs. Furthermore, my work on an 'AI-Powered Chatbot' involved building robust conversation management pipelines that prioritize natural language understanding while maintaining strict backend integrity, ensuring the system remains both functional and scalable.", 'approach': '1. Requirement Analysis: Review the specific recruitment data schema to design precise JSON-schema-constrained prompts. 2. Backend Foundation: Develop a modular FastAPI application using Pydantic models to enforce strict output validation for all generated emails. 3. LLM Integration: Implement the Gemini API with structured prompt engineering to ensure outreach emails remain factual, personalized, and contextually accurate. 4. Error Handling & Documentation: Build robust exception handling for API timeouts or parsing errors and provide clear setup documentation to ensure seamless integration into your current tools.', 'timeline': 'I can deliver this project within 14 days, providing a buffer before your 18-day deadline for final refinements and testing.', 'pricing': 'I propose a fixed price of $1,400. This reflects the precision engineering required for structured JSON output and the development of a production-ready FastAPI endpoint that integrates cleanly into your existing infrastructure.'}

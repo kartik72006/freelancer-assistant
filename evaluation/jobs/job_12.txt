@@ -1,0 +1,9 @@
+Create executive Power BI dashboards for a regional retailer. Excel exports and SQL data should become refresh-ready views of revenue, margin, inventory, and regional store performance.
+
+Requirements:
+- Power BI, SQL, and Excel data modelling
+- Date, category, and store filters
+- Stakeholder user guide and transformation steps
+
+Budget: $850
+Timeline: 12 days

@@ -1,0 +1,212 @@
+================================================================================
+JOB FILE : job_10.txt
+MODE : with_rag
+================================================================================
+
+ORIGINAL JOB DESCRIPTION
+--------------------------------------------------------------------------------
+Develop a proposal-generation workflow for a boutique digital agency. Account managers will supply client briefs and need draft scope, approach, timeline, and pricing rationale for review before sending.
+
+Requirements:
+- Python with OpenAI or Gemini API
+- Prompt templates, structured proposal JSON, and revision workflow
+- Basic history storage and API documentation
+
+Budget: $1,600
+Timeline: 21 days
+
+ANALYSIS
+================================================================================
+Evaluation mode: with_rag
+
+RETRIEVED CONTEXT
+--------------------------------------------------------------------------------
+Relevant Project 1
+
+Title:
+AI Freelancer Proposal Assistant
+
+Role:
+AI Product Engineer & Full-Stack Developer
+
+Domain:
+Freelancing / AI SaaS
+
+Project Type:
+Full-Stack AI Application
+
+Project Details:
+Title:
+AI Freelancer Proposal Assistant
+
+Role:
+AI Product Engineer & Full-Stack Developer
+
+Domain:
+Freelancing / AI SaaS
+
+Project Type:
+Full-Stack AI Application
+
+Problem Solved:
+Freelancers spend significant time writing repetitive proposals while struggling to personalize applications and maintain consistency across different client requirements.
+
+Description:
+Designed and developed a production-style AI-powered proposal generation platform that automates job analysis, proposal generation, pricing recommendations, AI-based proposal review, proposal history management, dashboard analytics, and version-controlled proposal editing.
+
+Responsibilities:
+Designed the complete system architecture, Built a FastAPI backend using layered architecture, Developed a React and TypeScript frontend, Integrated Gemini API for proposal generation, Implemented multi-agent AI workflow, Designed retrieval-augmented generation (RAG) pipeline, Created evaluation framework for proposal benchmarking, Implemented SQLite database with repository pattern, Developed dashboard analytics and proposal management
+
+Technical Solution:
+Implemented a modular FastAPI backend using service and repository patterns, integrated Gemini API with prompt engineering, developed a React frontend, and added semantic retrieval using embeddings for contextual proposal generation.
+
+Architecture:
+React → FastAPI → Application Services → Agent Orchestrator → AI Agents → Retrieval Service → Repository Layer → SQLite
+
+Key Features:
+AI Job Analysis, Proposal Generation, Pricing Recommendation, AI Proposal Review, Proposal Editing, Proposal History, Dashboard Analytics, Semantic Retrieval (RAG)
+
+Technologies:
+Python, FastAPI, React, TypeScript, SQLite, Gemini API, SQLAlchemy, SentenceTransformers
+
+Business Impact:
+Reduced manual proposal writing effort by automating proposal creation while improving consistency, personalization, and overall workflow efficiency.
+
+Results:
+['Built a complete AI SaaS MVP', 'Implemented end-to-end RAG pipeline', 'Developed evaluation framework for proposal quality', 'Created modular production-style backend architecture']
+
+Skills:
+Python, FastAPI, React, TypeScript, LLMs, Prompt Engineering, RAG, System Design, API Development, SQLAlchemy
+
+Similarity Score:
+0.6050
+
+------------------------------------------------------------
+
+Relevant Project 2
+
+Title:
+AI-Powered Chatbot
+
+Role:
+AI Developer
+
+Domain:
+Customer Support
+
+Project Type:
+AI Application
+
+Project Details:
+Title:
+AI-Powered Chatbot
+
+Role:
+AI Developer
+
+Domain:
+Customer Support
+
+Project Type:
+AI Application
+
+Problem Solved:
+Organizations require automated customer support capable of answering user queries efficiently.
+
+Description:
+Developed an AI-powered chatbot using Gemini API to provide intelligent customer support through natural language understanding and response generation.
+
+Responsibilities:
+Integrated Gemini API, Designed prompts, Developed backend APIs, Built chatbot interface
+
+Technical Solution:
+Integrated LLM APIs with backend services to provide conversational AI capabilities.
+
+Architecture:
+React → FastAPI → Gemini API
+
+Key Features:
+Natural Language Understanding, AI Responses, Conversation Management
+
+Technologies:
+Python, FastAPI, React, Gemini API
+
+Business Impact:
+Reduced manual customer support effort through AI-driven conversations.
+
+Results:
+['Functional AI chatbot', 'LLM integration']
+
+Skills:
+Python, FastAPI, React, LLMs, Prompt Engineering
+
+Similarity Score:
+0.4064
+
+------------------------------------------------------------
+
+Relevant Project 3
+
+Title:
+Smart Turf Booking Platform
+
+Role:
+Full-Stack Developer
+
+Domain:
+Sports Tech
+
+Project Type:
+Booking Platform
+
+Project Details:
+Title:
+Smart Turf Booking Platform
+
+Role:
+Full-Stack Developer
+
+Domain:
+Sports Tech
+
+Project Type:
+Booking Platform
+
+Problem Solved:
+Sports facilities often rely on manual booking processes, leading to scheduling conflicts and inefficient resource management.
+
+Description:
+Developed a full-stack sports facility booking platform supporting scheduling workflows, booking management, backend APIs, and responsive user interfaces.
+
+Responsibilities:
+Designed booking workflow, Developed REST APIs, Built responsive frontend, Managed booking database
+
+Technical Solution:
+Built a React frontend with FastAPI backend for booking management, scheduling, and API-driven operations.
+
+Architecture:
+React → FastAPI → Database
+
+Key Features:
+Online Booking, Scheduling, Booking History, Admin Management
+
+Technologies:
+React, FastAPI, SQL
+
+Business Impact:
+Simplified sports facility booking and reduced scheduling conflicts.
+
+Results:
+['Complete booking workflow', 'REST API integration']
+
+Skills:
+React, FastAPI, REST APIs, SQL, Full-Stack Development
+
+Similarity Score:
+0.3763
+
+------------------------------------------------------------
+
+PROPOSAL
+================================================================================
+{'introduction': "Dear [Client Name],\n\nI understand you're looking to develop a proposal-generation workflow for your boutique digital agency to streamline the process of creating draft scopes, approaches, timelines, and pricing rationales from client briefs. With my expertise as an AI Product Engineer and Full-Stack Developer specializing in building intelligent software products, I'm confident I can deliver a robust and efficient solution tailored to your needs.\n\nMy experience in developing AI-powered applications, particularly those involving document generation and workflow automation, aligns perfectly with your requirements. I'm excited about the opportunity to help your account managers save time and improve proposal quality.", 'relevantExperience': "My background in building AI-driven platforms is directly applicable to this project. In the 'AI Freelancer Proposal Assistant' project, I designed and developed a production-style AI-powered platform that automated job analysis and proposal generation. This involved creating a FastAPI backend, a React/TypeScript frontend, and integrating LLM APIs (Gemini API in that instance, but easily adaptable to OpenAI) to handle complex text generation tasks. The project incorporated prompt engineering, a retrieval-augmented generation (RAG) pipeline for contextual accuracy, and a structured workflow for proposal editing and review, mirroring the core needs of your agency.\n\nFurthermore, my experience with the 'AI-Powered Chatbot' project demonstrates my proficiency in integrating LLM APIs like Gemini (and by extension, OpenAI) with backend services (FastAPI) and frontend interfaces (React) to deliver intelligent responses. This project highlights my ability to handle prompt design and API integration effectively, which are key requirements for your proposal generation system. I also have experience building REST APIs and managing databases, as seen in the 'Smart Turf Booking Platform', which will be valuable for the history storage and API documentation aspects of your project.", 'approach': 'My approach will focus on building a streamlined and effective proposal generation workflow:\n\n1.  **Requirements Gathering & AI Model Selection:** Deep dive into your specific client brief inputs and desired proposal outputs. Confirm preferred LLM (OpenAI or Gemini).\n2.  **Prompt Template Development:** Design sophisticated prompt templates that effectively guide the LLM to extract relevant information from client briefs and generate structured outputs for scope, approach, timeline, and pricing rationale.\n3.  **Backend Development (Python/FastAPI):** Build a robust FastAPI backend to manage the workflow, integrate with the chosen LLM API, process inputs, and handle structured JSON outputs.\n4.  **Frontend Integration:** Develop or integrate with a frontend interface for account managers to input briefs and review/edit generated proposals.\n5.  **History Storage Implementation:** Implement a basic database solution (e.g., SQLite or a simple SQL database) to store past proposals and associated data for review and reference.\n6.  **API Documentation:** Generate clear and concise API documentation for the developed endpoints, ensuring ease of integration and understanding.\n7.  **Revision Workflow:** Incorporate a system for reviewing and revising generated proposals, allowing for human oversight and refinement.\n8.  **Testing & Deployment:** Conduct thorough testing to ensure accuracy, efficiency, and stability, followed by deployment.', 'timeline': 'I estimate this project can be completed within 3 weeks, aligning with your specified timeline. This allows ample time for development, integration, testing, and revisions to ensure a high-quality, production-ready solution.', 'pricing': 'I propose a fixed price of $1,600 for this project. This estimate is based on the outlined scope, the development of custom prompt templates, backend and frontend integration, history storage, API documentation, and the comprehensive workflow required to deliver a valuable proposal-generation tool for your agency.'}

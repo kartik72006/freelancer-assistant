@@ -1,0 +1,16 @@
+Set up a reliable deployment pipeline for a FastAPI and React SaaS application.
+
+The application currently runs locally and needs a repeatable production setup.
+The client wants containerized services, environment-based configuration, automated
+deployments on pushes to the main branch, and basic monitoring guidance.
+
+Requirements:
+- Docker and Docker Compose
+- GitHub Actions CI/CD
+- Deployment of FastAPI API and React frontend
+- PostgreSQL configuration and environment secrets
+- Logging, health checks, and deployment documentation
+
+Budget: $1,000
+
+Timeline: 14 days

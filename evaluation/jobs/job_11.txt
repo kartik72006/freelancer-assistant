@@ -1,0 +1,9 @@
+Analyse twelve months of sales and marketing data for a direct-to-consumer brand. Leadership needs revenue trends, product performance, repeat purchases, and campaign conversion insights.
+
+Requirements:
+- Python, Pandas, NumPy, and Matplotlib
+- Data cleaning, cohort analysis, clear charts, and insight summary
+- Reproducible notebook and CSV outputs
+
+Budget: $650
+Timeline: 8 days

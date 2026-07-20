@@ -1,0 +1,16 @@
+Build a machine-learning model to predict customer churn for a subscription business.
+
+The client has historical customer, subscription, payment, and support-ticket data
+in CSV files. They need an interpretable first version of a churn-risk model that
+their operations team can use for retention campaigns.
+
+Requirements:
+- Python, Pandas, and scikit-learn
+- Data cleaning and exploratory analysis
+- Feature engineering and model evaluation
+- Clear churn-risk scoring output
+- Jupyter notebook and handover documentation
+
+Budget: $1,100
+
+Timeline: 15 days

@@ -1,0 +1,88 @@
+================================================================================
+JOB FILE : job_02.txt
+MODE : with_rag
+================================================================================
+
+ORIGINAL JOB DESCRIPTION
+--------------------------------------------------------------------------------
+Convert Figma designs into a pixel-accurate React website for a B2B cybersecurity consultancy. It needs five accessible, responsive marketing pages, a case-study template, and a fast mobile experience.
+
+Requirements:
+- React, CSS, Figma handoff, and responsive UI
+- Accessible navigation and contact form
+- Reusable page sections and SEO-friendly HTML
+
+Budget: $600
+Timeline: 8 days
+
+ANALYSIS
+================================================================================
+Evaluation mode: with_rag
+
+RETRIEVED CONTEXT
+--------------------------------------------------------------------------------
+Relevant Project 1
+
+Title:
+Interactive Analytics Dashboard
+
+Role:
+Frontend Developer
+
+Domain:
+Business Analytics
+
+Project Type:
+Frontend Dashboard
+
+Project Details:
+Title:
+Interactive Analytics Dashboard
+
+Role:
+Frontend Developer
+
+Domain:
+Business Analytics
+
+Project Type:
+Frontend Dashboard
+
+Problem Solved:
+Users need an intuitive interface for monitoring proposals, KPIs, and workflow progress.
+
+Description:
+Designed responsive dashboards featuring proposal history, KPI visualization, workflow tracking, and interactive analytics.
+
+Responsibilities:
+Designed UI, Built reusable components, Implemented responsive layouts, Integrated dashboard views
+
+Technical Solution:
+Developed a modern analytics dashboard using React, TypeScript, and Tailwind CSS.
+
+Architecture:
+React Components → API Layer → Backend
+
+Key Features:
+Proposal History, KPI Visualization, Workflow Tracking, Responsive UI
+
+Technologies:
+React, TypeScript, Tailwind CSS
+
+Business Impact:
+Improved user experience through a modern analytics interface.
+
+Results:
+['Responsive dashboard', 'Reusable component architecture']
+
+Skills:
+React, TypeScript, Tailwind CSS, Frontend Development
+
+Similarity Score:
+0.3710
+
+------------------------------------------------------------
+
+PROPOSAL
+================================================================================
+{'introduction': 'Hi there. I understand you are looking to translate your Figma designs into a high-performance, pixel-accurate React website for your cybersecurity consultancy. With my background as a Full-Stack AI Developer specializing in building clean, responsive, and maintainable web interfaces, I am well-positioned to deliver an accessible and professional digital presence for your brand. I focus on delivering scalable frontend architecture that ensures a fast, SEO-friendly experience across all devices, perfectly aligning with your need for a high-quality B2B marketing site.', 'relevantExperience': 'I have extensive experience building professional frontend interfaces, most notably my work on an Interactive Analytics Dashboard where I utilized React, TypeScript, and Tailwind CSS. In that project, I focused on creating a reusable component architecture to ensure the interface remained responsive and easy to maintain. This approach directly applies to your project, as I will build your five marketing pages and case-study template using modular, reusable sections that maintain visual consistency while ensuring your Figma designs are implemented with pixel-perfect accuracy.', 'approach': '1. Setup & Architecture: Initialize the project with Vite for fast performance and establish a global style system using Tailwind CSS to match your Figma design tokens. 2. Component Development: Build a library of reusable sections (headers, footers, case-study templates) to ensure design consistency and efficient code maintenance. 3. Implementation: Translate the designs into pixel-accurate, accessible React code, ensuring mobile-first responsiveness and SEO-friendly HTML structure. 4. Optimization & QA: Conduct cross-browser testing for responsiveness, accessibility audits to ensure compliance, and performance tuning for fast load times. 5. Handoff: Provide clean, documented code ready for your deployment pipeline.', 'timeline': 'I can comfortably complete this project within your 8-day requirement, including time for final refinements and testing.', 'pricing': 'My rate for this project is $600. This reflects a focused effort on delivering a high-quality, pixel-accurate build that prioritizes site speed and long-term maintainability for your consultancy.'}

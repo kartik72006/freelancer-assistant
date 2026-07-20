@@ -1,0 +1,79 @@
+================================================================================
+JOB FILE : job_17.txt
+MODE : without_rag
+================================================================================
+
+ORIGINAL JOB DESCRIPTION
+--------------------------------------------------------------------------------
+Build a cross-platform mobile app for a local turf-booking business.
+
+The app should let players browse available turf slots, create bookings, receive
+booking confirmations, and view their upcoming games. An existing REST API will
+be available for authentication, venues, and bookings.
+
+Requirements:
+- React Native or Flutter
+- REST API integration and JWT authentication
+- Calendar-based slot selection
+- Push-notification-ready booking confirmation flow
+- Android and iOS responsive layouts
+
+Budget: $1,500
+
+Timeline: 21 days
+
+ANALYSIS
+================================================================================
+Evaluation mode: without_rag
+
+RETRIEVED CONTEXT
+--------------------------------------------------------------------------------
+Relevant Project 1
+
+Title:
+AI Freelancer Proposal Assistant
+
+Project Description:
+Designed and developed a production-style AI-powered proposal generation platform that automates job analysis, proposal generation, pricing recommendations, AI-based proposal review, proposal history management, dashboard analytics, and version-controlled proposal editing.
+
+Technologies:
+Python, FastAPI, React, TypeScript, SQLite, Gemini API, SQLAlchemy, SentenceTransformers
+
+Keyword Match Score:
+5
+
+------------------------------------------------------------
+
+Relevant Project 2
+
+Title:
+Analytics Dashboard
+
+Project Description:
+Developed an interactive analytics dashboard for monitoring business metrics, KPIs, and operational performance through visual reports.
+
+Technologies:
+React, Python
+
+Keyword Match Score:
+5
+
+------------------------------------------------------------
+
+Relevant Project 3
+
+Title:
+Smart Turf Booking Platform
+
+Project Description:
+Developed a full-stack sports facility booking platform supporting scheduling workflows, booking management, backend APIs, and responsive user interfaces.
+
+Technologies:
+React, FastAPI, SQL
+
+Keyword Match Score:
+5
+
+PROPOSAL
+================================================================================
+{'introduction': 'Hi there! I understand you are looking to build a seamless, cross-platform mobile app to streamline turf bookings for your customers. With my background in building end-to-end full-stack products and a strong focus on clean architecture, I am well-positioned to deliver a responsive, user-friendly mobile experience that integrates perfectly with your existing REST API infrastructure.', 'relevantExperience': 'I have extensive experience building complex booking ecosystems, most notably my work on the Smart Turf Booking Platform. This project involved designing end-to-end scheduling workflows and managing backend API integrations for a similar domain, which directly translates to your need for slot browsing and booking management. Additionally, my experience developing interactive dashboards and full-stack AI platforms has sharpened my ability to handle complex state management and secure authentication flows, ensuring your users have a smooth experience from login to booking confirmation.', 'approach': '1. Architecture Review: Analyze your existing REST API endpoints and JWT authentication requirements to ensure seamless data flow. 2. UI/UX Design: Develop intuitive, responsive interfaces for iOS and Android, focusing on an easy-to-use calendar-based slot selection. 3. Development & Integration: Implement the frontend logic to consume your APIs, manage user sessions, and handle booking states. 4. Notification & Testing: Configure push notification triggers for confirmations and perform rigorous cross-platform testing to ensure performance stability. 5. Deployment: Finalize build configurations and assist with the store submission process.', 'timeline': 'I can deliver a high-quality, fully functional mobile app within your 21-day timeline, broken down into weekly milestones for design, integration, and final QA.', 'pricing': 'I propose a fixed-price of $1,500. This reflects a comprehensive effort to deliver a polished, production-ready mobile application that matches your existing web services, ensures secure authentication, and provides a premium user experience.'}

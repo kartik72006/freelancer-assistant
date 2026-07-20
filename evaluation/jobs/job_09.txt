@@ -1,0 +1,9 @@
+Create an AI resume-analysis tool for a staffing agency. Recruiters will upload a PDF resume and job description to receive skills, gaps, highlights, and suggested screening questions in structured output.
+
+Requirements:
+- Python, PDF parsing, NLP or LLM analysis
+- Structured JSON, secure file handling, and useful errors
+- Sample resumes and a small test set
+
+Budget: $1,500
+Timeline: 20 days

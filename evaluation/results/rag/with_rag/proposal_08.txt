@@ -1,0 +1,150 @@
+================================================================================
+JOB FILE : job_08.txt
+MODE : with_rag
+================================================================================
+
+ORIGINAL JOB DESCRIPTION
+--------------------------------------------------------------------------------
+Build a retrieval-augmented customer-support chatbot for a SaaS company. It must answer billing and product questions from help-centre documents, cite source snippets, and route uncertain questions to an agent.
+
+Requirements:
+- Python, LangChain, embeddings, and vector database
+- Document ingestion, chunking, retrieval, and grounded generation
+- Conversation API, simple chat UI, and evaluation examples
+
+Budget: $2,200
+Timeline: 28 days
+
+ANALYSIS
+================================================================================
+Evaluation mode: with_rag
+
+RETRIEVED CONTEXT
+--------------------------------------------------------------------------------
+Relevant Project 1
+
+Title:
+AI-Powered Chatbot
+
+Role:
+AI Developer
+
+Domain:
+Customer Support
+
+Project Type:
+AI Application
+
+Project Details:
+Title:
+AI-Powered Chatbot
+
+Role:
+AI Developer
+
+Domain:
+Customer Support
+
+Project Type:
+AI Application
+
+Problem Solved:
+Organizations require automated customer support capable of answering user queries efficiently.
+
+Description:
+Developed an AI-powered chatbot using Gemini API to provide intelligent customer support through natural language understanding and response generation.
+
+Responsibilities:
+Integrated Gemini API, Designed prompts, Developed backend APIs, Built chatbot interface
+
+Technical Solution:
+Integrated LLM APIs with backend services to provide conversational AI capabilities.
+
+Architecture:
+React → FastAPI → Gemini API
+
+Key Features:
+Natural Language Understanding, AI Responses, Conversation Management
+
+Technologies:
+Python, FastAPI, React, Gemini API
+
+Business Impact:
+Reduced manual customer support effort through AI-driven conversations.
+
+Results:
+['Functional AI chatbot', 'LLM integration']
+
+Skills:
+Python, FastAPI, React, LLMs, Prompt Engineering
+
+Similarity Score:
+0.7157
+
+------------------------------------------------------------
+
+Relevant Project 2
+
+Title:
+AI Freelancer Proposal Assistant
+
+Role:
+AI Product Engineer & Full-Stack Developer
+
+Domain:
+Freelancing / AI SaaS
+
+Project Type:
+Full-Stack AI Application
+
+Project Details:
+Title:
+AI Freelancer Proposal Assistant
+
+Role:
+AI Product Engineer & Full-Stack Developer
+
+Domain:
+Freelancing / AI SaaS
+
+Project Type:
+Full-Stack AI Application
+
+Problem Solved:
+Freelancers spend significant time writing repetitive proposals while struggling to personalize applications and maintain consistency across different client requirements.
+
+Description:
+Designed and developed a production-style AI-powered proposal generation platform that automates job analysis, proposal generation, pricing recommendations, AI-based proposal review, proposal history management, dashboard analytics, and version-controlled proposal editing.
+
+Responsibilities:
+Designed the complete system architecture, Built a FastAPI backend using layered architecture, Developed a React and TypeScript frontend, Integrated Gemini API for proposal generation, Implemented multi-agent AI workflow, Designed retrieval-augmented generation (RAG) pipeline, Created evaluation framework for proposal benchmarking, Implemented SQLite database with repository pattern, Developed dashboard analytics and proposal management
+
+Technical Solution:
+Implemented a modular FastAPI backend using service and repository patterns, integrated Gemini API with prompt engineering, developed a React frontend, and added semantic retrieval using embeddings for contextual proposal generation.
+
+Architecture:
+React → FastAPI → Application Services → Agent Orchestrator → AI Agents → Retrieval Service → Repository Layer → SQLite
+
+Key Features:
+AI Job Analysis, Proposal Generation, Pricing Recommendation, AI Proposal Review, Proposal Editing, Proposal History, Dashboard Analytics, Semantic Retrieval (RAG)
+
+Technologies:
+Python, FastAPI, React, TypeScript, SQLite, Gemini API, SQLAlchemy, SentenceTransformers
+
+Business Impact:
+Reduced manual proposal writing effort by automating proposal creation while improving consistency, personalization, and overall workflow efficiency.
+
+Results:
+['Built a complete AI SaaS MVP', 'Implemented end-to-end RAG pipeline', 'Developed evaluation framework for proposal quality', 'Created modular production-style backend architecture']
+
+Skills:
+Python, FastAPI, React, TypeScript, LLMs, Prompt Engineering, RAG, System Design, API Development, SQLAlchemy
+
+Similarity Score:
+0.5830
+
+------------------------------------------------------------
+
+PROPOSAL
+================================================================================
+{'introduction': 'Hi there, I understand you are looking to build a robust, RAG-powered customer support chatbot for your SaaS platform that can handle billing and product-specific queries while maintaining high accuracy through source citation and human hand-off. As an AI Product Engineer specializing in LLM-based SaaS development, I have extensive experience building the exact end-to-end architectures required to make this successful. My focus is on delivering maintainable, production-ready code that solves real business problems, and I am confident I can build a reliable system that empowers your support team while reducing manual overhead.', 'relevantExperience': 'I have previously engineered an AI-powered chatbot using React, FastAPI, and the Gemini API, which successfully automated customer support and reduced manual effort. Furthermore, I recently built an AI-powered proposal platform that involved developing a complex RAG pipeline using semantic retrieval, embeddings, and modular backend architecture. This project required building a sophisticated document retrieval system and integrating agent orchestration to ensure accuracy—skills that directly apply to your need for document ingestion, chunking, and grounded generation in your support chatbot.', 'approach': "1. Data Pipeline: Implement document ingestion, efficient chunking strategies, and vector database setup to ensure high-quality retrieval. 2. RAG Implementation: Develop the retrieval logic using LangChain to pull relevant source snippets, ensuring every AI answer is grounded in your help-center documents. 3. Orchestration & Routing: Build the logic to detect 'uncertainty' in LLM responses and trigger a seamless hand-off to your human support team. 4. Frontend & API: Develop a clean, responsive chat interface and a modular FastAPI backend designed for scalability. 5. Evaluation: Integrate an evaluation framework to benchmark responses against your specific business data before deployment.", 'timeline': 'I propose a 28-day timeline: Week 1 for document pipeline and RAG design; Week 2 for core API development and agent logic; Week 3 for UI integration and human-routing workflows; and Week 4 for evaluation, testing, and final refinements.', 'pricing': '$2,200. This estimate accounts for the complexity of setting up a reliable RAG pipeline, thorough evaluation testing, and the delivery of a production-quality application that ensures your users receive accurate, source-backed answers.'}

@@ -1,0 +1,9 @@
+Build SQL reports for a subscription company’s customer-success team. They need reliable active-customer, churn, support-volume, and renewal-risk views for weekly outreach planning.
+
+Requirements:
+- SQL joins, CTEs, aggregations, and window functions
+- Cohort and monthly churn reporting
+- Optimised, documented export-ready queries
+
+Budget: $550
+Timeline: 7 days

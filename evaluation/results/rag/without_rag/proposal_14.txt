@@ -1,0 +1,72 @@
+================================================================================
+JOB FILE : job_14.txt
+MODE : without_rag
+================================================================================
+
+ORIGINAL JOB DESCRIPTION
+--------------------------------------------------------------------------------
+Automate weekly finance reporting that currently requires copying data across Excel workbooks. The client wants a repeatable validated script that updates summaries and creates a ready-to-send report.
+
+Requirements:
+- Python and OpenPyXL
+- Input validation, formula-safe updates, and summary tabs
+- Instructions for a non-technical finance user
+
+Budget: $450
+Timeline: 6 days
+
+ANALYSIS
+================================================================================
+Evaluation mode: without_rag
+
+RETRIEVED CONTEXT
+--------------------------------------------------------------------------------
+Relevant Project 1
+
+Title:
+AI Freelancer Proposal Assistant
+
+Project Description:
+Designed and developed a production-style AI-powered proposal generation platform that automates job analysis, proposal generation, pricing recommendations, AI-based proposal review, proposal history management, dashboard analytics, and version-controlled proposal editing.
+
+Technologies:
+Python, FastAPI, React, TypeScript, SQLite, Gemini API, SQLAlchemy, SentenceTransformers
+
+Keyword Match Score:
+5
+
+------------------------------------------------------------
+
+Relevant Project 2
+
+Title:
+Analytics Dashboard
+
+Project Description:
+Developed an interactive analytics dashboard for monitoring business metrics, KPIs, and operational performance through visual reports.
+
+Technologies:
+React, Python
+
+Keyword Match Score:
+5
+
+------------------------------------------------------------
+
+Relevant Project 3
+
+Title:
+Financial Market Analytics Dashboard
+
+Project Description:
+Developed dashboards for analyzing financial markets, KPIs, business trends, and investment insights using Python, SQL, Excel, and Power BI.
+
+Technologies:
+Python, SQL, Power BI, Excel
+
+Keyword Match Score:
+5
+
+PROPOSAL
+================================================================================
+{'introduction': 'Hi there. I understand that your weekly finance reporting process is currently manual and time-consuming, requiring repetitive data handling across Excel workbooks. I can help you automate this by building a robust Python script that eliminates manual copy-pasting, ensures data integrity, and generates ready-to-send reports automatically. As an AI Product Engineer experienced in both backend automation and data-centric development, I specialize in creating reliable, maintainable scripts that save hours of operational work. I am confident I can provide a solution that is both powerful for your workflows and simple for your finance team to operate.', 'relevantExperience': "I have extensive experience building data-intensive applications and automated reporting tools. Previously, I developed a Financial Market Analytics Dashboard that required complex data processing and KPI aggregation using Python and SQL, which directly mirrors the requirements for your financial summaries. Additionally, my work on an automated AI-powered proposal assistant involved building complex logic for data handling and versioning, teaching me how to write 'formula-safe' and clean, modular code that performs consistently under production environments. I am highly proficient in Python and libraries like OpenPyXL, ensuring your workbook updates are accurate and stable.", 'approach': "1. Discovery & Mapping: I will analyze your current Excel workbooks to map data flows, identify key formulas, and define the required validation rules. 2. Script Development: I will build a modular Python script using OpenPyXL that performs input validation to catch errors before updating, ensuring your data remains accurate. 3. Reporting Logic: I will implement the automation for summary tab generation and report creation. 4. Handoff & Documentation: I will provide a simple guide or 'read-me' file tailored for a non-technical user, explaining how to trigger the script and verify the output.", 'timeline': 'I can complete this project within 5 days, allowing for a 1-day buffer to ensure the script meets all your specific reporting needs and that your team is comfortable running it.', 'pricing': '$450. This fixed price covers the full development of the script, rigorous testing to ensure your financial data remains intact, and clear documentation to ensure long-term ease of use for your finance team.'}

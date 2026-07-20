@@ -1,0 +1,56 @@
+================================================================================
+JOB FILE : job_13.txt
+MODE : without_rag
+================================================================================
+
+ORIGINAL JOB DESCRIPTION
+--------------------------------------------------------------------------------
+Build SQL reports for a subscription company’s customer-success team. They need reliable active-customer, churn, support-volume, and renewal-risk views for weekly outreach planning.
+
+Requirements:
+- SQL joins, CTEs, aggregations, and window functions
+- Cohort and monthly churn reporting
+- Optimised, documented export-ready queries
+
+Budget: $550
+Timeline: 7 days
+
+ANALYSIS
+================================================================================
+Evaluation mode: without_rag
+
+RETRIEVED CONTEXT
+--------------------------------------------------------------------------------
+Relevant Project 1
+
+Title:
+Smart Turf Booking Platform
+
+Project Description:
+Developed a full-stack sports facility booking platform supporting scheduling workflows, booking management, backend APIs, and responsive user interfaces.
+
+Technologies:
+React, FastAPI, SQL
+
+Keyword Match Score:
+5
+
+------------------------------------------------------------
+
+Relevant Project 2
+
+Title:
+Financial Market Analytics Dashboard
+
+Project Description:
+Developed dashboards for analyzing financial markets, KPIs, business trends, and investment insights using Python, SQL, Excel, and Power BI.
+
+Technologies:
+Python, SQL, Power BI, Excel
+
+Keyword Match Score:
+5
+
+PROPOSAL
+================================================================================
+{'introduction': 'Hi there. I understand that your customer-success team requires a robust reporting suite to track active-customer trends, churn, support volume, and renewal risks. Given my background as an AI Product Engineer with a strong foundation in backend engineering and data visualization, I am confident I can build reliable, high-performance SQL reports that will enable your team to plan their weekly outreach with total clarity. I focus on clean, maintainable architecture and am ready to deliver the actionable insights you need.', 'relevantExperience': "I have significant experience building data-driven solutions that translate raw data into business intelligence. For my Financial Market Analytics Dashboard project, I developed complex dashboards to track KPIs and business trends using Python, SQL, and Power BI; this required structuring data to make high-level business decisions easy. Additionally, my work on the Smart Turf Booking Platform involved architecting complex backend APIs with SQL, which taught me how to optimize database queries for efficiency. These experiences ensure that the SQL reports I build for you will be not only accurate but also highly readable and ready for your team's weekly workflow.", 'approach': '1. Discovery: Review your current schema and identify the specific data points required for churn, support volume, and renewal risk metrics. 2. Query Development: Build optimized SQL scripts using advanced joins, CTEs, and window functions to ensure performant calculation of cohort and monthly metrics. 3. Documentation: Provide thoroughly documented SQL queries so your internal team can easily maintain and understand the underlying logic. 4. Validation: Verify report outputs against your current business data to ensure 100% accuracy in the metrics provided. 5. Final Delivery: Deliver the export-ready files and a brief walkthrough of the logic used.', 'timeline': 'I can comfortably deliver this project within 7 days, allowing time for initial data analysis, query development, and final validation with your team.', 'pricing': '$550. This fixed-price covers the end-to-end development of the requested reports, documentation, and the necessary testing to ensure the data is accurate and ready for your outreach planning.'}

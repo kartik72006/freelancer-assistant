@@ -1,0 +1,9 @@
+Develop secure REST APIs for a multi-tenant appointment-booking product. The frontend team needs documented endpoints for customers, staff availability, slots, and bookings with reliable permissions.
+
+Requirements:
+- Python, FastAPI, PostgreSQL, and JWT authentication
+- Role-based access, validation, OpenAPI documentation, and unit tests
+- Booking-conflict handling and migrations
+
+Budget: $1,300
+Timeline: 18 days

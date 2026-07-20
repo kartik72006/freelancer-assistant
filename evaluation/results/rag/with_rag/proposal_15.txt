@@ -1,0 +1,95 @@
+================================================================================
+JOB FILE : job_15.txt
+MODE : with_rag
+================================================================================
+
+ORIGINAL JOB DESCRIPTION
+--------------------------------------------------------------------------------
+Build a machine-learning model to predict customer churn for a subscription business.
+
+The client has historical customer, subscription, payment, and support-ticket data
+in CSV files. They need an interpretable first version of a churn-risk model that
+their operations team can use for retention campaigns.
+
+Requirements:
+- Python, Pandas, and scikit-learn
+- Data cleaning and exploratory analysis
+- Feature engineering and model evaluation
+- Clear churn-risk scoring output
+- Jupyter notebook and handover documentation
+
+Budget: $1,100
+
+Timeline: 15 days
+
+ANALYSIS
+================================================================================
+Evaluation mode: with_rag
+
+RETRIEVED CONTEXT
+--------------------------------------------------------------------------------
+Relevant Project 1
+
+Title:
+Financial Market Analytics Dashboard
+
+Role:
+Data Analyst
+
+Domain:
+FinTech
+
+Project Type:
+Analytics Platform
+
+Project Details:
+Title:
+Financial Market Analytics Dashboard
+
+Role:
+Data Analyst
+
+Domain:
+FinTech
+
+Project Type:
+Analytics Platform
+
+Problem Solved:
+Financial data from multiple sources is difficult to analyze efficiently without centralized reporting.
+
+Description:
+Developed dashboards for analyzing financial markets, KPIs, business trends, and investment insights using Python, SQL, Excel, and Power BI.
+
+Responsibilities:
+Collected financial data, Performed SQL analysis, Created Power BI dashboards, Generated business insights
+
+Technical Solution:
+Integrated Python, SQL, Excel, and Power BI for automated financial analysis and reporting.
+
+Architecture:
+Data Sources → SQL → Python → Power BI
+
+Key Features:
+Market Analysis, KPI Dashboards, Trend Analysis, Investment Insights
+
+Technologies:
+Python, SQL, Power BI, Excel
+
+Business Impact:
+Improved visibility into financial performance and investment trends.
+
+Results:
+['Interactive financial dashboards', 'Automated reporting']
+
+Skills:
+Python, SQL, Power BI, Excel, Data Analysis
+
+Similarity Score:
+0.3424
+
+------------------------------------------------------------
+
+PROPOSAL
+================================================================================
+{'introduction': 'Hi there, I understand you need an interpretable machine-learning model to predict customer churn using your historical CSV data. Given my background as an AI Product Engineer and my experience in building data-driven analytics platforms, I am well-positioned to help your operations team turn raw subscription, payment, and support data into actionable retention insights. I specialize in building solutions that are not only technically robust but also easy to interpret for business stakeholders.', 'relevantExperience': 'My background in developing financial market analytics dashboards directly informs how I will approach your churn model. In my previous work with complex financial datasets, I utilized Python and SQL to clean, analyze, and visualize multi-source data, turning raw inputs into automated, high-impact business insights. I am comfortable handling end-to-end data pipelines and understand the importance of creating clear, interpretable outputs—a skill I successfully applied when building KPI-focused dashboards that improved visibility into investment trends.', 'approach': "1. Data Discovery & Cleaning: Perform exploratory data analysis (EDA) using Pandas to handle missing values, outliers, and data inconsistencies in your CSV files. 2. Feature Engineering: Create meaningful behavioral features (e.g., usage patterns, support ticket frequency) that drive churn risk. 3. Model Development: Train an interpretable model using scikit-learn that clearly highlights the 'why' behind each churn risk score. 4. Evaluation & Handover: Validate the model's accuracy, prepare the Jupyter notebook, and provide documentation to ensure your operations team can effectively use the churn-risk scores for retention campaigns.", 'timeline': 'I can deliver the complete solution within 15 days. This allows sufficient time for rigorous data cleaning and iterative model tuning to ensure high-quality, actionable output.', 'pricing': 'I propose a fixed price of $1,100 for this project. This reflects the scope of the end-to-end data processing, feature engineering, and the delivery of an interpretable, production-ready model tailored to your subscription business.'}

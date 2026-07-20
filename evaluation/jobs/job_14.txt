@@ -1,0 +1,9 @@
+Automate weekly finance reporting that currently requires copying data across Excel workbooks. The client wants a repeatable validated script that updates summaries and creates a ready-to-send report.
+
+Requirements:
+- Python and OpenPyXL
+- Input validation, formula-safe updates, and summary tabs
+- Instructions for a non-technical finance user
+
+Budget: $450
+Timeline: 6 days

@@ -1,0 +1,72 @@
+================================================================================
+JOB FILE : job_02.txt
+MODE : without_rag
+================================================================================
+
+ORIGINAL JOB DESCRIPTION
+--------------------------------------------------------------------------------
+Convert Figma designs into a pixel-accurate React website for a B2B cybersecurity consultancy. It needs five accessible, responsive marketing pages, a case-study template, and a fast mobile experience.
+
+Requirements:
+- React, CSS, Figma handoff, and responsive UI
+- Accessible navigation and contact form
+- Reusable page sections and SEO-friendly HTML
+
+Budget: $600
+Timeline: 8 days
+
+ANALYSIS
+================================================================================
+Evaluation mode: without_rag
+
+RETRIEVED CONTEXT
+--------------------------------------------------------------------------------
+Relevant Project 1
+
+Title:
+AI Freelancer Proposal Assistant
+
+Project Description:
+Designed and developed a production-style AI-powered proposal generation platform that automates job analysis, proposal generation, pricing recommendations, AI-based proposal review, proposal history management, dashboard analytics, and version-controlled proposal editing.
+
+Technologies:
+Python, FastAPI, React, TypeScript, SQLite, Gemini API, SQLAlchemy, SentenceTransformers
+
+Keyword Match Score:
+5
+
+------------------------------------------------------------
+
+Relevant Project 2
+
+Title:
+Analytics Dashboard
+
+Project Description:
+Developed an interactive analytics dashboard for monitoring business metrics, KPIs, and operational performance through visual reports.
+
+Technologies:
+React, Python
+
+Keyword Match Score:
+5
+
+------------------------------------------------------------
+
+Relevant Project 3
+
+Title:
+Smart Turf Booking Platform
+
+Project Description:
+Developed a full-stack sports facility booking platform supporting scheduling workflows, booking management, backend APIs, and responsive user interfaces.
+
+Technologies:
+React, FastAPI, SQL
+
+Keyword Match Score:
+5
+
+PROPOSAL
+================================================================================
+{'introduction': 'Hi there! I understand you are looking to convert your Figma designs into a polished, high-performance, and accessible React website for your B2B cybersecurity consultancy. As an AI Product Engineer with a strong background in full-stack development and responsive UI design, I specialize in building pixel-accurate, performant web experiences. Given your focus on a fast mobile experience and SEO-friendly architecture, I am confident I can translate your Figma assets into a clean, maintainable, and professional B2B site that establishes immediate trust with your clients.', 'relevantExperience': 'I bring extensive experience in building robust, responsive interfaces similar to your requirements. I recently developed a comprehensive analytics dashboard using React and Python, which required a high degree of visual precision and data-driven component design. Additionally, my work on the Smart Turf Booking Platform involved architecting a full-stack system with a heavy focus on responsive user interfaces and complex scheduling workflows. These projects have sharpened my ability to create reusable page sections and scalable code structures that ensure your new site remains easy to manage as your consultancy grows.', 'approach': '1. Discovery & Setup: Review your Figma files to establish a modular component library, ensuring consistency across all five marketing pages and the case-study template.\n2. Responsive Development: Build the layout using React and modern CSS, prioritizing accessibility standards (WCAG) and mobile-first performance.\n3. Implementation & Form Logic: Integrate the contact forms and ensure the navigation architecture is SEO-friendly and user-centric.\n4. Testing & Delivery: Perform thorough cross-browser and mobile responsiveness testing to ensure a seamless experience before final deployment.', 'timeline': 'I can complete this project within your 8-day requirement, providing regular progress updates to ensure the final output aligns perfectly with your expectations.', 'pricing': 'My fixed-price proposal for this project is $600. This reflects the high-quality, pixel-accurate development and rigorous testing required to ensure your B2B site meets the high standards of a cybersecurity consultancy.'}

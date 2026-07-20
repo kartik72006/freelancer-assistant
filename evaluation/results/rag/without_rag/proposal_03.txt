@@ -1,0 +1,40 @@
+================================================================================
+JOB FILE : job_03.txt
+MODE : without_rag
+================================================================================
+
+ORIGINAL JOB DESCRIPTION
+--------------------------------------------------------------------------------
+Create a high-converting Next.js landing page for a personal-finance app. The startup needs product storytelling, beta sign-up capture, animations, strong mobile performance, and search-ready metadata.
+
+Requirements:
+- Next.js, Tailwind CSS, and Framer Motion
+- Waitlist form integration and semantic SEO structure
+- Responsive, Lighthouse-conscious implementation
+
+Budget: $700
+Timeline: 9 days
+
+ANALYSIS
+================================================================================
+Evaluation mode: without_rag
+
+RETRIEVED CONTEXT
+--------------------------------------------------------------------------------
+Relevant Project 1
+
+Title:
+Interactive Analytics Dashboard
+
+Project Description:
+Designed responsive dashboards featuring proposal history, KPI visualization, workflow tracking, and interactive analytics.
+
+Technologies:
+React, TypeScript, Tailwind CSS
+
+Keyword Match Score:
+5
+
+PROPOSAL
+================================================================================
+{'introduction': "Hi there! I understand you are looking to build a high-converting, performance-driven landing page for your personal-finance app. With my background as an AI Product Engineer and full-stack developer, I specialize in building web experiences that don't just look great, but are architected for growth, speed, and user engagement. I am confident that my experience with modern React-based frameworks and product-focused design will help you effectively capture beta sign-ups and tell your brand story compellingly.", 'relevantExperience': 'I have extensive experience building high-performance, data-driven interfaces, most recently reflected in my work on an Interactive Analytics Dashboard. For that project, I utilized React, TypeScript, and Tailwind CSS to build a responsive, user-centric environment focused on complex data visualization. I will apply these same principles—ensuring a clean, responsive layout and highly maintainable code—to your landing page. My expertise in building scalable frontend applications ensures that your site will be optimized for mobile performance and provide the seamless user experience required to boost your conversion rates.', 'approach': '1. Discovery & Design: Align on the core product narrative and visual requirements to ensure the design effectively drives beta sign-ups. 2. Development: Build the landing page using Next.js for superior performance and SEO, integrating Tailwind CSS for styling and Framer Motion for high-impact, lightweight animations. 3. Optimization: Implement semantic HTML, meta-tag structuring, and rigorous Lighthouse testing to ensure search-readiness and top-tier mobile performance. 4. Integration: Configure the waitlist form with secure data handling and analytics tracking to monitor your growth from day one.', 'timeline': 'I can deliver this project within 7 days, allowing for a 2-day buffer for final testing and minor adjustments to ensure the site meets your exact specifications.', 'pricing': '$700. This fixed-price covers end-to-end development, full SEO optimization, performance tuning, and the integration of your sign-up workflow, ensuring a production-ready asset on day one.'}

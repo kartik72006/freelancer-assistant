@@ -1,0 +1,9 @@
+Create a high-converting Next.js landing page for a personal-finance app. The startup needs product storytelling, beta sign-up capture, animations, strong mobile performance, and search-ready metadata.
+
+Requirements:
+- Next.js, Tailwind CSS, and Framer Motion
+- Waitlist form integration and semantic SEO structure
+- Responsive, Lighthouse-conscious implementation
+
+Budget: $700
+Timeline: 9 days

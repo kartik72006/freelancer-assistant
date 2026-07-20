@@ -1,0 +1,72 @@
+================================================================================
+JOB FILE : job_16.txt
+MODE : without_rag
+================================================================================
+
+ORIGINAL JOB DESCRIPTION
+--------------------------------------------------------------------------------
+Create a scheduled product-data collection pipeline for a market-research firm. It should collect approved public product names, prices, ratings, and availability, normalize them, and save analyst-ready data.
+
+Requirements:
+- Python, Requests, and BeautifulSoup
+- Rate limiting, configurable extraction rules, and error handling
+- CSV or SQLite output, deduplication, logging, and run instructions
+
+Budget: $700
+Timeline: 10 days
+
+ANALYSIS
+================================================================================
+Evaluation mode: without_rag
+
+RETRIEVED CONTEXT
+--------------------------------------------------------------------------------
+Relevant Project 1
+
+Title:
+AI Freelancer Proposal Assistant
+
+Project Description:
+Designed and developed a production-style AI-powered proposal generation platform that automates job analysis, proposal generation, pricing recommendations, AI-based proposal review, proposal history management, dashboard analytics, and version-controlled proposal editing.
+
+Technologies:
+Python, FastAPI, React, TypeScript, SQLite, Gemini API, SQLAlchemy, SentenceTransformers
+
+Keyword Match Score:
+10
+
+------------------------------------------------------------
+
+Relevant Project 2
+
+Title:
+Financial Market Analytics Dashboard
+
+Project Description:
+Developed dashboards for analyzing financial markets, KPIs, business trends, and investment insights using Python, SQL, Excel, and Power BI.
+
+Technologies:
+Python, SQL, Power BI, Excel
+
+Keyword Match Score:
+10
+
+------------------------------------------------------------
+
+Relevant Project 3
+
+Title:
+Analytics Dashboard
+
+Project Description:
+Developed an interactive analytics dashboard for monitoring business metrics, KPIs, and operational performance through visual reports.
+
+Technologies:
+React, Python
+
+Keyword Match Score:
+5
+
+PROPOSAL
+================================================================================
+{'introduction': 'Hi there. I understand you are looking to build a robust, scheduled data collection pipeline to automate the gathering and normalization of product information for market research. As an AI Product Engineer who specializes in backend systems and data-driven applications, I have the exact technical background required to build a reliable, production-grade scraper that handles rate limiting, deduplication, and structured data storage effectively.', 'relevantExperience': "I have extensive experience building data pipelines and analytical systems. For my 'Financial Market Analytics Dashboard' project, I developed systems to ingest and normalize complex business metrics, which mirrors the data-structuring needs of your project. Furthermore, through my 'AI Freelancer Proposal Assistant' project, I engineered sophisticated backend architectures using Python, FastAPI, and SQLite that manage automated processes and data integrity. This background ensures I can build an extraction pipeline that is not only functional but maintainable and ready for your analysts.", 'approach': '1. Scraper Development: Build modular extractors using Python, Requests, and BeautifulSoup with configurable rules per product source. 2. Resilience: Implement robust error handling, proxy rotation (if needed), and strict rate limiting to ensure compliance and reliability. 3. Normalization & Storage: Establish a schema to clean and deduplicate the data before saving it to an SQLite database or CSV for immediate analyst use. 4. Automation: Configure the pipeline to run on a set schedule with comprehensive logging to monitor health and capture any extraction anomalies.', 'timeline': 'I can deliver a fully functional, tested pipeline within 8-10 days, allowing ample time for iterative testing of extraction rules and data validation.', 'pricing': '$700. This fixed-price covers the end-to-end development, implementation of the extraction logic, database setup, and the final documentation for your team to run and maintain the pipeline.'}

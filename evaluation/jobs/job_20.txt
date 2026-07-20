@@ -1,0 +1,16 @@
+Develop an MVP SaaS operations dashboard for a service business.
+
+The product needs a React frontend and FastAPI backend where staff can sign in,
+manage customer records, view KPI cards, and track service requests. The client
+also needs a Stripe subscription checkout and an initial deployment-ready setup.
+
+Requirements:
+- React, TypeScript, and responsive dashboard UI
+- FastAPI REST APIs with PostgreSQL or SQLite
+- JWT authentication and role-aware screens
+- Stripe subscription integration
+- KPI analytics, request-management workflow, and clean documentation
+
+Budget: $2,000
+
+Timeline: 30 days

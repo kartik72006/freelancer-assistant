@@ -1,0 +1,72 @@
+================================================================================
+JOB FILE : job_04.txt
+MODE : without_rag
+================================================================================
+
+ORIGINAL JOB DESCRIPTION
+--------------------------------------------------------------------------------
+Develop secure REST APIs for a multi-tenant appointment-booking product. The frontend team needs documented endpoints for customers, staff availability, slots, and bookings with reliable permissions.
+
+Requirements:
+- Python, FastAPI, PostgreSQL, and JWT authentication
+- Role-based access, validation, OpenAPI documentation, and unit tests
+- Booking-conflict handling and migrations
+
+Budget: $1,300
+Timeline: 18 days
+
+ANALYSIS
+================================================================================
+Evaluation mode: without_rag
+
+RETRIEVED CONTEXT
+--------------------------------------------------------------------------------
+Relevant Project 1
+
+Title:
+AI Freelancer Proposal Assistant
+
+Project Description:
+Designed and developed a production-style AI-powered proposal generation platform that automates job analysis, proposal generation, pricing recommendations, AI-based proposal review, proposal history management, dashboard analytics, and version-controlled proposal editing.
+
+Technologies:
+Python, FastAPI, React, TypeScript, SQLite, Gemini API, SQLAlchemy, SentenceTransformers
+
+Keyword Match Score:
+10
+
+------------------------------------------------------------
+
+Relevant Project 2
+
+Title:
+Smart Turf Booking Platform
+
+Project Description:
+Developed a full-stack sports facility booking platform supporting scheduling workflows, booking management, backend APIs, and responsive user interfaces.
+
+Technologies:
+React, FastAPI, SQL
+
+Keyword Match Score:
+10
+
+------------------------------------------------------------
+
+Relevant Project 3
+
+Title:
+Financial Market Analytics Dashboard
+
+Project Description:
+Developed dashboards for analyzing financial markets, KPIs, business trends, and investment insights using Python, SQL, Excel, and Power BI.
+
+Technologies:
+Python, SQL, Power BI, Excel
+
+Keyword Match Score:
+10
+
+PROPOSAL
+================================================================================
+{'introduction': 'Hi there! I understand you are looking to build a secure, multi-tenant appointment-booking engine, and I would love to help bring this to life. As an AI Product Engineer specializing in FastAPI and scalable backend systems, I have extensive experience building robust, documented REST APIs that handle complex business logic—perfect for the customer, staff, and availability workflows you described.', 'relevantExperience': 'My experience aligns directly with your project requirements. I recently developed a Smart Turf Booking Platform, where I architected complex scheduling workflows and booking management systems using FastAPI and SQL. This project required precise handling of slot availability and conflict management, identical to the challenges of your appointment system. Furthermore, my work on the AI Freelancer Proposal Assistant involved designing secure, production-grade REST APIs with clean, modular architecture, which ensures that the codebase I deliver for you will be maintainable, well-documented, and easily integrated by your frontend team.', 'approach': '1. Architecture & Database Design: Define a robust multi-tenant schema in PostgreSQL with SQLAlchemy, focusing on efficient indexing for booking-conflict prevention. 2. Secure Auth Implementation: Integrate JWT authentication with strict role-based access control (RBAC) to ensure data isolation between customers and staff. 3. API Development: Build modular FastAPI endpoints, implementing Pydantic models for strict data validation. 4. Documentation & Quality Assurance: Use OpenAPI (Swagger) for live documentation and implement unit tests to ensure high reliability. 5. Migration Strategy: Manage schema evolution using Alembic to ensure seamless updates as the product grows.', 'timeline': 'I can deliver this project within your 18-day window. I will provide consistent check-ins and clear documentation throughout the process to ensure the APIs are ready for your frontend team to consume immediately.', 'pricing': '$1,300. This fixed-price estimate covers the complete development lifecycle, including secure authentication, comprehensive unit testing, and full API documentation to ensure a seamless handoff.'}

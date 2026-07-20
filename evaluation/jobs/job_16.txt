@@ -1,0 +1,9 @@
+Create a scheduled product-data collection pipeline for a market-research firm. It should collect approved public product names, prices, ratings, and availability, normalize them, and save analyst-ready data.
+
+Requirements:
+- Python, Requests, and BeautifulSoup
+- Rate limiting, configurable extraction rules, and error handling
+- CSV or SQLite output, deduplication, logging, and run instructions
+
+Budget: $700
+Timeline: 10 days

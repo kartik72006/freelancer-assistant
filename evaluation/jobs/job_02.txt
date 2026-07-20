@@ -1,0 +1,9 @@
+Convert Figma designs into a pixel-accurate React website for a B2B cybersecurity consultancy. It needs five accessible, responsive marketing pages, a case-study template, and a fast mobile experience.
+
+Requirements:
+- React, CSS, Figma handoff, and responsive UI
+- Accessible navigation and contact form
+- Reusable page sections and SEO-friendly HTML
+
+Budget: $600
+Timeline: 8 days

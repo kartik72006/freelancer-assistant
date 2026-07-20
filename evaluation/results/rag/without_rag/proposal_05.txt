@@ -1,0 +1,28 @@
+================================================================================
+JOB FILE : job_05.txt
+MODE : without_rag
+================================================================================
+
+ORIGINAL JOB DESCRIPTION
+--------------------------------------------------------------------------------
+Build a Node.js backend for a subscription e-commerce brand. It should manage products, orders, discount codes, inventory updates, and verified payment-provider webhooks for an existing storefront.
+
+Requirements:
+- Node.js, Express, MongoDB, and REST APIs
+- Webhook validation, error handling, and API documentation
+- Deployment notes and clean order workflow
+
+Budget: $1,100
+Timeline: 16 days
+
+ANALYSIS
+================================================================================
+Evaluation mode: without_rag
+
+RETRIEVED CONTEXT
+--------------------------------------------------------------------------------
+No relevant projects found.
+
+PROPOSAL
+================================================================================
+{'introduction': 'Hi there. I understand you are looking to build a robust, scalable backend for your subscription e-commerce brand to handle order management, inventory, and payment integration. As an AI Product Engineer experienced in full-stack architecture and reliable backend API development, I specialize in building maintainable software that prioritizes business logic and data integrity. I am confident I can build a clean, secure Node.js architecture that effectively manages your product workflows and payment webhooks.', 'relevantExperience': 'While my recent work focuses on AI-integrated full-stack products, my deep proficiency in building complex backend systems—specifically using REST APIs, SQLAlchemy, and Pydantic—directly translates to the requirements of your e-commerce project. I have extensive experience in designing modular, database-driven applications (using SQL/NoSQL architectures) that require rigorous error handling and secure webhook processing. My focus on clean architecture ensures that the systems I build are not only performant today but remain easy to maintain and scale as your subscription volume grows.', 'approach': '1. Architecture Setup: Establish a clean Node.js/Express environment with a robust MongoDB schema designed for efficient product, order, and inventory management. 2. Core API Development: Implement secure REST endpoints for CRUD operations, ensuring strict validation using schema definitions. 3. Payment Integration: Build reliable webhook handlers for your payment provider with built-in retry logic, signature verification, and automated inventory sync. 4. Documentation & Deployment: Provide comprehensive API documentation (Swagger/OpenAPI) and clear deployment instructions to ensure a seamless handoff.', 'timeline': 'I can deliver this project within 16 days. The first week will focus on architecture and core API functionality, with the second week dedicated to payment webhook integration, thorough testing, and final documentation.', 'pricing': '$1,100. This fixed-price estimate covers the full development lifecycle, from initial backend schema design to final testing and deployment documentation, ensuring high-quality, production-ready code.'}

@@ -1,0 +1,150 @@
+================================================================================
+JOB FILE : job_13.txt
+MODE : with_rag
+================================================================================
+
+ORIGINAL JOB DESCRIPTION
+--------------------------------------------------------------------------------
+Build SQL reports for a subscription company’s customer-success team. They need reliable active-customer, churn, support-volume, and renewal-risk views for weekly outreach planning.
+
+Requirements:
+- SQL joins, CTEs, aggregations, and window functions
+- Cohort and monthly churn reporting
+- Optimised, documented export-ready queries
+
+Budget: $550
+Timeline: 7 days
+
+ANALYSIS
+================================================================================
+Evaluation mode: with_rag
+
+RETRIEVED CONTEXT
+--------------------------------------------------------------------------------
+Relevant Project 1
+
+Title:
+Financial Market Analytics Dashboard
+
+Role:
+Data Analyst
+
+Domain:
+FinTech
+
+Project Type:
+Analytics Platform
+
+Project Details:
+Title:
+Financial Market Analytics Dashboard
+
+Role:
+Data Analyst
+
+Domain:
+FinTech
+
+Project Type:
+Analytics Platform
+
+Problem Solved:
+Financial data from multiple sources is difficult to analyze efficiently without centralized reporting.
+
+Description:
+Developed dashboards for analyzing financial markets, KPIs, business trends, and investment insights using Python, SQL, Excel, and Power BI.
+
+Responsibilities:
+Collected financial data, Performed SQL analysis, Created Power BI dashboards, Generated business insights
+
+Technical Solution:
+Integrated Python, SQL, Excel, and Power BI for automated financial analysis and reporting.
+
+Architecture:
+Data Sources → SQL → Python → Power BI
+
+Key Features:
+Market Analysis, KPI Dashboards, Trend Analysis, Investment Insights
+
+Technologies:
+Python, SQL, Power BI, Excel
+
+Business Impact:
+Improved visibility into financial performance and investment trends.
+
+Results:
+['Interactive financial dashboards', 'Automated reporting']
+
+Skills:
+Python, SQL, Power BI, Excel, Data Analysis
+
+Similarity Score:
+0.4265
+
+------------------------------------------------------------
+
+Relevant Project 2
+
+Title:
+Analytics Dashboard
+
+Role:
+Frontend Developer
+
+Domain:
+Business Analytics
+
+Project Type:
+Dashboard Application
+
+Project Details:
+Title:
+Analytics Dashboard
+
+Role:
+Frontend Developer
+
+Domain:
+Business Analytics
+
+Project Type:
+Dashboard Application
+
+Problem Solved:
+Businesses require a centralized platform to monitor KPIs and make data-driven decisions from multiple metrics.
+
+Description:
+Developed an interactive analytics dashboard for monitoring business metrics, KPIs, and operational performance through visual reports.
+
+Responsibilities:
+Designed dashboard UI, Built reusable React components, Implemented charts and KPI cards, Connected backend analytics data
+
+Technical Solution:
+Built a responsive dashboard using React with dynamic visualizations and Python-based analytics processing.
+
+Architecture:
+React Frontend → Analytics API → Python Backend
+
+Key Features:
+KPI Cards, Charts, Business Metrics, Interactive Dashboard
+
+Technologies:
+React, Python
+
+Business Impact:
+Enabled easier monitoring of business performance through centralized analytics.
+
+Results:
+['Interactive visualization dashboard', 'Improved business reporting']
+
+Skills:
+React, Python, Dashboard Design, Data Visualization
+
+Similarity Score:
+0.4007
+
+------------------------------------------------------------
+
+PROPOSAL
+================================================================================
+{'introduction': 'Hi there. I understand you need to empower your customer-success team with reliable, export-ready SQL reporting to drive weekly outreach. Building actionable views for churn, renewal risk, and support volume is critical for maintaining subscription health. As an AI Product Engineer with a strong background in data analytics and SQL-driven business intelligence, I can build optimized, documented queries that transform your raw data into clear, actionable insights for your team.', 'relevantExperience': 'I have extensive experience building analytics platforms that bridge the gap between complex data and business decision-making. I previously developed a Financial Market Analytics Dashboard where I utilized advanced SQL analysis to automate reporting and generate key business insights. Furthermore, I built an interactive Analytics Dashboard using React and Python that focused on KPI monitoring and operational performance. These projects required me to design clean, efficient data architectures that allow teams to track metrics like churn and trends effectively, ensuring the resulting data is always ready for stakeholder review.', 'approach': '1. Discovery: Map your specific database schema to your required metrics (churn, renewal risk, and support volume).\n2. Query Development: Build optimized SQL scripts using CTEs, window functions, and aggregations to ensure performance.\n3. Validation: Test the reports against your current data to ensure accuracy in cohort and monthly churn calculations.\n4. Documentation: Provide clear, documented, and export-ready SQL queries that your team can easily run or integrate into your existing reporting stack.', 'timeline': "I can deliver the complete set of documented queries within 7 days, allowing for a 2-day period of testing and refinement based on your team's feedback.", 'pricing': '$550. This fixed price covers the end-to-end development, optimization of the SQL logic, and full documentation to ensure your team can maintain and use these reports long-term.'}

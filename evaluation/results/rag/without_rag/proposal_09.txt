@@ -1,0 +1,72 @@
+================================================================================
+JOB FILE : job_09.txt
+MODE : without_rag
+================================================================================
+
+ORIGINAL JOB DESCRIPTION
+--------------------------------------------------------------------------------
+Create an AI resume-analysis tool for a staffing agency. Recruiters will upload a PDF resume and job description to receive skills, gaps, highlights, and suggested screening questions in structured output.
+
+Requirements:
+- Python, PDF parsing, NLP or LLM analysis
+- Structured JSON, secure file handling, and useful errors
+- Sample resumes and a small test set
+
+Budget: $1,500
+Timeline: 20 days
+
+ANALYSIS
+================================================================================
+Evaluation mode: without_rag
+
+RETRIEVED CONTEXT
+--------------------------------------------------------------------------------
+Relevant Project 1
+
+Title:
+AI Freelancer Proposal Assistant
+
+Project Description:
+Designed and developed a production-style AI-powered proposal generation platform that automates job analysis, proposal generation, pricing recommendations, AI-based proposal review, proposal history management, dashboard analytics, and version-controlled proposal editing.
+
+Technologies:
+Python, FastAPI, React, TypeScript, SQLite, Gemini API, SQLAlchemy, SentenceTransformers
+
+Keyword Match Score:
+5
+
+------------------------------------------------------------
+
+Relevant Project 2
+
+Title:
+Analytics Dashboard
+
+Project Description:
+Developed an interactive analytics dashboard for monitoring business metrics, KPIs, and operational performance through visual reports.
+
+Technologies:
+React, Python
+
+Keyword Match Score:
+5
+
+------------------------------------------------------------
+
+Relevant Project 3
+
+Title:
+Financial Market Analytics Dashboard
+
+Project Description:
+Developed dashboards for analyzing financial markets, KPIs, business trends, and investment insights using Python, SQL, Excel, and Power BI.
+
+Technologies:
+Python, SQL, Power BI, Excel
+
+Keyword Match Score:
+5
+
+PROPOSAL
+================================================================================
+{'introduction': "Hi there. I understand you are looking to build an AI-powered resume analysis tool that helps recruiters quickly evaluate candidates by identifying skill gaps, highlights, and generating tailored screening questions. As an AI Product Engineer, I specialize in building intelligent, end-to-end software solutions using modern LLM APIs and robust backend architectures. I am confident I can build a reliable, high-performance tool that integrates seamlessly into your recruiters' workflow, ensuring structured, actionable outputs from their resume and job description uploads.", 'relevantExperience': "I have previously developed an AI-powered platform for automated document analysis and proposal generation using Python, FastAPI, and the Gemini API. This project involved complex parsing and intelligent data processing, which directly mirrors your requirement for extracting structured insights from PDFs. Additionally, my work on various analytics dashboards has equipped me with the skills to present complex data in a clear, user-friendly format, ensuring that the 'gaps and highlights' identified by your tool are actionable for your recruiters.", 'approach': '1. Requirements Analysis & Architecture: Define the schema for the JSON output and select the most effective LLM strategy for candidate matching. 2. Backend Development: Implement secure PDF parsing services and integrate LLM APIs (OpenAI/Gemini) to process extracted text against job description criteria. 3. Data Structuring: Develop robust validation logic to ensure the returned data is consistently formatted in JSON for reliable downstream use. 4. Testing & Refinement: Utilize your sample resumes and test set to iterate on prompt engineering, ensuring accuracy in gap analysis and question generation. 5. Deployment & Documentation: Set up a maintainable codebase with clean documentation for secure file handling and error logging.', 'timeline': 'I can deliver this project within 18-20 days. This allows for a structured week of development, followed by a week of testing against your specific dataset to fine-tune the accuracy of the AI analysis.', 'pricing': '$1,500. This fixed price covers the full-stack development, prompt engineering for high-quality structured JSON outputs, and the integration of your test set to ensure the tool meets your specific staffing agency requirements.'}

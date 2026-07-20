@@ -1,0 +1,9 @@
+Build a Node.js backend for a subscription e-commerce brand. It should manage products, orders, discount codes, inventory updates, and verified payment-provider webhooks for an existing storefront.
+
+Requirements:
+- Node.js, Express, MongoDB, and REST APIs
+- Webhook validation, error handling, and API documentation
+- Deployment notes and clean order workflow
+
+Budget: $1,100
+Timeline: 16 days

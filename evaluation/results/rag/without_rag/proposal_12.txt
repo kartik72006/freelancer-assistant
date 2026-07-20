@@ -1,0 +1,56 @@
+================================================================================
+JOB FILE : job_12.txt
+MODE : without_rag
+================================================================================
+
+ORIGINAL JOB DESCRIPTION
+--------------------------------------------------------------------------------
+Create executive Power BI dashboards for a regional retailer. Excel exports and SQL data should become refresh-ready views of revenue, margin, inventory, and regional store performance.
+
+Requirements:
+- Power BI, SQL, and Excel data modelling
+- Date, category, and store filters
+- Stakeholder user guide and transformation steps
+
+Budget: $850
+Timeline: 12 days
+
+ANALYSIS
+================================================================================
+Evaluation mode: without_rag
+
+RETRIEVED CONTEXT
+--------------------------------------------------------------------------------
+Relevant Project 1
+
+Title:
+Financial Market Analytics Dashboard
+
+Project Description:
+Developed dashboards for analyzing financial markets, KPIs, business trends, and investment insights using Python, SQL, Excel, and Power BI.
+
+Technologies:
+Python, SQL, Power BI, Excel
+
+Keyword Match Score:
+10
+
+------------------------------------------------------------
+
+Relevant Project 2
+
+Title:
+Smart Turf Booking Platform
+
+Project Description:
+Developed a full-stack sports facility booking platform supporting scheduling workflows, booking management, backend APIs, and responsive user interfaces.
+
+Technologies:
+React, FastAPI, SQL
+
+Keyword Match Score:
+5
+
+PROPOSAL
+================================================================================
+{'introduction': 'Hi there. I understand you are looking to transform your raw Excel exports and SQL data into actionable, executive-level Power BI dashboards for your regional retail operations. With my background as an AI Product Engineer and my hands-on experience building specialized business analytics tools, I can help you automate your reporting pipeline. I specialize in turning complex data sets into clean, performant, and intuitive dashboards that provide clear visibility into revenue, margins, and store-level performance. I am confident I can deliver the refresh-ready views and the user documentation you need to empower your stakeholders.', 'relevantExperience': 'I have previously developed comprehensive financial market analytics dashboards that utilized Python, SQL, and Power BI to track complex business trends and investment KPIs. This project required building robust data models that could synthesize disparate data sources into clear, professional visualizations, very similar to the requirements for your retail dashboard. Furthermore, my full-stack experience in building booking platforms with FastAPI and SQL gives me a strong technical foundation to handle your underlying data architecture, ensuring that your dashboard data is structured for efficiency and seamless future updates.', 'approach': '1. Data Audit & Mapping: Analyze your current Excel and SQL data structures to define the best relationships and transformation logic. 2. Data Modeling: Build a clean, efficient SQL/Power BI data model that supports dynamic filtering by date, category, and store. 3. Dashboard Development: Design executive-facing visuals that highlight revenue, margin, and inventory metrics with a focus on usability. 4. Automation & Testing: Ensure the refresh pipeline is stable and handle the logic for recurring data ingestion. 5. Documentation: Provide a comprehensive stakeholder user guide and a detailed breakdown of all transformation steps to ensure your team can maintain the system independently.', 'timeline': 'I can complete this project within 10-12 days. This includes 3 days for data modeling, 5 days for dashboard development and refinement, and 2-4 days for documentation and stakeholder review.', 'pricing': '$850. This fixed-price covers the end-to-end development of the dashboards, the configuration of the refresh-ready views, and the production of a professional user guide, ensuring you have a sustainable solution for your retail analytics.'}

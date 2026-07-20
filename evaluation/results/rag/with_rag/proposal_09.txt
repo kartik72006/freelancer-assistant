@@ -1,0 +1,150 @@
+================================================================================
+JOB FILE : job_09.txt
+MODE : with_rag
+================================================================================
+
+ORIGINAL JOB DESCRIPTION
+--------------------------------------------------------------------------------
+Create an AI resume-analysis tool for a staffing agency. Recruiters will upload a PDF resume and job description to receive skills, gaps, highlights, and suggested screening questions in structured output.
+
+Requirements:
+- Python, PDF parsing, NLP or LLM analysis
+- Structured JSON, secure file handling, and useful errors
+- Sample resumes and a small test set
+
+Budget: $1,500
+Timeline: 20 days
+
+ANALYSIS
+================================================================================
+Evaluation mode: with_rag
+
+RETRIEVED CONTEXT
+--------------------------------------------------------------------------------
+Relevant Project 1
+
+Title:
+AI Freelancer Proposal Assistant
+
+Role:
+AI Product Engineer & Full-Stack Developer
+
+Domain:
+Freelancing / AI SaaS
+
+Project Type:
+Full-Stack AI Application
+
+Project Details:
+Title:
+AI Freelancer Proposal Assistant
+
+Role:
+AI Product Engineer & Full-Stack Developer
+
+Domain:
+Freelancing / AI SaaS
+
+Project Type:
+Full-Stack AI Application
+
+Problem Solved:
+Freelancers spend significant time writing repetitive proposals while struggling to personalize applications and maintain consistency across different client requirements.
+
+Description:
+Designed and developed a production-style AI-powered proposal generation platform that automates job analysis, proposal generation, pricing recommendations, AI-based proposal review, proposal history management, dashboard analytics, and version-controlled proposal editing.
+
+Responsibilities:
+Designed the complete system architecture, Built a FastAPI backend using layered architecture, Developed a React and TypeScript frontend, Integrated Gemini API for proposal generation, Implemented multi-agent AI workflow, Designed retrieval-augmented generation (RAG) pipeline, Created evaluation framework for proposal benchmarking, Implemented SQLite database with repository pattern, Developed dashboard analytics and proposal management
+
+Technical Solution:
+Implemented a modular FastAPI backend using service and repository patterns, integrated Gemini API with prompt engineering, developed a React frontend, and added semantic retrieval using embeddings for contextual proposal generation.
+
+Architecture:
+React → FastAPI → Application Services → Agent Orchestrator → AI Agents → Retrieval Service → Repository Layer → SQLite
+
+Key Features:
+AI Job Analysis, Proposal Generation, Pricing Recommendation, AI Proposal Review, Proposal Editing, Proposal History, Dashboard Analytics, Semantic Retrieval (RAG)
+
+Technologies:
+Python, FastAPI, React, TypeScript, SQLite, Gemini API, SQLAlchemy, SentenceTransformers
+
+Business Impact:
+Reduced manual proposal writing effort by automating proposal creation while improving consistency, personalization, and overall workflow efficiency.
+
+Results:
+['Built a complete AI SaaS MVP', 'Implemented end-to-end RAG pipeline', 'Developed evaluation framework for proposal quality', 'Created modular production-style backend architecture']
+
+Skills:
+Python, FastAPI, React, TypeScript, LLMs, Prompt Engineering, RAG, System Design, API Development, SQLAlchemy
+
+Similarity Score:
+0.4724
+
+------------------------------------------------------------
+
+Relevant Project 2
+
+Title:
+AI-Powered Chatbot
+
+Role:
+AI Developer
+
+Domain:
+Customer Support
+
+Project Type:
+AI Application
+
+Project Details:
+Title:
+AI-Powered Chatbot
+
+Role:
+AI Developer
+
+Domain:
+Customer Support
+
+Project Type:
+AI Application
+
+Problem Solved:
+Organizations require automated customer support capable of answering user queries efficiently.
+
+Description:
+Developed an AI-powered chatbot using Gemini API to provide intelligent customer support through natural language understanding and response generation.
+
+Responsibilities:
+Integrated Gemini API, Designed prompts, Developed backend APIs, Built chatbot interface
+
+Technical Solution:
+Integrated LLM APIs with backend services to provide conversational AI capabilities.
+
+Architecture:
+React → FastAPI → Gemini API
+
+Key Features:
+Natural Language Understanding, AI Responses, Conversation Management
+
+Technologies:
+Python, FastAPI, React, Gemini API
+
+Business Impact:
+Reduced manual customer support effort through AI-driven conversations.
+
+Results:
+['Functional AI chatbot', 'LLM integration']
+
+Skills:
+Python, FastAPI, React, LLMs, Prompt Engineering
+
+Similarity Score:
+0.3973
+
+------------------------------------------------------------
+
+PROPOSAL
+================================================================================
+{'introduction': 'Dear Hiring Manager,\n\nI am writing to express my strong interest in your AI resume-analysis tool project for your staffing agency. Your requirement for a tool that can parse resumes and job descriptions to extract key insights, identify skill gaps, and suggest screening questions is precisely the type of intelligent automation I specialize in. My background as an AI Product Engineer with extensive experience in building end-to-end AI solutions, particularly those involving LLMs and structured data extraction, makes me an ideal candidate to deliver this project successfully.', 'relevantExperience': "My experience aligns perfectly with your needs. In the 'AI Freelancer Proposal Assistant' project, I developed a full-stack AI application that involved sophisticated job analysis, extracting relevant information, and generating structured outputs. This project required robust PDF parsing (implicitly through understanding job descriptions), advanced NLP/LLM analysis using the Gemini API, and the generation of structured JSON data. I also implemented a secure file handling system and ensured useful error reporting, mirroring your requirements. Furthermore, the 'AI-Powered Chatbot' project showcases my ability to integrate LLMs like the Gemini API into backend systems (FastAPI) to understand and process natural language, which is crucial for analyzing resume content and job descriptions.\n\nThese projects demonstrate my proficiency in Python, FastAPI, LLM integration (Gemini API), prompt engineering, and building AI applications that deliver actionable insights and structured results.", 'approach': 'My approach to building your AI resume-analysis tool will be as follows:\n\n1.  **Requirement Refinement & Setup**: I will begin by thoroughly understanding your specific needs for skill extraction, gap analysis, and question generation. This includes defining the desired JSON schema and reviewing the sample resumes and test set you provide.\n2.  **PDF Parsing and Text Extraction**: I will implement secure and efficient PDF parsing to extract clean text from resumes and job descriptions. This will involve choosing an appropriate Python library for reliable text extraction.\n3.  **LLM Integration for Analysis**: I will leverage my expertise with LLMs (specifically Gemini API, similar to my past projects) to analyze the extracted text. This will involve sophisticated prompt engineering to accurately identify skills, gaps between candidate qualifications and job requirements, and key highlights.\n4.  **Structured Output Generation**: The analysis will be translated into a structured JSON format, ensuring it is easily digestible for your recruiters. I will implement robust error handling to provide clear and useful messages for any issues encountered.\n5.  **Testing and Refinement**: I will utilize the provided sample resumes and test set to rigorously test the tool, iterating on prompts and logic to maximize accuracy and relevance. I will also ensure secure file handling practices are in place.\n6.  **Delivery & Documentation**: The final tool will be delivered along with clear documentation on its usage and any technical aspects.', 'timeline': "I am confident that I can deliver a high-quality AI resume-analysis tool within your specified timeline of 20 days. This timeframe allows for thorough development, testing, and refinement to ensure the tool meets your agency's specific needs.", 'pricing': 'Based on the project scope, complexity, and my experience in delivering similar AI solutions, I propose a fixed price of $1,500. This estimate covers the detailed analysis, development, LLM integration, robust error handling, secure file management, and comprehensive testing required to create a reliable and effective tool for your staffing agency.'}

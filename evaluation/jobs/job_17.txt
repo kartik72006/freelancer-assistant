@@ -1,0 +1,16 @@
+Build a cross-platform mobile app for a local turf-booking business.
+
+The app should let players browse available turf slots, create bookings, receive
+booking confirmations, and view their upcoming games. An existing REST API will
+be available for authentication, venues, and bookings.
+
+Requirements:
+- React Native or Flutter
+- REST API integration and JWT authentication
+- Calendar-based slot selection
+- Push-notification-ready booking confirmation flow
+- Android and iOS responsive layouts
+
+Budget: $1,500
+
+Timeline: 21 days

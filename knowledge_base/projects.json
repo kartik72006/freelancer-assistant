@@ -1,0 +1,267 @@
+[
+  {
+    "id": "project_1",
+    "title": "AI Freelancer Proposal Assistant",
+    "role": "AI Product Engineer & Full-Stack Developer",
+    "duration": "2026",
+    "domain": "Freelancing / AI SaaS",
+    "project_type": "Full-Stack AI Application",
+    "problem": "Freelancers spend significant time writing repetitive proposals while struggling to personalize applications and maintain consistency across different client requirements.",
+    "description": "Designed and developed a production-style AI-powered proposal generation platform that automates job analysis, proposal generation, pricing recommendations, AI-based proposal review, proposal history management, dashboard analytics, and version-controlled proposal editing.",
+    "responsibilities": [
+      "Designed the complete system architecture",
+      "Built a FastAPI backend using layered architecture",
+      "Developed a React and TypeScript frontend",
+      "Integrated Gemini API for proposal generation",
+      "Implemented multi-agent AI workflow",
+      "Designed retrieval-augmented generation (RAG) pipeline",
+      "Created evaluation framework for proposal benchmarking",
+      "Implemented SQLite database with repository pattern",
+      "Developed dashboard analytics and proposal management"
+    ],
+    "technical_solution": "Implemented a modular FastAPI backend using service and repository patterns, integrated Gemini API with prompt engineering, developed a React frontend, and added semantic retrieval using embeddings for contextual proposal generation.",
+    "architecture": "React → FastAPI → Application Services → Agent Orchestrator → AI Agents → Retrieval Service → Repository Layer → SQLite",
+    "key_features": [
+      "AI Job Analysis",
+      "Proposal Generation",
+      "Pricing Recommendation",
+      "AI Proposal Review",
+      "Proposal Editing",
+      "Proposal History",
+      "Dashboard Analytics",
+      "Semantic Retrieval (RAG)"
+    ],
+    "technologies": [
+      "Python",
+      "FastAPI",
+      "React",
+      "TypeScript",
+      "SQLite",
+      "Gemini API",
+      "SQLAlchemy",
+      "SentenceTransformers"
+    ],
+    "business_impact": "Reduced manual proposal writing effort by automating proposal creation while improving consistency, personalization, and overall workflow efficiency.",
+    "results": [
+      "Built a complete AI SaaS MVP",
+      "Implemented end-to-end RAG pipeline",
+      "Developed evaluation framework for proposal quality",
+      "Created modular production-style backend architecture"
+    ],
+    "skills": [
+      "Python",
+      "FastAPI",
+      "React",
+      "TypeScript",
+      "LLMs",
+      "Prompt Engineering",
+      "RAG",
+      "System Design",
+      "API Development",
+      "SQLAlchemy"
+    ]
+  },
+  {
+    "id": "project_2",
+    "title": "Analytics Dashboard",
+    "role": "Frontend Developer",
+    "duration": "2025",
+    "domain": "Business Analytics",
+    "project_type": "Dashboard Application",
+    "problem": "Businesses require a centralized platform to monitor KPIs and make data-driven decisions from multiple metrics.",
+    "description": "Developed an interactive analytics dashboard for monitoring business metrics, KPIs, and operational performance through visual reports.",
+    "responsibilities": [
+      "Designed dashboard UI",
+      "Built reusable React components",
+      "Implemented charts and KPI cards",
+      "Connected backend analytics data"
+    ],
+    "technical_solution": "Built a responsive dashboard using React with dynamic visualizations and Python-based analytics processing.",
+    "architecture": "React Frontend → Analytics API → Python Backend",
+    "key_features": [
+      "KPI Cards",
+      "Charts",
+      "Business Metrics",
+      "Interactive Dashboard"
+    ],
+    "technologies": [
+      "React",
+      "Python"
+    ],
+    "business_impact": "Enabled easier monitoring of business performance through centralized analytics.",
+    "results": [
+      "Interactive visualization dashboard",
+      "Improved business reporting"
+    ],
+    "skills": [
+      "React",
+      "Python",
+      "Dashboard Design",
+      "Data Visualization"
+    ]
+  },
+  {
+    "id": "project_3",
+    "title": "Smart Turf Booking Platform",
+    "role": "Full-Stack Developer",
+    "duration": "2025",
+    "domain": "Sports Tech",
+    "project_type": "Booking Platform",
+    "problem": "Sports facilities often rely on manual booking processes, leading to scheduling conflicts and inefficient resource management.",
+    "description": "Developed a full-stack sports facility booking platform supporting scheduling workflows, booking management, backend APIs, and responsive user interfaces.",
+    "responsibilities": [
+      "Designed booking workflow",
+      "Developed REST APIs",
+      "Built responsive frontend",
+      "Managed booking database"
+    ],
+    "technical_solution": "Built a React frontend with FastAPI backend for booking management, scheduling, and API-driven operations.",
+    "architecture": "React → FastAPI → Database",
+    "key_features": [
+      "Online Booking",
+      "Scheduling",
+      "Booking History",
+      "Admin Management"
+    ],
+    "technologies": [
+      "React",
+      "FastAPI",
+      "SQL"
+    ],
+    "business_impact": "Simplified sports facility booking and reduced scheduling conflicts.",
+    "results": [
+      "Complete booking workflow",
+      "REST API integration"
+    ],
+    "skills": [
+      "React",
+      "FastAPI",
+      "REST APIs",
+      "SQL",
+      "Full-Stack Development"
+    ]
+  },
+  {
+    "id": "project_4",
+    "title": "Financial Market Analytics Dashboard",
+    "role": "Data Analyst",
+    "duration": "2025",
+    "domain": "FinTech",
+    "project_type": "Analytics Platform",
+    "problem": "Financial data from multiple sources is difficult to analyze efficiently without centralized reporting.",
+    "description": "Developed dashboards for analyzing financial markets, KPIs, business trends, and investment insights using Python, SQL, Excel, and Power BI.",
+    "responsibilities": [
+      "Collected financial data",
+      "Performed SQL analysis",
+      "Created Power BI dashboards",
+      "Generated business insights"
+    ],
+    "technical_solution": "Integrated Python, SQL, Excel, and Power BI for automated financial analysis and reporting.",
+    "architecture": "Data Sources → SQL → Python → Power BI",
+    "key_features": [
+      "Market Analysis",
+      "KPI Dashboards",
+      "Trend Analysis",
+      "Investment Insights"
+    ],
+    "technologies": [
+      "Python",
+      "SQL",
+      "Power BI",
+      "Excel"
+    ],
+    "business_impact": "Improved visibility into financial performance and investment trends.",
+    "results": [
+      "Interactive financial dashboards",
+      "Automated reporting"
+    ],
+    "skills": [
+      "Python",
+      "SQL",
+      "Power BI",
+      "Excel",
+      "Data Analysis"
+    ]
+  },
+  {
+    "id": "project_5",
+    "title": "Interactive Analytics Dashboard",
+    "role": "Frontend Developer",
+    "duration": "2026",
+    "domain": "Business Analytics",
+    "project_type": "Frontend Dashboard",
+    "problem": "Users need an intuitive interface for monitoring proposals, KPIs, and workflow progress.",
+    "description": "Designed responsive dashboards featuring proposal history, KPI visualization, workflow tracking, and interactive analytics.",
+    "responsibilities": [
+      "Designed UI",
+      "Built reusable components",
+      "Implemented responsive layouts",
+      "Integrated dashboard views"
+    ],
+    "technical_solution": "Developed a modern analytics dashboard using React, TypeScript, and Tailwind CSS.",
+    "architecture": "React Components → API Layer → Backend",
+    "key_features": [
+      "Proposal History",
+      "KPI Visualization",
+      "Workflow Tracking",
+      "Responsive UI"
+    ],
+    "technologies": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS"
+    ],
+    "business_impact": "Improved user experience through a modern analytics interface.",
+    "results": [
+      "Responsive dashboard",
+      "Reusable component architecture"
+    ],
+    "skills": [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Frontend Development"
+    ]
+  },
+  {
+    "id": "project_6",
+    "title": "AI-Powered Chatbot",
+    "role": "AI Developer",
+    "duration": "2025",
+    "domain": "Customer Support",
+    "project_type": "AI Application",
+    "problem": "Organizations require automated customer support capable of answering user queries efficiently.",
+    "description": "Developed an AI-powered chatbot using Gemini API to provide intelligent customer support through natural language understanding and response generation.",
+    "responsibilities": [
+      "Integrated Gemini API",
+      "Designed prompts",
+      "Developed backend APIs",
+      "Built chatbot interface"
+    ],
+    "technical_solution": "Integrated LLM APIs with backend services to provide conversational AI capabilities.",
+    "architecture": "React → FastAPI → Gemini API",
+    "key_features": [
+      "Natural Language Understanding",
+      "AI Responses",
+      "Conversation Management"
+    ],
+    "technologies": [
+      "Python",
+      "FastAPI",
+      "React",
+      "Gemini API"
+    ],
+    "business_impact": "Reduced manual customer support effort through AI-driven conversations.",
+    "results": [
+      "Functional AI chatbot",
+      "LLM integration"
+    ],
+    "skills": [
+      "Python",
+      "FastAPI",
+      "React",
+      "LLMs",
+      "Prompt Engineering"
+    ]
+  }
+]

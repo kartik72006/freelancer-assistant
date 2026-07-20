@@ -1,0 +1,88 @@
+================================================================================
+JOB FILE : job_06.txt
+MODE : with_rag
+================================================================================
+
+ORIGINAL JOB DESCRIPTION
+--------------------------------------------------------------------------------
+Create an authentication and account-management module for an internal HR portal. Employees need secure sign-in, password resets, profiles, and role-limited access to team data.
+
+Requirements:
+- Django, Django REST Framework, PostgreSQL, and JWT
+- Password-reset and profile APIs
+- Permission tests and concise API documentation
+
+Budget: $850
+Timeline: 12 days
+
+ANALYSIS
+================================================================================
+Evaluation mode: with_rag
+
+RETRIEVED CONTEXT
+--------------------------------------------------------------------------------
+Relevant Project 1
+
+Title:
+Analytics Dashboard
+
+Role:
+Frontend Developer
+
+Domain:
+Business Analytics
+
+Project Type:
+Dashboard Application
+
+Project Details:
+Title:
+Analytics Dashboard
+
+Role:
+Frontend Developer
+
+Domain:
+Business Analytics
+
+Project Type:
+Dashboard Application
+
+Problem Solved:
+Businesses require a centralized platform to monitor KPIs and make data-driven decisions from multiple metrics.
+
+Description:
+Developed an interactive analytics dashboard for monitoring business metrics, KPIs, and operational performance through visual reports.
+
+Responsibilities:
+Designed dashboard UI, Built reusable React components, Implemented charts and KPI cards, Connected backend analytics data
+
+Technical Solution:
+Built a responsive dashboard using React with dynamic visualizations and Python-based analytics processing.
+
+Architecture:
+React Frontend → Analytics API → Python Backend
+
+Key Features:
+KPI Cards, Charts, Business Metrics, Interactive Dashboard
+
+Technologies:
+React, Python
+
+Business Impact:
+Enabled easier monitoring of business performance through centralized analytics.
+
+Results:
+['Interactive visualization dashboard', 'Improved business reporting']
+
+Skills:
+React, Python, Dashboard Design, Data Visualization
+
+Similarity Score:
+0.3549
+
+------------------------------------------------------------
+
+PROPOSAL
+================================================================================
+{'introduction': 'Hi there, I understand you are looking to build a secure, scalable authentication and account-management module for your internal HR portal. With my background as an AI Product Engineer and Full-Stack Developer, I specialize in building secure, clean, and modular backend architectures. I have extensive experience working with Python-based frameworks and complex data structures, making me well-equipped to implement your JWT-based authentication, role-based access control, and password management systems efficiently.', 'relevantExperience': 'In my work on high-stakes dashboard applications, I have developed a strong proficiency in connecting secure frontends to robust Python-based backends. My experience includes designing intuitive user interfaces and managing complex data flows, which is directly applicable to the profile management and team-data access requirements of your HR portal. I focus on clean architecture and maintainable code, ensuring that the permission-testing and API documentation you require will be delivered to a professional, production-ready standard.', 'approach': '1. Requirements Analysis & Schema Design: Define the database models for users and roles to ensure seamless PostgreSQL integration. 2. Auth Implementation: Set up secure JWT-based authentication, including email-based password reset flows and profile management endpoints. 3. Security & Permissions: Implement role-limited access logic with thorough unit testing to ensure data privacy. 4. Documentation: Provide comprehensive API documentation so your team can easily integrate the module. 5. Review & Delivery: Conduct final testing to ensure all edge cases in account management are covered.', 'timeline': 'I can deliver a complete, tested solution within 12 days, consistent with your requested timeframe.', 'pricing': '$850. This fixed price covers the end-to-end development of the authentication module, including all requested APIs, permission testing, and technical documentation.'}

@@ -1,0 +1,9 @@
+Build a retrieval-augmented customer-support chatbot for a SaaS company. It must answer billing and product questions from help-centre documents, cite source snippets, and route uncertain questions to an agent.
+
+Requirements:
+- Python, LangChain, embeddings, and vector database
+- Document ingestion, chunking, retrieval, and grounded generation
+- Conversation API, simple chat UI, and evaluation examples
+
+Budget: $2,200
+Timeline: 28 days

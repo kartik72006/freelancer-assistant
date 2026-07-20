@@ -1,0 +1,212 @@
+================================================================================
+JOB FILE : job_05.txt
+MODE : with_rag
+================================================================================
+
+ORIGINAL JOB DESCRIPTION
+--------------------------------------------------------------------------------
+Build a Node.js backend for a subscription e-commerce brand. It should manage products, orders, discount codes, inventory updates, and verified payment-provider webhooks for an existing storefront.
+
+Requirements:
+- Node.js, Express, MongoDB, and REST APIs
+- Webhook validation, error handling, and API documentation
+- Deployment notes and clean order workflow
+
+Budget: $1,100
+Timeline: 16 days
+
+ANALYSIS
+================================================================================
+Evaluation mode: with_rag
+
+RETRIEVED CONTEXT
+--------------------------------------------------------------------------------
+Relevant Project 1
+
+Title:
+AI Freelancer Proposal Assistant
+
+Role:
+AI Product Engineer & Full-Stack Developer
+
+Domain:
+Freelancing / AI SaaS
+
+Project Type:
+Full-Stack AI Application
+
+Project Details:
+Title:
+AI Freelancer Proposal Assistant
+
+Role:
+AI Product Engineer & Full-Stack Developer
+
+Domain:
+Freelancing / AI SaaS
+
+Project Type:
+Full-Stack AI Application
+
+Problem Solved:
+Freelancers spend significant time writing repetitive proposals while struggling to personalize applications and maintain consistency across different client requirements.
+
+Description:
+Designed and developed a production-style AI-powered proposal generation platform that automates job analysis, proposal generation, pricing recommendations, AI-based proposal review, proposal history management, dashboard analytics, and version-controlled proposal editing.
+
+Responsibilities:
+Designed the complete system architecture, Built a FastAPI backend using layered architecture, Developed a React and TypeScript frontend, Integrated Gemini API for proposal generation, Implemented multi-agent AI workflow, Designed retrieval-augmented generation (RAG) pipeline, Created evaluation framework for proposal benchmarking, Implemented SQLite database with repository pattern, Developed dashboard analytics and proposal management
+
+Technical Solution:
+Implemented a modular FastAPI backend using service and repository patterns, integrated Gemini API with prompt engineering, developed a React frontend, and added semantic retrieval using embeddings for contextual proposal generation.
+
+Architecture:
+React → FastAPI → Application Services → Agent Orchestrator → AI Agents → Retrieval Service → Repository Layer → SQLite
+
+Key Features:
+AI Job Analysis, Proposal Generation, Pricing Recommendation, AI Proposal Review, Proposal Editing, Proposal History, Dashboard Analytics, Semantic Retrieval (RAG)
+
+Technologies:
+Python, FastAPI, React, TypeScript, SQLite, Gemini API, SQLAlchemy, SentenceTransformers
+
+Business Impact:
+Reduced manual proposal writing effort by automating proposal creation while improving consistency, personalization, and overall workflow efficiency.
+
+Results:
+['Built a complete AI SaaS MVP', 'Implemented end-to-end RAG pipeline', 'Developed evaluation framework for proposal quality', 'Created modular production-style backend architecture']
+
+Skills:
+Python, FastAPI, React, TypeScript, LLMs, Prompt Engineering, RAG, System Design, API Development, SQLAlchemy
+
+Similarity Score:
+0.4064
+
+------------------------------------------------------------
+
+Relevant Project 2
+
+Title:
+Analytics Dashboard
+
+Role:
+Frontend Developer
+
+Domain:
+Business Analytics
+
+Project Type:
+Dashboard Application
+
+Project Details:
+Title:
+Analytics Dashboard
+
+Role:
+Frontend Developer
+
+Domain:
+Business Analytics
+
+Project Type:
+Dashboard Application
+
+Problem Solved:
+Businesses require a centralized platform to monitor KPIs and make data-driven decisions from multiple metrics.
+
+Description:
+Developed an interactive analytics dashboard for monitoring business metrics, KPIs, and operational performance through visual reports.
+
+Responsibilities:
+Designed dashboard UI, Built reusable React components, Implemented charts and KPI cards, Connected backend analytics data
+
+Technical Solution:
+Built a responsive dashboard using React with dynamic visualizations and Python-based analytics processing.
+
+Architecture:
+React Frontend → Analytics API → Python Backend
+
+Key Features:
+KPI Cards, Charts, Business Metrics, Interactive Dashboard
+
+Technologies:
+React, Python
+
+Business Impact:
+Enabled easier monitoring of business performance through centralized analytics.
+
+Results:
+['Interactive visualization dashboard', 'Improved business reporting']
+
+Skills:
+React, Python, Dashboard Design, Data Visualization
+
+Similarity Score:
+0.3802
+
+------------------------------------------------------------
+
+Relevant Project 3
+
+Title:
+Smart Turf Booking Platform
+
+Role:
+Full-Stack Developer
+
+Domain:
+Sports Tech
+
+Project Type:
+Booking Platform
+
+Project Details:
+Title:
+Smart Turf Booking Platform
+
+Role:
+Full-Stack Developer
+
+Domain:
+Sports Tech
+
+Project Type:
+Booking Platform
+
+Problem Solved:
+Sports facilities often rely on manual booking processes, leading to scheduling conflicts and inefficient resource management.
+
+Description:
+Developed a full-stack sports facility booking platform supporting scheduling workflows, booking management, backend APIs, and responsive user interfaces.
+
+Responsibilities:
+Designed booking workflow, Developed REST APIs, Built responsive frontend, Managed booking database
+
+Technical Solution:
+Built a React frontend with FastAPI backend for booking management, scheduling, and API-driven operations.
+
+Architecture:
+React → FastAPI → Database
+
+Key Features:
+Online Booking, Scheduling, Booking History, Admin Management
+
+Technologies:
+React, FastAPI, SQL
+
+Business Impact:
+Simplified sports facility booking and reduced scheduling conflicts.
+
+Results:
+['Complete booking workflow', 'REST API integration']
+
+Skills:
+React, FastAPI, REST APIs, SQL, Full-Stack Development
+
+Similarity Score:
+0.3630
+
+------------------------------------------------------------
+
+PROPOSAL
+================================================================================
+{'introduction': 'Hi there. I understand you are looking to build a robust, scalable backend for your subscription e-commerce brand to handle order management, inventory, and payment webhooks. With my background as an AI Product Engineer and Full-Stack Developer, I specialize in building modular, production-ready backend architectures. While my primary stack is FastAPI-driven, I am highly proficient in REST API design, database management, and implementing secure, error-resistant webhooks—the core requirements for your e-commerce storefront.', 'relevantExperience': "I have extensive experience building production-grade backend systems. In my 'Smart Turf Booking Platform' project, I architected a full-stack solution centered on complex scheduling workflows, robust REST APIs, and database management—directly applicable to your need for order and inventory tracking. Furthermore, my 'AI Freelancer Proposal Assistant' project required building a modular, layered backend architecture with rigorous error handling and secure API integration. This experience ensures I can build a Node.js/Express backend that is not only functional but also maintainable and structured for long-term growth.", 'approach': '1. Requirement Mapping: Define the data models for products, orders, and subscriptions to ensure efficient MongoDB schema design. 2. Core API Development: Build secure RESTful endpoints for inventory tracking and order processing with comprehensive API documentation. 3. Payment Integration: Implement validated webhooks for your payment provider with robust error handling to ensure transaction integrity. 4. Testing & Deployment: Perform rigorous testing of the order workflow and provide clear documentation for deployment.', 'timeline': 'I can complete this project within the requested 16-day timeframe, including a modular development phase, integration testing, and final documentation.', 'pricing': '$1,100. This fixed-price estimate covers the complete backend development, integration of payment webhooks, and the delivery of clean, documented code ready for your production environment.'}

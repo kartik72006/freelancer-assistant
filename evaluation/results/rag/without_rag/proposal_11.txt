@@ -1,0 +1,72 @@
+================================================================================
+JOB FILE : job_11.txt
+MODE : without_rag
+================================================================================
+
+ORIGINAL JOB DESCRIPTION
+--------------------------------------------------------------------------------
+Analyse twelve months of sales and marketing data for a direct-to-consumer brand. Leadership needs revenue trends, product performance, repeat purchases, and campaign conversion insights.
+
+Requirements:
+- Python, Pandas, NumPy, and Matplotlib
+- Data cleaning, cohort analysis, clear charts, and insight summary
+- Reproducible notebook and CSV outputs
+
+Budget: $650
+Timeline: 8 days
+
+ANALYSIS
+================================================================================
+Evaluation mode: without_rag
+
+RETRIEVED CONTEXT
+--------------------------------------------------------------------------------
+Relevant Project 1
+
+Title:
+AI Freelancer Proposal Assistant
+
+Project Description:
+Designed and developed a production-style AI-powered proposal generation platform that automates job analysis, proposal generation, pricing recommendations, AI-based proposal review, proposal history management, dashboard analytics, and version-controlled proposal editing.
+
+Technologies:
+Python, FastAPI, React, TypeScript, SQLite, Gemini API, SQLAlchemy, SentenceTransformers
+
+Keyword Match Score:
+5
+
+------------------------------------------------------------
+
+Relevant Project 2
+
+Title:
+Analytics Dashboard
+
+Project Description:
+Developed an interactive analytics dashboard for monitoring business metrics, KPIs, and operational performance through visual reports.
+
+Technologies:
+React, Python
+
+Keyword Match Score:
+5
+
+------------------------------------------------------------
+
+Relevant Project 3
+
+Title:
+Financial Market Analytics Dashboard
+
+Project Description:
+Developed dashboards for analyzing financial markets, KPIs, business trends, and investment insights using Python, SQL, Excel, and Power BI.
+
+Technologies:
+Python, SQL, Power BI, Excel
+
+Keyword Match Score:
+5
+
+PROPOSAL
+================================================================================
+{'introduction': 'Hi there! I understand you are looking to turn twelve months of raw sales and marketing data into actionable business intelligence. As an AI Product Engineer with deep expertise in data analysis and dashboard development, I specialize in transforming complex datasets into clear, strategic insights. I am confident that my background in building professional analytics tools will allow me to deliver a clean, reproducible analysis that helps your leadership team make data-backed decisions regarding revenue trends, product performance, and campaign ROI.', 'relevantExperience': "I have extensive experience delivering data-driven solutions. I previously developed a Financial Market Analytics Dashboard where I utilized Python and SQL to track complex KPIs and business trends, ensuring stakeholders could visualize performance at a glance. Additionally, I built a dedicated Analytics Dashboard to monitor operational performance and key metrics. These projects honed my ability to clean messy data and translate it into clear, visual, and actionable reports—the exact skills required to analyze your D2C brand's sales and marketing performance.", 'approach': '1. Data Cleaning & Integration: Audit your sales and marketing CSVs, handling missing values and normalizing formats using Pandas and NumPy to ensure high data integrity. 2. Behavioral Analysis: Perform cohort analysis to identify repeat purchase patterns and evaluate product-level performance. 3. Insight Generation: Create clear, intuitive visualizations using Matplotlib to highlight revenue trends and campaign conversion rates. 4. Documentation: Provide a fully reproducible Jupyter notebook, ensuring your team can easily update the analysis with future data, alongside exported CSV summaries.', 'timeline': 'I can complete this analysis within your 8-day deadline. My workflow involves an initial data audit in the first 48 hours, followed by analysis and visualization development, with the final two days reserved for refinement and documentation based on your feedback.', 'pricing': 'My fixed-price proposal for this engagement is $650. This reflects the time required for rigorous data cleaning, the development of a reproducible codebase, and the creation of professional-grade visual summaries that offer genuine strategic value to your leadership team.'}
