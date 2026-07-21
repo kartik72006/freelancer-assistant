@@ -14,7 +14,10 @@ GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 # BASE URLS
 # ===========================
 
-OPENROUTER_BASE_URL = "https://openrouter.ai/api/v1"
+OPENROUTER_BASE_URL = os.getenv(
+    "OPENROUTER_BASE_URL",
+    "https://openrouter.ai/api/v1",
+)
 
 # ===========================
 # DEFAULT AI SETTINGS
@@ -49,7 +52,7 @@ PROJECTS_FILE = KNOWLEDGE_BASE_DIR / "projects.json"
 # RAG SETTINGS
 # ===========================
 
-CHROMA_DB_PATH = "./data/chroma_db"
+CHROMA_DB_PATH = PROJECT_ROOT / "data" / "chroma_db"
 
 CHROMA_COLLECTION_NAME = "projects"
 
@@ -61,4 +64,6 @@ MIN_SIMILARITY_SCORE = 0.35
 
 CANDIDATE_K = 15
 
-ENABLE_RETRIEVAL_LOGGING = True
+ENABLE_RETRIEVAL_LOGGING = (
+    os.getenv("ENABLE_RETRIEVAL_LOGGING", "True").lower() == "true"
+)
