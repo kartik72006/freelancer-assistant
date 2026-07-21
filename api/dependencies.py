@@ -37,7 +37,6 @@ retrieval_service = RetrievalService(
     knowledge_base_indexer=knowledge_base_indexer,
 )
 
-retrieval_service.initialize()
 
 analyzer_agent = AnalyzerAgent()
 

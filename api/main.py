@@ -2,11 +2,22 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from api.routes import health, proposal, analysis, review, analytics
+from contextlib import asynccontextmanager
+
+from api.dependencies import retrieval_service
+from api.startup import initialize_retrieval
+
+
+@asynccontextmanager
+async def lifespan(app):
+    initialize_retrieval(retrieval_service)
+    yield
 
 app = FastAPI(
     title="AI Freelancer Proposal Assistant API",
     description="Backend API for generating AI-powered freelancer proposals.",
     version="1.0.0",
+    lifespan=lifespan,
 )
 app.add_middleware(
     CORSMiddleware,
