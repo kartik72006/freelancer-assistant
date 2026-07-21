@@ -27,7 +27,7 @@ class KnowledgeBaseIndexer:
         vector_store: ChromaVectorStore,
     ):
         self.embedding_service = embedding_service
-        self.vector_store = vector_store
+        self.chroma_vector_store = vector_store
 
     # ------------------------------------------------------------------
 
@@ -40,11 +40,11 @@ class KnowledgeBaseIndexer:
 
         for project in projects:
 
-            search_text = self.vector_store._build_search_text(project)
+            search_text = self.chroma_vector_store._build_search_text(project)
 
             embedding = self.embedding_service.generate_embedding(search_text)
 
-            self.vector_store.add_document(
+            self.chroma_vector_store.add_document(
                 project=project,
                 embedding=embedding,
             )
@@ -57,7 +57,7 @@ class KnowledgeBaseIndexer:
         Delete existing index and rebuild it.
         """
 
-        self.vector_store.clear()
+        self.chroma_vector_store.clear()
 
         self.index_projects(projects_path)
 
@@ -68,7 +68,7 @@ class KnowledgeBaseIndexer:
         Returns True if ChromaDB already contains documents.
         """
 
-        return not self.vector_store.is_empty()
+        return not self.chroma_vector_store.is_empty()
 
     # ------------------------------------------------------------------
 
