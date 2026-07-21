@@ -14,8 +14,6 @@ venv/
 *.db
 *.sqlite3
 
-# ChromaDB
-data/chroma_db/
 
 # Node
 node_modules/
