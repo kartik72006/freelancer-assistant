@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
-from api.routes import health, proposal, jobs, analysis, pricing, review, analytics
+from api.routes import health, proposal, analysis, review, analytics
 
 app = FastAPI(
     title="AI Freelancer Proposal Assistant API",
@@ -19,9 +19,7 @@ app.add_middleware(
 app.include_router(health.router)
 app.include_router(analysis.router)
 app.include_router(proposal.router)
-app.include_router(pricing.router)
 app.include_router(review.router)
-app.include_router(jobs.router)
 app.include_router(analytics.router)
 
 @app.get("/", tags=["Root"])

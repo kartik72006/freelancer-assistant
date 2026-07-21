@@ -7,13 +7,11 @@ class AgentOrchestrator:
     self,
     analyzer,
     proposal_agent,
-    pricing_agent,
     review_agent
     ):
 
         self.analyzer = analyzer
         self.proposal_agent = proposal_agent
-        self.pricing_agent = pricing_agent
         self.review_agent = review_agent
 
     def analyze(self, job_description):
@@ -36,19 +34,6 @@ class AgentOrchestrator:
         return ProposalResult(
             analysis=analysis_result.analysis,
             proposal=proposal
-        )
-
-    def generate_pricing(self, job_description):
-
-        result = self.generate_proposal(job_description)
-        pricing= self.pricing_agent.estimate(
-                    job_description,
-                    result.analysis["complexity"]
-                )
-        return ProposalResult(
-            analysis=result.analysis,
-            proposal=result.proposal,
-            pricing=pricing
         )
     
     def review_proposal(

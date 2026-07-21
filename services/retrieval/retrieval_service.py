@@ -19,10 +19,8 @@ class RetrievalService:
     def initialize(self):
 
         if self.knowledge_base_indexer.is_indexed():
-            print("Knowledge base already indexed.")
             return
 
-        print("Building ChromaDB index...")
 
         self.knowledge_base_indexer.index_projects(PROJECTS_FILE)
 

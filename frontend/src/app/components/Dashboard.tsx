@@ -421,8 +421,6 @@ function ProposalDetailModal({ proposal, onClose, onStatusChange, onDuplicate, o
             </div>
           )}
 
-          {/* ── Review tab ── */}
-          {/* TODO: Replace placeholder AI review with backend response from POST /proposal/review */}
           {tab === "review" && (
             <div className="space-y-6">
 
@@ -1509,8 +1507,6 @@ const handleDelete = async (
           <h1 className="text-foreground tracking-tight">Ready to win your next project?</h1>
         </div>
 
-        {/* Stats — "Avg. response time" replaced with "Avg. AI Score" */}
-        {/* TODO: Connect to FastAPI backend — replace static values with fetchStats() */}
         <div className="grid grid-cols-3 gap-3 sm:gap-4 mb-8 sm:mb-10">
           {[
   {

@@ -2,13 +2,11 @@ from database.repositories.analytics_repository import AnalyticsRepository
 from services.ai.gemini_service import GeminiService
 from agents.analyzer_agent import AnalyzerAgent
 from agents.proposal_agent import ProposalAgent
-from agents.pricing_agent import PricingAgent
 from agents.review_agent import ReviewAgent
 from services.ai.orchestrator_service import AgentOrchestrator
 from services.application.analytics_service import AnalyticsService
 from services.application.proposal_service import ProposalService
 from services.application.analysis_service import AnalysisService
-from services.application.pricing_service import PricingService
 from services.application.review_service import ReviewService
 from database.repositories.job_repository import JobRepository
 from database.repositories.proposal_repository import ProposalRepository
@@ -45,11 +43,9 @@ analyzer_agent = AnalyzerAgent()
 
 proposal_agent = ProposalAgent(gemini_service,retrieval_service)
 
-pricing_agent = PricingAgent(gemini_service)
-
 review_agent = ReviewAgent(gemini_service)
 
-orchestrator = AgentOrchestrator(analyzer_agent, proposal_agent, pricing_agent, review_agent)
+orchestrator = AgentOrchestrator(analyzer_agent, proposal_agent, review_agent)
 
 job_repository = JobRepository()
 
@@ -68,9 +64,6 @@ proposal_service = ProposalService(
     proposal_repository=proposal_repository,
     analytics_service=analytics_service,
 )
-
-
-pricing_service = PricingService(orchestrator)
 
 review_service = ReviewService(orchestrator)
 

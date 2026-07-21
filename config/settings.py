@@ -67,3 +67,7 @@ CANDIDATE_K = 15
 ENABLE_RETRIEVAL_LOGGING = (
     os.getenv("ENABLE_RETRIEVAL_LOGGING", "True").lower() == "true"
 )
+
+ENVIRONMENT = os.getenv("ENVIRONMENT", "development")
+
+DEBUG = ENVIRONMENT == "development"

@@ -1,7 +1,6 @@
 from google import genai
 from config.settings import (
-    GEMINI_API_KEY,
-    MAX_RETRIES
+    GEMINI_API_KEY
 )
 import time
 
@@ -28,10 +27,6 @@ class GeminiService:
 
             try:
 
-                print(
-                    f"Trying {model}..."
-                )
-
                 response = (
                     self.client.models.generate_content(
                         model=model,
@@ -39,17 +34,10 @@ class GeminiService:
                     )
                 )
 
-                print(
-                    f"Success using {model}"
-                )
 
                 return response.text
 
             except Exception as e:
-
-                print(
-                    f"{model} failed:"
-                )
 
                 print(e)
 

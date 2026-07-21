@@ -260,47 +260,7 @@ class PromptService:
             
             raise ValueError(f"Unknown prompt version: {version}")
 
-    @staticmethod
-    def pricing_prompt(
-            job_description: str,
-            complexity: str
-        ) -> str:
-            return f"""
-    You are a freelance pricing estimator.
-
-    Complexity:
-    {complexity}
-
-    Pricing Rules:
-
-    Easy:
-    $100-$300
-    2-5 Days
-
-    Medium:
-    $300-$1000
-    1-3 Weeks
-
-    Hard:
-    $1000+
-    1+ Month
-
-    Job:
-    {job_description}
-
-    IMPORTANT:
-    Return ONLY valid JSON.
-    Do not use markdown.
-    Do not use ```json.
-
-    Example:
-
-    {{
-        "price":"$500",
-        "timeline":"2 Weeks"
-    }}
-    """
-
+    
     @staticmethod
     def review_prompt(
         proposal: str

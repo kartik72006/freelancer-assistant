@@ -1,204 +1,384 @@
-# Freelancer Assistant 🚀
+# 🚀 AI Freelancer Proposal Assistant
 
-An AI-powered freelancer proposal generator that helps freelancers create professional and personalized project proposals using Google's Gemini API.
+An AI-powered web application that helps freelancers generate highly personalized, professional proposals in minutes using Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), and a multi-agent architecture.
 
----
-
-## 📌 Problem Statement
-
-Freelancers spend a significant amount of time writing proposals for similar job postings. Despite investing hours in creating proposals, many applications receive little or no response.
-
-This project aims to reduce the time spent on proposal writing by using Large Language Models (LLMs) to generate professional proposals based on a client's job description and the freelancer's profile.
+Instead of writing every proposal from scratch, users can analyze a job post, generate a tailored proposal, review AI quality, edit the final output, and manage proposal history—all from a single dashboard.
 
 ---
 
-## 🎯 Objective
+## ✨ Features
 
-Build an AI assistant that can:
-
-* Analyze a job description.
-* Generate professional freelancer proposals.
-* Personalize proposals based on freelancer information.
-* Reduce repetitive work and improve productivity.
-
----
-
-## ⚙️ Current Features
-
-### ✅ Proposal Generation
-
-* Accepts a job description as input.
-* Uses Gemini API to generate a professional proposal.
-* Produces structured and professional outputs.
-
-### ✅ Professional Tone
-
-* Generates proposals in a client-friendly format.
-* Includes introduction, expertise, and call-to-action sections.
+### 🤖 AI Proposal Generation
+- Personalized proposals from job descriptions
+- Context-aware proposal generation
+- Professional proposal formatting
+- AI-generated timelines
+- Integrated pricing recommendations
+- One-click proposal editing
 
 ---
 
-## 🏗️ Project Structure
+### 🧠 Multi-Agent AI Pipeline
 
-```text
-freelancer-assistant/
-│
-├── main.py
-├── prompts.py
-├── .env
-├── README.md
-└── venv/
+The application uses specialized AI agents for different tasks.
+
+- **Analyzer Agent**
+  - Extracts project requirements
+  - Detects technologies
+  - Estimates project complexity
+  - Identifies client priorities
+
+- **Proposal Agent**
+  - Generates personalized proposals
+  - Uses retrieved portfolio context
+  - Creates structured proposal sections
+
+- **Review Agent**
+  - Evaluates proposal quality
+  - AI scoring
+  - Strengths & improvement suggestions
+  - Professionalism analysis
+
+---
+
+### 📚 Retrieval-Augmented Generation (RAG)
+
+Instead of relying only on the language model, proposals are enhanced using a semantic knowledge base.
+
+Features include:
+
+- Persistent ChromaDB Vector Database
+- SentenceTransformer Embeddings
+- Semantic Search
+- Portfolio Retrieval
+- Similarity Filtering
+- Context Formatting
+
+Knowledge Base:
+
+- Professional Profile
+- Skills
+- Portfolio Projects
+
+---
+
+### 📊 Analytics Dashboard
+
+Track proposal performance through interactive analytics.
+
+Includes:
+
+- Total Proposals
+- Proposal Acceptance Rate
+- Average AI Score
+- Proposal Funnel
+- Feature Usage
+- Proposal Trends
+- AI Score Trends
+- Client Insights
+- Product Health Metrics
+
+---
+
+### 🧪 Prompt Engineering & Evaluation
+
+The project includes an experimentation framework for comparing prompt strategies.
+
+Implemented experiments:
+
+- Standard Prompt
+- Client-First Prompt
+- Portfolio-First Prompt
+- Outcome-Oriented Prompt
+- Reviewer Checklist Prompt
+
+Evaluation includes:
+
+- AI Score
+- Latency
+- Benchmark Reports
+- Automated Comparison
+- Experiment Reports
+
+---
+
+## 🏗️ Architecture
+
+```
+                    React + Vite Frontend
+                             │
+                             ▼
+                      FastAPI Backend
+                             │
+          ┌──────────────────┴──────────────────┐
+          │                                     │
+          ▼                                     ▼
+     Analytics Service                  Proposal Service
+          │                                     │
+          └──────────────┬──────────────────────┘
+                         ▼
+                  Agent Orchestrator
+                         │
+ ┌──────────────┬──────────────┬──────────────┐
+ ▼              ▼              ▼
+Analyzer     Proposal       Review
+ Agent         Agent          Agent
+                         │
+                         ▼
+                 Retrieval Service
+                         │
+          ┌──────────────┴──────────────┐
+          ▼                             ▼
+     ChromaDB                    Knowledge Base
+     Vector Store      (Projects • Skills • Profile)
 ```
 
 ---
 
 ## 🛠️ Tech Stack
 
-* Python
-* Gemini API
-* Google GenAI SDK
-* python-dotenv
-* VS Code
+### Frontend
+
+- React
+- TypeScript
+- Vite
+- Material UI
+- Radix UI
+- Recharts
+
+### Backend
+
+- FastAPI
+- SQLAlchemy
+- Pydantic
+- Python
+
+### AI & Machine Learning
+
+- Google Gemini
+- OpenRouter
+- Sentence Transformers
+- ChromaDB
+- Retrieval-Augmented Generation (RAG)
+
+### Database
+
+- SQLite
+- ChromaDB Vector Store
 
 ---
 
-## 🔄 Application Workflow
+## 📂 Project Structure
 
-```text
-Job Description
-        ↓
-     Prompt
-        ↓
-   Gemini API
-        ↓
-Generated Proposal
 ```
+Freelancer-Assistant/
 
-Future workflow:
-
-```text
-Freelancer Profile
-        +
-Past Projects
-        +
-Job Description
-        ↓
-     Gemini API
-        ↓
-Personalized Proposal
+├── agents/
+├── api/
+├── app/
+├── config/
+├── data/
+├── database/
+├── docs/
+├── evaluation/
+├── frontend/
+├── knowledge_base/
+├── models/
+├── scripts/
+├── services/
+├── tests/
+├── utils/
+│
+├── requirements.txt
+├── .env.example
+└── README.md
 ```
 
 ---
 
-## 🚀 Installation
+## ⚙️ Installation
 
-### Clone the Repository
+### 1. Clone Repository
 
 ```bash
-git clone <repository-link>
+git clone https://github.com/kartik72006/freelancer-assistant.git
+
 cd freelancer-assistant
 ```
 
-### Create Virtual Environment
+---
+
+### 2. Create Virtual Environment
+
+Windows
 
 ```bash
-python -m venv venv
+py -3.13 -m venv venv
 ```
 
-### Activate Virtual Environment
-
-Windows:
+Activate
 
 ```bash
 venv\Scripts\activate
 ```
 
-Mac/Linux:
+---
+
+### 3. Install Backend Dependencies
 
 ```bash
-source venv/bin/activate
-```
-
-### Install Dependencies
-
-```bash
-pip install google-genai
-pip install python-dotenv
+pip install -r requirements.txt
 ```
 
 ---
 
-## 🔑 Environment Variables
+### 4. Install Frontend Dependencies
 
-Create a `.env` file:
+```bash
+cd frontend
 
-```env
-GEMINI_API_KEY=your_api_key_here
+npm install
 ```
 
 ---
 
-## ▶️ Running the Project
+### 5. Configure Environment Variables
 
-```bash
-python main.py
-```
-
-Enter the job description when prompted.
+Create a `.env` file in the project root.
 
 Example:
 
-```text
-Need a Python Developer to build a SaaS dashboard with authentication and payment integration.
+```env
+GEMINI_API_KEY=your_key_here
+
+OPENROUTER_API_KEY=your_key_here
 ```
 
-The application will generate a professional proposal using Gemini.
+---
+
+## ▶️ Running the Application
+
+### Backend
+
+```bash
+uvicorn api.main:app --reload
+```
+
+Backend:
+
+```
+http://localhost:8000
+```
+
+API Docs:
+
+```
+http://localhost:8000/docs
+```
 
 ---
 
-## 📈 Future Improvements
+### Frontend
 
-* Freelancer profile management
-* Skills and portfolio integration
-* Proposal personalization
-* Pricing estimation
-* Timeline estimation
-* Proposal history
-* Proposal analytics dashboard
-* Retrieval-Augmented Generation (RAG)
-* AI learning engine based on proposal outcomes
-* Web application with React frontend
-* Database integration
+```bash
+cd frontend
 
----
+npm run dev
+```
 
-## ⚠️ Current Limitations
+Frontend:
 
-* May generate generic proposals.
-* May hallucinate experience or skills if freelancer information is not provided.
-* No proposal evaluation mechanism yet.
-* No proposal performance tracking.
+```
+http://localhost:5173
+```
 
 ---
 
-## 🎓 Learning Goals
+## 📸 Screenshots
 
-This project is part of an 8-week roadmap to learn:
+### Dashboard
 
-* AI Product Management
-* Prompt Engineering
-* Python Development
-* Backend Engineering
-* RAG Systems
-* Product Analytics
-* Full-Stack Development
+> *(Add screenshot here)*
+
+---
+
+### Proposal Generator
+
+> *(Add screenshot here)*
+
+---
+
+### Analytics
+
+> *(Add screenshot here)*
+
+---
+
+### Proposal Review
+
+> *(Add screenshot here)*
+
+---
+
+## 📈 Product Metrics
+
+Current product tracks:
+
+- Total Proposals
+- Accepted Proposals
+- Proposal Acceptance Rate
+- Average AI Score
+- Feature Usage
+- Proposal Funnel
+- Proposal Trends
+- Weekly Activity
+- Top Clients
+
+---
+
+## 🧪 Future Improvements
+
+- User Authentication
+- Cloud Database (PostgreSQL)
+- Proposal Templates
+- Proposal Export (PDF/DOCX)
+- Stripe Subscription Plans
+- Email Integration
+- Team Collaboration
+- Proposal Version History
+
+---
+
+## 📖 Documentation
+
+Additional documentation can be found in the `docs/` directory.
+
+Topics include:
+
+- Architecture
+- Product Decisions
+- RAG Implementation
+- Analytics
+- Experiment Reports
 
 ---
 
 ## 👨‍💻 Author
 
-Kartik Bansal
+**Kartik Bansal**
 
-B.Tech Electronics and Computer Engineering
+AI Product Engineer | Product Management Enthusiast
 
-Aspiring AI Product Manager | Technical Product Manager | Product Engineer
+GitHub:
+https://github.com/kartik72006
+
+LinkedIn:
+https://www.linkedin.com/in/kartik-bansal-bb49802b0
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
+
+It helps others discover the project and motivates future development.

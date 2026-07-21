@@ -41,8 +41,6 @@ class OpenRouterService:
 
             try:
 
-                print(f"\nTrying model: {model}")
-
                 start = time.time()
 
                 response = self.client.chat.completions.create(
@@ -62,14 +60,10 @@ class OpenRouterService:
 
                 end = time.time()
 
-                print(f"Success using {model}")
-                print(f"Response Time: {end-start:.2f} sec")
-
                 return response.choices[0].message.content
 
             except Exception as e:
 
-                print(f"{model} failed")
                 print(e)
 
                 time.sleep(2)

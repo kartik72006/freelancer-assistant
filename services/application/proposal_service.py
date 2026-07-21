@@ -52,7 +52,7 @@ class ProposalService:
             status="Saved",
             category = request.analysis["projectType"],
         )
-        print(request.review)
+        
         self.analytics_service.log_event(
             db=db,
             event_name="proposal_generated",

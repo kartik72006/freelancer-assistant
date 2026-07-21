@@ -89,12 +89,6 @@ class SemanticRetriever:
             )
         }
 
-        self.log_retrieval(
-            query=query,
-            results=unique_results[:top_k],
-            stats=stats
-        )
-
         return {
             "results": unique_results[:top_k],
             "stats": stats
@@ -118,58 +112,3 @@ class SemanticRetriever:
 
         return unique
     
-    def log_retrieval(
-        self,
-        query: str,
-        results: List[Dict[str, Any]],
-        stats: Dict[str, Any]
-    ):
-        
-        display_query = (
-            query[:250] + "..."
-            if len(query) > 250
-            else query
-        )
-
-        """
-        Print retrieval diagnostics.
-        """
-
-        print("\n" + "=" * 70)
-        print("RETRIEVAL DIAGNOSTICS")
-        print("=" * 70)
-
-        print("\nQuery:")
-        print(display_query)
-
-        print("\nRetrieved Projects:")
-
-        if not results:
-            print("No matching projects found.")
-
-        else:
-            for index, result in enumerate(results, start=1):
-
-                metadata = result["metadata"]
-
-                print(
-                    f"""
-    {index}. {metadata.get("title", "Unknown")}
-    Role      : {metadata.get("role", "N/A")}
-    Domain    : {metadata.get("domain", "N/A")}
-    Score      : {result["score"]:.4f}
-    """
-                )
-
-        print("\nStatistics:")
-
-        print(f"Total Documents     : {stats['total_documents']}")
-        print(f"Candidate Results   : {stats['candidate_results']}")
-        print(f"Filtered Results    : {stats['filtered_results']}")
-        print(f"Unique Results      : {stats['unique_results']}")
-        print(f"Average Similarity  : {stats['average_similarity']:.4f}")
-        print(f"Top Score           : {stats['top_score']:.4f}")
-        print(f"Lowest Score        : {stats['lowest_score']:.4f}")
-        print(f"Latency             : {stats['latency_ms']} ms")
-
-        print("=" * 70 + "\n")

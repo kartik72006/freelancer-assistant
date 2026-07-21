@@ -38,8 +38,6 @@ class KnowledgeBaseIndexer:
 
         projects = self._load_projects(projects_path)
 
-        print(f"\nIndexing {len(projects)} projects...")
-
         for project in projects:
 
             search_text = self.vector_store._build_search_text(project)
@@ -51,7 +49,6 @@ class KnowledgeBaseIndexer:
                 embedding=embedding,
             )
 
-        print("Knowledge base indexed successfully.")
 
     # ------------------------------------------------------------------
 
@@ -59,8 +56,6 @@ class KnowledgeBaseIndexer:
         """
         Delete existing index and rebuild it.
         """
-
-        print("Clearing existing vector index...")
 
         self.vector_store.clear()
 
