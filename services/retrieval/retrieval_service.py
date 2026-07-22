@@ -17,17 +17,14 @@ class RetrievalService:
         self.knowledge_base_indexer=knowledge_base_indexer
 
     def initialize(self):
-        """
-        Verify that the vector database exists.
+        if self.knowledge_base_indexer.is_indexed():
+            return
 
-        The API should never build embeddings automatically.
-        """
+        print("Knowledge base not found. Building index...")
 
-        if not self.knowledge_base_indexer.is_indexed():
-            raise RuntimeError(
-                "Knowledge base has not been indexed. "
-                "Run scripts/build_embeddings.py before starting the server."
-            )
+        self.knowledge_base_indexer.index_projects(PROJECTS_FILE)
+
+        print("Knowledge base indexed successfully.")
 
     def search(self, job_description, top_k=TOP_K, candidate_k=CANDIDATE_K, min_score=MIN_SIMILARITY_SCORE,where=None):
         jd_embedding = self.embedding_service.generate_embedding(job_description)
