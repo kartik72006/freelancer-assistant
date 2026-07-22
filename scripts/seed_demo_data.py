@@ -2105,7 +2105,21 @@ def main():
         print("=" * 70)
         raise
 
+def seed_database_if_empty():
+    db = SessionLocal()
 
+    try:
+        proposal_count = db.query(Proposal).count()
+
+        if proposal_count > 0:
+            print("Database already contains data. Skipping seed.")
+            return
+
+        print("Database empty. Seeding demo data...")
+        seed_demo_data()
+
+    finally:
+        db.close()
 # ==========================================================
 # ENTRY POINT
 # ==========================================================

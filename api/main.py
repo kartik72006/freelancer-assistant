@@ -6,10 +6,14 @@ from contextlib import asynccontextmanager
 
 from api.dependencies import retrieval_service
 from api.startup import initialize_retrieval
+from database.init_db import initialize_database
+from scripts.seed_demo_data import seed_database_if_empty
 
 
 @asynccontextmanager
 async def lifespan(app):
+    initialize_database()   
+    seed_database_if_empty()
     initialize_retrieval(retrieval_service)
     yield
 
