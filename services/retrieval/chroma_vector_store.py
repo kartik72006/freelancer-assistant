@@ -1,5 +1,5 @@
 from typing import Dict, Any, Optional
-
+from pathlib import Path
 import chromadb
 from chromadb.config import Settings
 
@@ -26,10 +26,10 @@ class ChromaVectorStore:
     def __init__(
         self,
         collection_name: str = CHROMA_COLLECTION_NAME,
-        persist_directory: str = CHROMA_DB_PATH,
+        persist_directory = CHROMA_DB_PATH,
     ):
         self.client = chromadb.PersistentClient(
-            path=persist_directory,
+            path=str(persist_directory),
             settings=Settings(anonymized_telemetry=False),
         )
 
@@ -40,6 +40,19 @@ class ChromaVectorStore:
                 "hnsw:space": "cosine"
             },
         )
+
+         
+
+        print("=" * 60)
+        print("CHROMA_DB_PATH:", CHROMA_DB_PATH)
+        print("Resolved path:", Path(CHROMA_DB_PATH).resolve())
+        print("Path exists:", Path(CHROMA_DB_PATH).exists())
+
+        print("Contents:")
+        for item in Path(CHROMA_DB_PATH).iterdir():
+            print(" -", item)
+
+        print("=" * 60)
 
     # ------------------------------------------------------------------
     # Public Methods
@@ -96,6 +109,9 @@ class ChromaVectorStore:
         """
         Returns True if the collection has no indexed documents.
         """
+        print("Collection count:", self.collection.count())
+        print("Collection name:", self.collection.name)
+        print("Collections:", [c.name for c in self.client.list_collections()])
 
         return self.count() == 0
 
