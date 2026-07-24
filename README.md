@@ -55,7 +55,7 @@ Instead of producing generic proposals, the application retrieves the user's mos
 
 ### 🤖 AI Proposal Generation
 
-<img src="./assets/job-analysis.png" alt="Job Analysis" width="90%" />
+<img src="./assets/dashboard-home.png" alt="Job Analysis" width="90%" />
 
 Paste in any job description and generate a complete freelance proposal, including:
 
